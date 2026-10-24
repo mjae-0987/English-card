@@ -1,0 +1,50 @@
+{
+  "sourceFile": "워드마스터 수능2000.pdf",
+  "sourceSha256": "f6fa1e48e07fe59ed20329aa84f89e5b022dea82223a555757a56fb599c3f102",
+  "sourcePages": 25,
+  "meaningStatus": "missing-in-source",
+  "meaningNote": "PDF는 영어 단어 시험지이며 DAY 01~05의 한글 뜻 칸이 모두 비어 있습니다. meaning: null은 뜻이 원본에 없음을 나타내며 추정 뜻을 등록하지 않았습니다.",
+  "uncertainEnglishIds": [],
+  "days": [
+    {
+      "day": 1,
+      "file": "day01.json",
+      "page": 1,
+      "column": "left",
+      "expectedWordCount": 40,
+      "missingMeaningCount": 40
+    },
+    {
+      "day": 2,
+      "file": "day02.json",
+      "page": 1,
+      "column": "right",
+      "expectedWordCount": 40,
+      "missingMeaningCount": 40
+    },
+    {
+      "day": 3,
+      "file": "day03.json",
+      "page": 2,
+      "column": "left",
+      "expectedWordCount": 40,
+      "missingMeaningCount": 40
+    },
+    {
+      "day": 4,
+      "file": "day04.json",
+      "page": 2,
+      "column": "right",
+      "expectedWordCount": 40,
+      "missingMeaningCount": 40
+    },
+    {
+      "day": 5,
+      "file": "day05.json",
+      "page": 3,
+      "column": "left",
+      "expectedWordCount": 40,
+      "missingMeaningCount": 40
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "day01-001",
+    "day": 1,
+    "order": 1,
+    "word": "provide",
+    "meaning": null
+  },
+  {
+    "id": "day01-002",
+    "day": 1,
+    "order": 2,
+    "word": "develop",
+    "meaning": null
+  },
+  {
+    "id": "day01-003",
+    "day": 1,
+    "order": 3,
+    "word": "cultural",
+    "meaning": null
+  },
+  {
+    "id": "day01-004",
+    "day": 1,
+    "order": 4,
+    "word": "inform",
+    "meaning": null
+  },
+  {
+    "id": "day01-005",
+    "day": 1,
+    "order": 5,
+    "word": "social",
+    "meaning": null
+  },
+  {
+    "id": "day01-006",
+    "day": 1,
+    "order": 6,
+    "word": "improve",
+    "meaning": null
+  },
+  {
+    "id": "day01-007",
+    "day": 1,
+    "order": 7,
+    "word": "individual",
+    "meaning": null
+  },
+  {
+    "id": "day01-008",
+    "day": 1,
+    "order": 8,
+    "word": "require",
+    "meaning": null
+  },
+  {
+    "id": "day01-009",
+    "day": 1,
+    "order": 9,
+    "word": "volunteer",
+    "meaning": null
+  },
+  {
+    "id": "day01-010",
+    "day": 1,
+    "order": 10,
+    "word": "behave",
+    "meaning": null
+  },
+  {
+    "id": "day01-011",
+    "day": 1,
+    "order": 11,
+    "word": "amount",
+    "meaning": null
+  },
+  {
+    "id": "day01-012",
+    "day": 1,
+    "order": 12,
+    "word": "relationship",
+    "meaning": null
+  },
+  {
+    "id": "day01-013",
+    "day": 1,
+    "order": 13,
+    "word": "employ",
+    "meaning": null
+  },
+  {
+    "id": "day01-014",
+    "day": 1,
+    "order": 14,
+    "word": "attitude",
+    "meaning": null
+  },
+  {
+    "id": "day01-015",
+    "day": 1,
+    "order": 15,
+    "word": "research",
+    "meaning": null
+  },
+  {
+    "id": "day01-016",
+    "day": 1,
+    "order": 16,
+    "word": "audience",
+    "meaning": null
+  },
+  {
+    "id": "day01-017",
+    "day": 1,
+    "order": 17,
+    "word": "challenge",
+    "meaning": null
+  },
+  {
+    "id": "day01-018",
+    "day": 1,
+    "order": 18,
+    "word": "influence",
+    "meaning": null
+  },
+  {
+    "id": "day01-019",
+    "day": 1,
+    "order": 19,
+    "word": "material",
+    "meaning": null
+  },
+  {
+    "id": "day01-020",
+    "day": 1,
+    "order": 20,
+    "word": "opportunity",
+    "meaning": null
+  },
+  {
+    "id": "day01-021",
+    "day": 1,
+    "order": 21,
+    "word": "environment",
+    "meaning": null
+  },
+  {
+    "id": "day01-022",
+    "day": 1,
+    "order": 22,
+    "word": "expense",
+    "meaning": null
+  },
+  {
+    "id": "day01-023",
+    "day": 1,
+    "order": 23,
+    "word": "local",
+    "meaning": null
+  },
+  {
+    "id": "day01-024",
+    "day": 1,
+    "order": 24,
+    "word": "involve",
+    "meaning": null
+  },
+  {
+    "id": "day01-025",
+    "day": 1,
+    "order": 25,
+    "word": "stress",
+    "meaning": null
+  },
+  {
+    "id": "day01-026",
+    "day": 1,
+    "order": 26,
+    "word": "therefore",
+    "meaning": null
+  },
+  {
+    "id": "day01-027",
+    "day": 1,
+    "order": 27,
+    "word": "contain",
+    "meaning": null
+  },
+  {
+    "id": "day01-028",
+    "day": 1,
+    "order": 28,
+    "word": "average",
+    "meaning": null
+  },
+  {
+    "id": "day01-029",
+    "day": 1,
+    "order": 29,
+    "word": "ride",
+    "meaning": null
+  },
+  {
+    "id": "day01-030",
+    "day": 1,
+    "order": 30,
+    "word": "encourage",
+    "meaning": null
+  },
+  {
+    "id": "day01-031",
+    "day": 1,
+    "order": 31,
+    "word": "determine",
+    "meaning": null
+  },
+  {
+    "id": "day01-032",
+    "day": 1,
+    "order": 32,
+    "word": "international",
+    "meaning": null
+  },
+  {
+    "id": "day01-033",
+    "day": 1,
+    "order": 33,
+    "word": "consume",
+    "meaning": null
+  },
+  {
+    "id": "day01-034",
+    "day": 1,
+    "order": 34,
+    "word": "impress",
+    "meaning": null
+  },
+  {
+    "id": "day01-035",
+    "day": 1,
+    "order": 35,
+    "word": "object",
+    "meaning": null
+  },
+  {
+    "id": "day01-036",
+    "day": 1,
+    "order": 36,
+    "word": "available",
+    "meaning": null
+  },
+  {
+    "id": "day01-037",
+    "day": 1,
+    "order": 37,
+    "word": "positive",
+    "meaning": null
+  },
+  {
+    "id": "day01-038",
+    "day": 1,
+    "order": 38,
+    "word": "recognize",
+    "meaning": null
+  },
+  {
+    "id": "day01-039",
+    "day": 1,
+    "order": 39,
+    "word": "commodity",
+    "meaning": null
+  },
+  {
+    "id": "day01-040",
+    "day": 1,
+    "order": 40,
+    "word": "comfort",
+    "meaning": null
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "day": 1,
+  "origin": "learning-authored",
+  "notice": "영어 이야기와 한글 해석은 이 앱을 위해 새로 작성한 학습 콘텐츠이며 교재 원문이 아닙니다.",
+  "sets": [
+    {
+      "id": "day01-set01",
+      "day": 1,
+      "order": 1,
+      "title": "작은 독서 모임",
+      "wordIds": [
+        "day01-001",
+        "day01-002",
+        "day01-003",
+        "day01-004",
+        "day01-005"
+      ],
+      "story": "Leo wants to develop a small reading club. The library can provide a room for a cultural event. He will inform his neighbors about this social gathering.",
+      "translation": "레오는 작은 독서 모임을 발전시키고 싶어 해요. 도서관은 문화 행사를 위한 방을 제공할 수 있어요. 레오는 이 사교 모임에 대해 이웃들에게 알릴 거예요."
+    },
+    {
+      "id": "day01-set02",
+      "day": 1,
+      "order": 2,
+      "title": "함께 만드는 약속",
+      "wordIds": [
+        "day01-006",
+        "day01-007",
+        "day01-008",
+        "day01-009",
+        "day01-010"
+      ],
+      "story": "Leo hopes to improve the club with help from each individual. The activities require teamwork, so he asks his friend Mia to volunteer. They agree to behave politely and listen to everyone.",
+      "translation": "레오는 각 개인의 도움을 받아 모임을 더 좋게 만들고 싶어 해요. 활동에는 협동이 필요해서 친구 미아에게 자원봉사를 부탁해요. 두 친구는 예의 바르게 행동하고 모두의 말에 귀 기울이기로 해요."
+    },
+    {
+      "id": "day01-set03",
+      "day": 1,
+      "order": 3,
+      "title": "책방과의 첫 만남",
+      "wordIds": [
+        "day01-011",
+        "day01-012",
+        "day01-013",
+        "day01-014",
+        "day01-015"
+      ],
+      "story": "The club needs a small amount of money for books. Leo wants to build a good relationship with a nearby shop. The owner plans to employ a student with a friendly attitude to do research on children's favorite stories.",
+      "translation": "모임에는 책을 살 소액의 돈이 필요해요. 레오는 근처 책방과 좋은 관계를 맺고 싶어 해요. 책방 주인은 친절한 태도를 지닌 학생을 고용해 아이들이 좋아하는 이야기를 조사하게 할 계획이에요."
+    },
+    {
+      "id": "day01-set04",
+      "day": 1,
+      "order": 4,
+      "title": "용기를 내는 시간",
+      "wordIds": [
+        "day01-016",
+        "day01-017",
+        "day01-018",
+        "day01-019",
+        "day01-020"
+      ],
+      "story": "An audience gathers to hear Mia read. Reading aloud is a challenge, but Leo's kind words influence her in a good way. She uses recycled material to make a poster, and everyone gets an opportunity to share a story.",
+      "translation": "미아의 낭독을 들으러 청중이 모여요. 소리 내어 읽는 것은 어려운 도전이지만, 레오의 다정한 말은 미아에게 좋은 영향을 줘요. 미아는 재활용 재료로 포스터를 만들고, 모두가 이야기를 나눌 기회를 얻어요."
+    },
+    {
+      "id": "day01-set05",
+      "day": 1,
+      "order": 5,
+      "title": "우리 동네 책 나눔",
+      "wordIds": [
+        "day01-021",
+        "day01-022",
+        "day01-023",
+        "day01-024",
+        "day01-025"
+      ],
+      "story": "The club wants to protect the environment. To keep the expense low, Leo visits a local shop for used books. He hopes to involve the neighbors in a book swap, with a quiet reading corner to help everyone manage stress.",
+      "translation": "모임은 환경을 보호하고 싶어 해요. 비용을 낮추기 위해 레오는 중고 책을 구하러 동네 가게를 방문해요. 레오는 이웃들을 책 교환에 참여시키고, 모두의 스트레스 관리에 도움이 될 조용한 독서 공간을 마련하고 싶어 해요."
+    },
+    {
+      "id": "day01-set06",
+      "day": 1,
+      "order": 6,
+      "title": "자전거로 전하는 책",
+      "wordIds": [
+        "day01-026",
+        "day01-027",
+        "day01-028",
+        "day01-029",
+        "day01-030"
+      ],
+      "story": "The boxes contain more books than the club needs. The average visitor takes two books home. Leo offers to ride his bike to deliver the rest. Therefore, Mia decides to encourage other cyclists to help.",
+      "translation": "상자에는 모임에서 필요한 것보다 더 많은 책이 담겨 있어요. 방문객은 평균적으로 책 두 권을 집에 가져가요. 레오는 나머지 책을 배달하러 자전거를 타고 가겠다고 해요. 그래서 미아는 다른 자전거 이용자들도 돕도록 장려하기로 해요."
+    },
+    {
+      "id": "day01-set07",
+      "day": 1,
+      "order": 7,
+      "title": "국제 박람회의 발견",
+      "wordIds": [
+        "day01-031",
+        "day01-032",
+        "day01-033",
+        "day01-034",
+        "day01-035"
+      ],
+      "story": "At an international fair, Leo wants to determine which products use less energy. He learns that machines can consume a lot of electricity. One small object, a solar lamp, seems likely to impress his friends.",
+      "translation": "국제 박람회에서 레오는 어떤 제품이 에너지를 더 적게 사용하는지 알아내고 싶어 해요. 레오는 기계가 많은 전기를 소비할 수 있다는 것을 배워요. 태양광 램프라는 작은 물건 하나는 친구들에게 깊은 인상을 줄 것 같아요."
+    },
+    {
+      "id": "day01-set08",
+      "day": 1,
+      "order": 8,
+      "title": "따뜻한 마무리",
+      "wordIds": [
+        "day01-036",
+        "day01-037",
+        "day01-038",
+        "day01-039",
+        "day01-040"
+      ],
+      "story": "At the fair, Leo sees soap, a useful everyday commodity. A seat is available beside a friendly seller. She can recognize him from the book club and offers him comfort after a busy day. Her positive words make him smile.",
+      "translation": "박람회에서 레오는 유용한 일상 상품인 비누를 봐요. 친절한 판매원 옆에 앉을 수 있는 자리가 있어요. 판매원은 독서 모임에서 본 레오를 알아보고, 바쁜 하루를 보낸 그를 위로해 줘요. 판매원의 긍정적인 말에 레오는 미소 지어요."
+    }
+  ]
+}

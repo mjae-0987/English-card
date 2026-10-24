@@ -1,0 +1,85 @@
+.lesson-mode .header { padding-top: 12px; row-gap: 10px; }
+.lesson-mode .status-bar { padding-block: 9px; }
+.sentence-page { padding: 4px 20px 22px; }
+.sentence-page .back-link { margin-block: 0; }
+.sentence-heading { display: flex; align-items: center; gap: 7px; justify-content: space-between; }
+.sentence-heading > div { flex: 1; min-width: 0; }
+.sentence-heading .section-kicker { font-size: 8px; letter-spacing: .6px; }
+.sentence-heading h1 { margin-top: 7px; font-size: 20px; line-height: 1.4; letter-spacing: -.9px; word-break: keep-all; }
+.sentence-heading p { margin-top: 7px; color: #8b9d71; font-size: 10px; font-weight: 700; }
+.sentence-heading p > span { color: #a4aa94; font-weight: 500; }
+.sentence-heading img { width: 66px; height: 66px; object-fit: contain; mix-blend-mode: multiply; border-radius: 18px; flex-shrink: 0; }
+.set-navigation { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); margin: 10px -4px 0; }
+.set-dot { display: grid; place-items: center; min-width: 0; height: 44px; padding: 0; background: transparent; }
+.set-dot > span { display: grid; place-items: center; width: 26px; height: 26px; background: #eeeee4; color: #a5ad96; border-radius: 10px; font-size: 10px; font-weight: 750; }
+.set-dot.current > span { background: #bcdf7b; color: #537335; box-shadow: 0 3px 0 #98b961; outline: 2px solid #dcebc3; outline-offset: 3px; }
+.set-dot.done > span { background: #f1db9b; color: #ae883b; }
+.set-dot .icon { width: 14px; height: 14px; }
+.sentence-progress { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.sentence-progress > span { white-space: nowrap; color: #9aA28b; font-size: 9px; }
+.sentence-progress strong { color: #8ba468; margin-left: 3px; }
+.sentence-progress .progress-track { height: 5px; }
+.story-card { border: 1px solid #e6e8da; background: #fffef9; box-shadow: 0 4px 0 #eeeddf; border-radius: 21px; overflow: hidden; }
+.story-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 6px; padding: 5px 10px 3px 14px; border-bottom: 1px solid #efefe4; }
+.story-toolbar > span { display: flex; align-items: center; gap: 6px; color: #9bA38a; font-size: 9px; font-weight: 600; }
+.story-toolbar > span .icon { width: 15px; height: 15px; }
+.audio-button { display: flex; align-items: center; justify-content: center; gap: 5px; background: #f0f5e5; border-radius: 12px; min-height: 44px; padding: 6px 10px; color: #7b965a; font-size: 10px; font-weight: 700; flex-shrink: 0; }
+.audio-button .icon { width: 17px; height: 17px; }
+.story-scroll { padding: 10px 15px 14px; height: 220px; height: clamp(180px, 29dvh, 255px); overflow-y: auto; overscroll-behavior-y: contain; -webkit-overflow-scrolling: touch; scrollbar-width: thin; scrollbar-color: #d7e3bf transparent; }
+.english-story { font-family: Georgia, 'Times New Roman', serif; font-size: 18px; line-height: 1.95; color: #4d5944; overflow-wrap: anywhere; }
+.story-word { display: inline-flex; align-items: center; vertical-align: baseline; min-height: 44px; min-width: 44px; justify-content: center; font: inherit; line-height: 1.45; padding: 0 3px; border-radius: 6px; color: #638b39; background: linear-gradient(transparent 20%, #e9f2d7 20%, #e9f2d7 85%, transparent 85%); font-weight: 700; }
+.story-word.selected { background: #d8eab5; box-shadow: inset 0 -2px 0 #9abc6b; }
+.story-translation { margin-top: 15px; padding-top: 14px; border-top: 1px dashed #e3e8d7; font-size: 12px; color: #8a957b; line-height: 1.9; word-break: keep-all; overflow-wrap: anywhere; }
+.translation-toggle { display: flex; width: 100%; justify-content: center; align-items: center; gap: 7px; min-height: 44px; border-top: 1px solid #efefe4; background: #f7f8ef; color: #8a9c72; font-size: 10px; font-weight: 650; }
+.translation-toggle .icon { width: 13px; height: 13px; }
+.word-peek { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; min-height: 58px; margin: 10px 0; padding: 4px 10px 4px 13px; border: 1px solid #e3ead6; background: #f0f5e7; border-radius: 14px; gap: 0 6px; }
+.word-peek > p { display: flex; align-items: center; gap: 7px; color: #99a488; font-size: 10px; line-height: 1.8; }
+.word-peek > p .icon { width: 17px; height: 17px; color: #a6bf87; }
+.word-peek > div { flex: 1; min-width: 0; padding-block: 6px; }
+.word-peek strong { display: block; font-size: 14px; color: #6b8849; overflow-wrap: anywhere; }
+.word-peek > div > span { display: block; font-size: 11px; color: #8a9878; margin-top: 5px; line-height: 1.6; }
+.word-peek .word-note { width: 100%; display: block; font-size: 9px; color: #9a9f83; padding-bottom: 8px; }
+.word-audio { min-width: 44px; min-height: 44px; border-radius: 13px; background: #e5edda; color: #86a55f; display: grid; place-items: center; flex-shrink: 0; }
+.word-audio .icon { width: 19px; height: 19px; }
+.set-word-list { border: 1px solid #e6e8dc; border-radius: 15px; background: #fffdf7; overflow: hidden; }
+.set-word-list summary { min-height: 46px; padding: 13px 12px; cursor: pointer; font-size: 10px; color: #7c8e64; font-weight: 700; line-height: 20px; }
+.set-word-list summary > span { float: right; font-size: 9px; font-weight: 400; color: #a0aa90; }
+.set-word-list ul { list-style: none; padding: 0 10px; margin: 0; }
+.set-word-list li { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #eeeee3; gap: 8px; padding: 6px 0; }
+.set-word-list li.selected { background: #f3f6e8; }
+.word-definition { min-height: 48px; text-align: left; background: transparent; padding: 5px 4px; flex: 1; min-width: 0; }
+.word-definition strong { display: block; font-size: 12px; color: #667f4a; overflow-wrap: anywhere; }
+.word-definition span { display: block; font-size: 10px; color: #8e9981; line-height: 1.7; margin-top: 4px; }
+.word-list-note { font-size: 9px; color: #aaaF9b; line-height: 1.7; padding: 8px 13px 14px; }
+.authored-notice { font-size: 8px; color: #abaF9d; text-align: center; margin: 10px 0 12px; line-height: 1.7; }
+.speech-feedback, .storage-feedback { padding: 11px 12px; border-radius: 12px; background: #f7eed7; color: #a58b56; font-size: 10px; line-height: 1.8; margin: 10px 0; word-break: keep-all; overflow-wrap: anywhere; }
+.lesson-actions { margin-top: 10px; }
+.set-complete { font-size: 12px; }
+.set-complete.is-complete { background: #f0dfaa; color: #a08a4a; box-shadow: 0 4px 0 #d9c48a; }
+.set-complete:disabled { cursor: default; }
+.set-paging { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; margin-top: 12px; }
+.set-paging button { display: flex; align-items: center; justify-content: center; gap: 4px; padding: 8px 5px; min-height: 44px; background: #f0f1e7; border: 1px solid #e6e8d9; border-radius: 12px; font-size: 11px; color: #899776; }
+.set-paging .icon { width: 15px; height: 15px; }
+.set-paging > span { font-size: 10px; color: #a3ac95; }
+.set-paging button:disabled { color: #c0c5b3; background: #f6f5ed; border-color: #eeeee2; cursor: default; }
+.sentence-complete { text-align: center; background: #f8f1db; border: 1px solid #ece0b8; border-radius: 22px; margin-top: 20px; padding: 22px 15px 12px; animation: completion-appear .3s ease-out; }
+.completion-star { color: #ddbc60; display: inline-flex; padding: 12px; background: #f5e7b9; border-radius: 50%; }
+.completion-star .icon { width: 29px; height: 29px; }
+.sentence-complete h2 { font-size: 17px; margin-top: 14px; letter-spacing: -.6px; color: #a18a4b; }
+.sentence-complete p { font-size: 11px; line-height: 1.9; color: #aaa07c; margin-top: 10px; }
+.sentence-complete a { display: flex; align-items: center; justify-content: center; gap: 7px; font-size: 11px; color: #9b8d5d; min-height: 44px; margin-top: 10px; }
+.sentence-complete a .icon { width: 15px; height: 15px; }
+@keyframes completion-appear { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 389px) { .set-navigation { grid-template-columns: repeat(4, minmax(44px, 1fr)); } }
+@media (max-width: 350px) {
+  .sentence-page { padding-inline: 15px; }
+  .sentence-heading h1 { font-size: 18px; }
+  .sentence-heading img { width: 55px; height: 55px; }
+  .story-scroll { padding-inline: 12px; }
+  .english-story { font-size: 17px; }
+  .story-toolbar { padding-left: 10px; }
+  .story-toolbar > span { font-size: 8px; gap: 4px; }
+  .audio-button { padding-inline: 8px; font-size: 9px; }
+  .set-dot { height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) { .sentence-complete { animation: none; } }

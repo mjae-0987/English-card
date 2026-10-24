@@ -1,0 +1,282 @@
+[
+  {
+    "id": "day03-001",
+    "day": 3,
+    "order": 1,
+    "word": "decrease",
+    "meaning": null
+  },
+  {
+    "id": "day03-002",
+    "day": 3,
+    "order": 2,
+    "word": "recycle",
+    "meaning": null
+  },
+  {
+    "id": "day03-003",
+    "day": 3,
+    "order": 3,
+    "word": "desire",
+    "meaning": null
+  },
+  {
+    "id": "day03-004",
+    "day": 3,
+    "order": 4,
+    "word": "balance",
+    "meaning": null
+  },
+  {
+    "id": "day03-005",
+    "day": 3,
+    "order": 5,
+    "word": "negative",
+    "meaning": null
+  },
+  {
+    "id": "day03-006",
+    "day": 3,
+    "order": 6,
+    "word": "follow",
+    "meaning": null
+  },
+  {
+    "id": "day03-007",
+    "day": 3,
+    "order": 7,
+    "word": "account",
+    "meaning": null
+  },
+  {
+    "id": "day03-008",
+    "day": 3,
+    "order": 8,
+    "word": "publish",
+    "meaning": null
+  },
+  {
+    "id": "day03-009",
+    "day": 3,
+    "order": 9,
+    "word": "occasion",
+    "meaning": null
+  },
+  {
+    "id": "day03-010",
+    "day": 3,
+    "order": 10,
+    "word": "replace",
+    "meaning": null
+  },
+  {
+    "id": "day03-011",
+    "day": 3,
+    "order": 11,
+    "word": "constant",
+    "meaning": null
+  },
+  {
+    "id": "day03-012",
+    "day": 3,
+    "order": 12,
+    "word": "expert",
+    "meaning": null
+  },
+  {
+    "id": "day03-013",
+    "day": 3,
+    "order": 13,
+    "word": "term",
+    "meaning": null
+  },
+  {
+    "id": "day03-014",
+    "day": 3,
+    "order": 14,
+    "word": "relieve",
+    "meaning": null
+  },
+  {
+    "id": "day03-015",
+    "day": 3,
+    "order": 15,
+    "word": "describe",
+    "meaning": null
+  },
+  {
+    "id": "day03-016",
+    "day": 3,
+    "order": 16,
+    "word": "congratulate",
+    "meaning": null
+  },
+  {
+    "id": "day03-017",
+    "day": 3,
+    "order": 17,
+    "word": "due",
+    "meaning": null
+  },
+  {
+    "id": "day03-018",
+    "day": 3,
+    "order": 18,
+    "word": "equipment",
+    "meaning": null
+  },
+  {
+    "id": "day03-019",
+    "day": 3,
+    "order": 19,
+    "word": "biology",
+    "meaning": null
+  },
+  {
+    "id": "day03-020",
+    "day": 3,
+    "order": 20,
+    "word": "imagine",
+    "meaning": null
+  },
+  {
+    "id": "day03-021",
+    "day": 3,
+    "order": 21,
+    "word": "compose",
+    "meaning": null
+  },
+  {
+    "id": "day03-022",
+    "day": 3,
+    "order": 22,
+    "word": "genius",
+    "meaning": null
+  },
+  {
+    "id": "day03-023",
+    "day": 3,
+    "order": 23,
+    "word": "reflect",
+    "meaning": null
+  },
+  {
+    "id": "day03-024",
+    "day": 3,
+    "order": 24,
+    "word": "cause",
+    "meaning": null
+  },
+  {
+    "id": "day03-025",
+    "day": 3,
+    "order": 25,
+    "word": "frequent",
+    "meaning": null
+  },
+  {
+    "id": "day03-026",
+    "day": 3,
+    "order": 26,
+    "word": "factor",
+    "meaning": null
+  },
+  {
+    "id": "day03-027",
+    "day": 3,
+    "order": 27,
+    "word": "extreme",
+    "meaning": null
+  },
+  {
+    "id": "day03-028",
+    "day": 3,
+    "order": 28,
+    "word": "tend",
+    "meaning": null
+  },
+  {
+    "id": "day03-029",
+    "day": 3,
+    "order": 29,
+    "word": "politics",
+    "meaning": null
+  },
+  {
+    "id": "day03-030",
+    "day": 3,
+    "order": 30,
+    "word": "insist",
+    "meaning": null
+  },
+  {
+    "id": "day03-031",
+    "day": 3,
+    "order": 31,
+    "word": "extend",
+    "meaning": null
+  },
+  {
+    "id": "day03-032",
+    "day": 3,
+    "order": 32,
+    "word": "lonely",
+    "meaning": null
+  },
+  {
+    "id": "day03-033",
+    "day": 3,
+    "order": 33,
+    "word": "habitat",
+    "meaning": null
+  },
+  {
+    "id": "day03-034",
+    "day": 3,
+    "order": 34,
+    "word": "mental",
+    "meaning": null
+  },
+  {
+    "id": "day03-035",
+    "day": 3,
+    "order": 35,
+    "word": "steady",
+    "meaning": null
+  },
+  {
+    "id": "day03-036",
+    "day": 3,
+    "order": 36,
+    "word": "exchange",
+    "meaning": null
+  },
+  {
+    "id": "day03-037",
+    "day": 3,
+    "order": 37,
+    "word": "active",
+    "meaning": null
+  },
+  {
+    "id": "day03-038",
+    "day": 3,
+    "order": 38,
+    "word": "species",
+    "meaning": null
+  },
+  {
+    "id": "day03-039",
+    "day": 3,
+    "order": 39,
+    "word": "athletic",
+    "meaning": null
+  },
+  {
+    "id": "day03-040",
+    "day": 3,
+    "order": 40,
+    "word": "dental",
+    "meaning": null
+  }
+]

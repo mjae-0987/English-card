@@ -1,0 +1,288 @@
+{
+  "day": 1,
+  "origin": "learning-authored",
+  "notice": "일반적인 사전적 용법을 바탕으로 새로 작성한 학습용 뜻입니다. 교재 원문이나 특정 사전의 인용문이 아닙니다.",
+  "entries": [
+    {
+      "wordId": "day01-001",
+      "meaning": "제공하다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-002",
+      "meaning": "발전시키다; 개발하다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-003",
+      "meaning": "문화의; 문화적인",
+      "partOfSpeech": "형용사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-004",
+      "meaning": "알리다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-005",
+      "meaning": "사회의; 사교의",
+      "partOfSpeech": "형용사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-006",
+      "meaning": "향상시키다; 나아지다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-007",
+      "meaning": "개인; 개인의",
+      "partOfSpeech": "명사·형용사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-008",
+      "meaning": "필요로 하다; 요구하다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-009",
+      "meaning": "자원봉사자; 자원봉사하다",
+      "partOfSpeech": "명사·동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-010",
+      "meaning": "행동하다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-011",
+      "meaning": "양; 액수",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-012",
+      "meaning": "관계",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-013",
+      "meaning": "고용하다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-014",
+      "meaning": "태도",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-015",
+      "meaning": "연구; 조사",
+      "partOfSpeech": "명사·동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-016",
+      "meaning": "관객; 청중",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-017",
+      "meaning": "도전; 어려운 과제",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-018",
+      "meaning": "영향; 영향을 미치다",
+      "partOfSpeech": "명사·동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-019",
+      "meaning": "재료; 자료",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-020",
+      "meaning": "기회",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-021",
+      "meaning": "환경",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-022",
+      "meaning": "비용; 지출",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-023",
+      "meaning": "지역의; 현지의",
+      "partOfSpeech": "형용사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-024",
+      "meaning": "포함하다; 참여시키다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-025",
+      "meaning": "스트레스; 강조하다",
+      "partOfSpeech": "명사·동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-026",
+      "meaning": "그러므로; 따라서",
+      "partOfSpeech": "부사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-027",
+      "meaning": "포함하다; 담고 있다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-028",
+      "meaning": "평균; 평균의",
+      "partOfSpeech": "명사·형용사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-029",
+      "meaning": "타다; 타고 가기",
+      "partOfSpeech": "동사·명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-030",
+      "meaning": "격려하다; 장려하다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-031",
+      "meaning": "결정하다; 알아내다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-032",
+      "meaning": "국제적인",
+      "partOfSpeech": "형용사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-033",
+      "meaning": "소비하다; 소모하다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-034",
+      "meaning": "깊은 인상을 주다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-035",
+      "meaning": "물건; 물체",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": "이 이야기에서는 물건을 뜻하는 명사로 사용합니다. 동사 뜻인 반대하다와 구분하세요."
+    },
+    {
+      "wordId": "day01-036",
+      "meaning": "이용할 수 있는; 구할 수 있는",
+      "partOfSpeech": "형용사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-037",
+      "meaning": "긍정적인",
+      "partOfSpeech": "형용사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-038",
+      "meaning": "알아보다; 인정하다",
+      "partOfSpeech": "동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-039",
+      "meaning": "상품; 원자재",
+      "partOfSpeech": "명사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day01-040",
+      "meaning": "위로; 편안함; 위로하다",
+      "partOfSpeech": "명사·동사",
+      "reviewStatus": "reviewed",
+      "note": ""
+    }
+  ],
+  "uncertainWordIds": []
+}
