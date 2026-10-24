@@ -73,7 +73,7 @@ Cloudflare 전용 연결 도구는 현재 제공되지 않으며 플러그인 �
 
 ## 빌드 및 공개 후 확인 절차
 
-현재 프로젝트 의존성과 사용 가능한 npm 캐시가 없어 빌드를 실행하지 못했습니다. npm 설치를 반복하지 않았으며 lockfile을 임의 작성하지 않았습니다. Node 22 설정과 기존 Vite/TypeScript/React 의존성 선언을 유지하고 `dist` 정적 빌드를 구성했습니다.
+초기에는 의존성과 npm 캐시가 없어 빌드를 실행하지 못했으나, 이후 네트워크 권한과 쓰기 가능한 캐시 경로를 적용한 제한된 설치 1회가 21초에 성공했습니다. 실제 설치로 생성한 package-lock.json을 포함하며, `npm run build`도 통과했습니다. Vite 7.3.7의 프로덕션 빌드와 모바일 크기의 Chromium 검증 결과는 [브라우저 검증 기록](browser-validation.md)에 정리했습니다.
 
 Cloudflare Pages에서 다음으로 빌드합니다: Framework `Vite`, Build `npm run build`, Output `dist`, Node `22` (22.12 이상). 루트에 package.json이 있으므로 Root directory는 저장소 루트입니다. 해시 기반 경로를 사용하므로 모든 앱 화면은 루트 문서에서 열립니다.
 
@@ -89,4 +89,4 @@ Cloudflare Pages에서 다음으로 빌드합니다: Framework `Vite`, Build `np
 - 완료/오답/힌트/날짜 및 부분 입력의 새로고침 후 복원, 새 퍼즐에서 이전 완료 기록 유지
 - Android Chrome 및 iPhone Safari의 실제 키보드와 Web Speech 재생
 
-아직 실제 공개 URL, 브라우저 에뮬레이션 결과, Android/iPhone 실기기 검증 결과는 없습니다. 배포 성공이나 실제 모바일 정상 동작이 확인된 것으로 보고하지 않습니다.
+현재 Chromium 에뮬레이션 검증은 통과했으나 Android/iPhone 실기기 검증과 공개 배포 검증은 미완료입니다. 기존 english-cq9.pages.dev 프로젝트는 Direct Upload 방식이고 첫 배포가 없어 522 오류를 반환합니다. Cloudflare 계정 UI에서 GitHub 연동이 인식되지 않아, 빌드한 `deploy/word-master-adventure-dist.zip`을 기존 프로젝트의 Upload assets에 올리는 경로를 준비했습니다. 이 경로는 기존 GitHub 소스를 보존하며 Git 연동이나 추가 유료 자동화를 요구하지 않습니다. 업로드 후 공개 주소를 다시 확인해야 배포 완료로 보고할 수 있습니다.

@@ -1,0 +1,50 @@
+{
+  "checks": [
+    "50 DAY / 100 nodes, mascot, initial locks and no horizontal overflow",
+    "Bottom menus, locked direct route, lesson target definitions, speech wiring and translation toggle",
+    "Eight sets completed through UI, localStorage refresh persistence and puzzle unlocked on map",
+    "Real keyboard typing, auto advance, Backspace, direction switch and selected word grading",
+    "Two-stage hints, no premature completion, wrong-word recording and partial attempt refresh restore",
+    "Solved all words via UI paste, celebration/date saved, new game preserves completion and DAY 01 completed",
+    "320/375/390/430px across six screens: no horizontal overflow",
+    "Unsupported Web Speech API displays a visible explanation",
+    "No browser runtime exceptions"
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "height": 844,
+      "engine": "Chromium",
+      "device": "Android user-agent emulation",
+      "routes": 6,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "engine": "Chromium",
+      "device": "Android user-agent emulation",
+      "routes": 6,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "engine": "Chromium",
+      "device": "iPhone user-agent emulation",
+      "routes": 6,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 430,
+      "height": 844,
+      "engine": "Chromium",
+      "device": "Android user-agent emulation",
+      "routes": 6,
+      "horizontalOverflow": false
+    }
+  ],
+  "runtimeErrors": [],
+  "speech": "Button invocation verified with a speech mock; actual audio and physical keyboards not tested.",
+  "result": "PASS"
+}

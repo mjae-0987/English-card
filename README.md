@@ -88,4 +88,12 @@ GitHub에 이 프로젝트를 저장한 다음 Cloudflare Pages에서 해당 저
 | Build output directory | `dist` |
 | Node.js | 22 (22.12 이상, `.nvmrc` / `.node-version` 포함) |
 
-이 앱에는 서버 비밀정보나 별도 런타임 환경변수가 필요하지 않습니다. 학습 기록은 브라우저별로 저장합니다. `package-lock.json`은 실제 의존성 설치로 생성한 경우에만 포함하며 임의로 만들지 않습니다. 현재 lockfile은 없습니다.
+이 앱에는 서버 비밀정보나 별도 런타임 환경변수가 필요하지 않습니다. 학습 기록은 브라우저별로 저장합니다. `package-lock.json`은 실제 설치에 성공하여 생성한 파일을 포함합니다. 이후 설치는 `npm ci`, 빌드는 `npm run build`로 재현할 수 있습니다.
+
+## 빌드 검증 및 직접 업로드
+
+네트워크 권한을 적용하고 쓰기 가능한 캐시를 사용해 의존성 설치에 성공했으며, `npm run build`가 통과했습니다. Vite 7.3.7로 생성한 정적 배포 파일이 `dist/`에 있습니다.
+
+Cloudflare의 GitHub 연결이 완료되지 않은 경우, 기존 Direct Upload 프로젝트에서 [배포용 ZIP](deploy/word-master-adventure-dist.zip)을 다운로드해 **Upload assets**에 올립니다. ZIP 최상위에 `index.html`, `assets/`, `gecko-mascot.jpg`, `favicon.svg`가 들어 있으므로 압축을 풀거나 소스코드를 빌드할 필요가 없습니다. 원본 소스 ZIP과 구분하세요.
+
+[브라우저 검증 기록](docs/browser-validation.md): 실제 프로덕션 빌드를 Chromium의 320/375/390/430px 화면에서 실행했습니다. 예문·퍼즐·저장 복원·새 퍼즐 및 가로 스크롤 검사를 통과했습니다. 실제 Android/iPhone 키보드와 음성 재생, 공개 Cloudflare 배포 검증은 별도입니다.
