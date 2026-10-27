@@ -1,99 +1,80 @@
 # Word Master Adventure
 
-새로 작성한 모바일 전용 React + TypeScript + Vite 앱입니다. 기존 프로젝트를 사용하지 않았습니다.
+React + TypeScript + Vite로 만든 모바일 영어 학습 앱입니다. DAY 01~50 지도와 기존 레오파드게코 이미지를 유지하고, DAY 01~05의 단어 200개를 이야기와 가로세로 퍼즐로 학습합니다.
 
-## 실행
+## 실행 및 검사
 
-```bash
-npm install
+Node.js 22.12 이상이 필요합니다. 의존성이 이미 설치된 환경에서는 설치를 반복하지 않아도 됩니다.
+
+```sh
+npm ci
 npm run dev
 ```
 
-Vite가 표시하는 주소로 접속합니다. 같은 네트워크에서 접속할 수 있는 환경이라면 해당 기기의 IP와 포트로 모바일 브라우저에서 확인할 수 있습니다.
-
-```bash
+```sh
+npm test
+npm run test:render
 npm run build
 npm run preview
 ```
 
-`dist/`에 정적 빌드가 생성됩니다. 배포 및 외부 서비스 연결은 포함하지 않습니다.
+`npm test`는 데이터·퍼즐·진행·저장·음성 제어 로직 검사입니다. `test:render`는 React 서버 렌더링 검사이며, 브라우저의 실제 레이아웃·터치·오디오 출력 검사가 아닙니다. 빌드 결과는 `dist/`에 생성됩니다. 개발 서버는 모바일에서 접근 가능한 네트워크에서만 기기의 IP로 접속할 수 있습니다.
 
-## 구성
+## 학습 흐름
 
-- `src/App.tsx`: 해시 기반 화면 이동, 학습 지도, DAY 상세, 준비 중 화면과 안내 대화상자
-- `src/state/learning.tsx`: 임시 학습 기록, DAY/단계 정의, 진행률 및 순차 잠금 판단
-- `src/components/`: 직접 작성한 SVG 아이콘과 식물 장식
-- `src/styles.css`: 320~430px 모바일 스타일, 하단 고정 메뉴, Safe Area, 모션 감소 지원
-- `public/gecko-mascot.jpg`: 사용자가 제공한 게코 원본 이미지
+- DAY 01~05 각각 40개 단어, 원본 순서대로 5개씩 8세트, 총 40세트.
+- 예문 8세트 완료 → 같은 DAY 퍼즐 해제 → 퍼즐 완료 → 다음 DAY 해제.
+- DAY 06~50은 준비 중입니다. XP 계산 및 보상은 구현하지 않았으며 상단 XP·연속 일수는 기존 0 값을 유지합니다.
+- 공통 `SentenceLesson`과 `CrosswordGame`에 DAY를 전달합니다. 퍼즐 엔진은 DAY마다 복제하지 않습니다.
+- 각 DAY의 40개 단어만 무작위 선택합니다. 최대 20회 생성 시도, 10~13개 우선/8개 이상 대체, 연결·교차·인접·번호·가장자리 검사.
+- 입력·Backspace·교차 칸 공유·방향 전환·두 단계 힌트·단어/전체 채점·새 퍼즐을 제공합니다.
+- 단어장에는 전체 단어, 별표, 오답 복습 탭이 있습니다. 한글 뜻을 보고 영어 철자를 입력하며 성공/실패 이력을 보존합니다.
+- 별표 해제와 복습 성공은 기존 오답 이력을 삭제하지 않습니다. 새 퍼즐도 완료 이력과 오답을 보존합니다.
 
-현재 콘텐츠가 준비된 DAY 01 예문 학습만 열려 있습니다. `getStepStatus`는 콘텐츠 존재 여부를 우선 확인한 뒤 완료 기록과 순차 해제 정책(`sequential`)을 적용합니다. 향후 자유 선택 정책(`free`)도 콘텐츠가 준비된 단계에만 적용됩니다.
+## 데이터 출처
 
-DAY 01 예문은 실제 학습 화면으로 연결되며 세트 완료 기록을 브라우저 localStorage에 저장합니다. 예문 8개 세트를 완료하면 DAY 01 가로세로 퍼즐이 열립니다. 다른 DAY는 계속 잠겨 있습니다. 상단 XP와 연속 학습 일수는 0인 임시 데이터입니다. 앱 내 PDF 처리와 XP 보상은 구현하지 않았습니다.
+`src/data/vocabulary/day01.json`~`day05.json`의 영어 철자·순서·ID·DAY와 `meaning: null`을 보존합니다. 원본 PDF의 뜻 칸은 비어 있습니다. 별도 `dayNN-learning-meanings.json`에 일반적 용법을 바탕으로 작성한 학습용 뜻을 관리하고 공통 접근자가 합쳐 반환합니다. `src/data/lessons/dayNN.json`의 이야기와 번역도 앱을 위해 작성한 콘텐츠입니다. 교재 공식 뜻·예문 또는 특정 사전의 인용으로 표시하지 않습니다. 이 출처 설명은 개발 문서와 데이터 메타데이터에 보존하며 학습 카드에는 반복 노출하지 않습니다.
 
-첨부물에서 별도의 학습 지도 참고 이미지는 확인되지 않아, 요청한 지그재그 경로와 모바일 게임 스타일을 직접 구현했습니다.
+기존 DAY 01 이야기·뜻과 사용자 제공 `public/gecko-mascot.jpg`는 유지했습니다. 각 DAY는 40개 뜻과 8개 이야기를 갖고, 모든 대상 단어가 원형 그대로 해당 이야기에 등장합니다.
 
-## 3단계 단어 데이터
+## 음성
 
-`src/data/vocabulary/day01.json`~`day05.json`에 첨부 PDF의 영어 단어를 각 40개씩 원본 순서로 등록했습니다. **첨부 PDF의 한글 뜻 칸은 비어 있으므로 원본 보존용 JSON 200개 항목 모두 `meaning: null`입니다.** 원본 미수록 상태와 3단계 검증 결과는 [단어 데이터 검증 기록](docs/vocabulary-verification.md)에 정리했습니다. 지도에는 등록 단어 수 또는 준비 중 상태를 표시합니다.
+Web Speech API의 `SpeechSynthesisUtterance`와 `speechSynthesis.speak()`를 사용합니다. 사용자 클릭 안에서 첫 발화를 시작하고 이야기는 원문의 문장 순서대로 읽습니다. 한글은 읽지 않습니다.
 
-정적 검증: `python3 scripts/validate-vocabulary.py` (npm 설치 불필요).
+- 기본 en-US/보통 1.0배. 영어 음성만 선택하고, 미국 영어 및 자연스러운 음성을 우선합니다.
+- 기기 음성 목록의 비동기 로딩은 `voiceschanged`로 처리합니다. 목록이 아직 비어 있으면 en-US를 지정해 시스템에 요청하고, 목록에 한국어 음성만 있으면 재생하지 않습니다.
+- 느리게 0.75 / 보통 1 / 빠르게 1.15와 음성 선택을 저장합니다.
+- 재생 중지·다른 재생으로 교체·세트/화면 이동·컴포넌트 정리 시 중지합니다. 오래된 완료/오류 이벤트가 새 재생을 중단하지 못하도록 재생 요청을 구분합니다.
+- 실제 실패 또는 재생 시작 시간 초과 시에만 짧은 안내를 보여 줍니다. 별도 유료 TTS API나 토큰은 없습니다.
 
-## 4단계 DAY 01 예문 학습
+실제 소리·음성 다운로드·Android Chrome/iPhone Safari의 기기별 음성 엔진은 실기기 확인이 필요합니다.
 
-- 지도에서 DAY 01 예문 노드를 선택하거나 `#/learn/day/1`로 이동합니다.
-- 원본 5개 JSON은 그대로 유지하며, DAY 01의 학습용 뜻 40개는 `src/data/vocabulary/day01-learning-meanings.json`에 별도로 저장했습니다. `getDayVocabulary(1)`은 이 뜻을 합쳐 반환합니다. 뜻과 예문은 새로 작성한 콘텐츠이며 교재 원문이 아닙니다.
-- 원본 순서의 연속된 5개 단어로 구성한 이야기 8개는 `src/data/lessons/day01.json`에 있습니다.
-- 강조한 단어의 뜻 보기, 5개 뜻 목록, 영어 단어·이야기 발음, 해석 숨기기·보기, 이전·다음 및 세트 선택을 제공합니다.
-- 세트마다 완료 버튼을 눌러 기록하며, 8개가 모두 완료되어야 지도에 DAY 01 예문 완료 별이 표시됩니다. 다시 학습해도 기록은 유지되고 XP는 부여하지 않습니다.
-- 발음은 Web Speech API로 사용자의 클릭 안에서 시작합니다. 미지원·재생 오류와 저장소 접근 실패를 화면에 안내합니다.
-- [학습 콘텐츠와 검증 안내](docs/day01-learning.md)
+## 저장 호환
 
-설치 없이 실행하는 검증 (저장 로직 검증은 Node 22.6+ 권장):
+기존 DAY 01 키는 그대로 사용합니다. 기존 완료 날짜·퍼즐·오답·힌트와 원래 저장 형식을 초기화하지 않습니다.
 
-```bash
-python3 scripts/validate-day01-lessons.py
-node --experimental-strip-types scripts/day01-progress.test.mjs
-```
+| 데이터 | 키 |
+|---|---|
+| DAY별 예문 | `word-master-adventure:dayNN-sentences:v1` |
+| DAY별 퍼즐 | `word-master-adventure:dayNN-puzzle:v1` |
+| 별표/오답/복습 이력 | `word-master-adventure:collection:v1` |
+| 마지막 학습 위치 | `word-master-adventure:position:v1` |
+| 음성 설정 | `word-master-adventure:speech:v1` |
 
-## 5단계 DAY 01 가로세로 퍼즐
+구버전 퍼즐의 완료 이력과 현재 퍼즐에 있는 오답은 복습 목록에 합칩니다. 손상된 항목은 검증 후 제외하며, 저장 실패는 사용자에게 알리고 재저장 버튼을 제공합니다. 기록은 같은 기기·브라우저·공개 주소의 저장소에 남습니다. 다른 도메인으로 이동하면 자동 공유되지 않으므로 기존 주소를 유지해야 합니다.
 
-지도 DAY 01 퍼즐 노드, 하단 퍼즐 메뉴 또는 `#/puzzle/day/1`로 이동합니다. 예문 8세트 완료 전에는 잠금 안내를 표시합니다.
+## 배포
 
-- 40개 단어 중 교차 가능한 10~13개를 무작위로 배치하며 최대 20회 시도합니다. 10개 이상이 어려우면 8개 이상인 최선의 결과를 사용하고, 그마저 실패하면 명시적인 다시 생성 버튼을 표시합니다.
-- 가로·세로 모두 포함한 하나의 연결된 퍼즐을 생성합니다. 교차 문자를 맞추고 인접 단어 충돌을 막으며, 빈 가장자리를 제거하고 시작점 순서로 번호를 부여합니다. 격자는 최대 15×15이며 짧은 변이 가로가 되도록 정리합니다.
-- 칸 선택, 교차 칸 재선택/방향 전환, 영어 입력, 자동 다음 칸, Backspace, 붙여넣기와 글자 수정을 지원합니다. 실제 영어 입력창과 현재 단어 패턴을 격자 위의 sticky 카드에 표시합니다.
-- 기본 힌트는 기존 영어 이야기에서 정답 단어를 빈칸으로 바꾼 문장입니다. 단어마다 한글 뜻 → 한 글자 순으로 두 단계 힌트를 제공합니다.
-- 단어 확인/전체 채점은 답을 자동 공개하지 않습니다. 오답은 수정할 수 있으며 전체 정답인 경우 원본 게코 이미지와 함께 완료 화면을 표시합니다.
-- 현재 퍼즐·입력·힌트·오답과 완료 날짜를 localStorage에 저장합니다. 새 퍼즐을 생성해도 이전 완료 기록은 유지합니다. 저장 실패는 화면에 안내합니다.
-- DAY 01 예문과 퍼즐이 모두 완료되면 지도에서 DAY 01 전체가 완료됩니다. 새 퍼즐을 시작해도 이미 완료한 DAY 기록은 유지합니다.
+기존 저장소: https://github.com/mjae-0987/English-card
 
-검증:
+기존 Cloudflare Pages 프로젝트: `english`, 주소: https://english-cq9.pages.dev
 
-```bash
-node --experimental-strip-types scripts/crossword.test.mjs
-```
+설정: Vite / `npm run build` / `dist` / Node 22.12 이상. 실제 설치로 생성된 package-lock.json을 포함합니다.
 
-100개 시드 생성 검사와 입력·힌트 문장·채점·저장/복원 테스트를 포함합니다. [퍼즐 검증 및 배포 안내](docs/puzzle-and-deployment.md)에서 현재 실행/배포 검증 범위를 확인할 수 있습니다.
+현재 환경에는 Cloudflare 배포 자격 증명이 없으며 GitHub 자동 배포 연결도 확인되지 않았습니다. 기존 Direct Upload 프로젝트에서 `deploy/word-master-adventure-dist.zip`을 Upload assets에 올릴 수 있습니다. ZIP 최상위에 index.html과 assets, 원본 마스코트, favicon이 들어 있습니다. **저장소 소스 ZIP이나 node_modules를 올리지 마세요.** 기존 프로젝트와 공개 주소를 삭제·중복 생성할 필요가 없습니다.
 
-## Cloudflare Pages 빌드 설정
+업로드와 공개 주소 검증이 완료되기 전에는 배포 완료로 표시하지 않습니다. 유료 자동화/추가 결제를 실행하지 않았습니다.
 
-GitHub에 이 프로젝트를 저장한 다음 Cloudflare Pages에서 해당 저장소를 연결합니다.
+## 검증 범위
 
-| 설정 | 값 |
-| --- | --- |
-| Framework preset | Vite |
-| Production branch | 업로드한 기본 브랜치 (보통 main) |
-| Root directory | 저장소 루트 |
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| Node.js | 22 (22.12 이상, `.nvmrc` / `.node-version` 포함) |
-
-이 앱에는 서버 비밀정보나 별도 런타임 환경변수가 필요하지 않습니다. 학습 기록은 브라우저별로 저장합니다. `package-lock.json`은 실제 설치에 성공하여 생성한 파일을 포함합니다. 이후 설치는 `npm ci`, 빌드는 `npm run build`로 재현할 수 있습니다.
-
-## 빌드 검증 및 직접 업로드
-
-네트워크 권한을 적용하고 쓰기 가능한 캐시를 사용해 의존성 설치에 성공했으며, `npm run build`가 통과했습니다. Vite 7.3.7로 생성한 정적 배포 파일이 `dist/`에 있습니다.
-
-Cloudflare의 GitHub 연결이 완료되지 않은 경우, 기존 Direct Upload 프로젝트에서 [배포용 ZIP](deploy/word-master-adventure-dist.zip)을 다운로드해 **Upload assets**에 올립니다. ZIP 최상위에 `index.html`, `assets/`, `gecko-mascot.jpg`, `favicon.svg`가 들어 있으므로 압축을 풀거나 소스코드를 빌드할 필요가 없습니다. 원본 소스 ZIP과 구분하세요.
-
-[브라우저 검증 기록](docs/browser-validation.md): 실제 프로덕션 빌드를 Chromium의 320/375/390/430px 화면에서 실행했습니다. 예문·퍼즐·저장 복원·새 퍼즐 및 가로 스크롤 검사를 통과했습니다. 실제 Android/iPhone 키보드와 음성 재생, 공개 Cloudflare 배포 검증은 별도입니다.
+[이번 변경 검증](docs/stage6-validation.md)을 참고하세요. 기존 [5단계 브라우저 기록](docs/browser-validation.md)은 이전 DAY 01 버전의 기록이며 이번 변경에 그대로 적용되지 않습니다.

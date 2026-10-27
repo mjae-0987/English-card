@@ -1,0 +1,127 @@
+{
+  "day": 4,
+  "origin": "learning-authored",
+  "notice": "이 앱을 위해 새로 작성한 학습 콘텐츠이며 교재 원문이 아닙니다.",
+  "sets": [
+    {
+      "id": "day04-set01",
+      "day": 4,
+      "order": 1,
+      "title": "도서관으로 가는 길",
+      "wordIds": [
+        "day04-001",
+        "day04-002",
+        "day04-003",
+        "day04-004",
+        "day04-005"
+      ],
+      "story": "To Leo's delight, the town opens a library with easy access for everyone. He feels more confident about reading aloud. As the sun gradually sets, his long shadow stretches across the path home.",
+      "translation": "모두가 쉽게 이용할 수 있는 도서관이 열려 레오는 기뻐해요. 소리 내어 읽는 일에도 더 자신이 생겨요. 해가 점차 지자 집으로 가는 길에 레오의 긴 그림자가 드리워져요."
+    },
+    {
+      "id": "day04-set02",
+      "day": 4,
+      "order": 2,
+      "title": "공사장의 안전 약속",
+      "wordIds": [
+        "day04-006",
+        "day04-007",
+        "day04-008",
+        "day04-009",
+        "day04-010"
+      ],
+      "story": "A local firm will announce its plan for a new playground. The workers allow visitors to watch from a safe place. Their tasks vary each day, but they always take care not to injure anyone.",
+      "translation": "지역 회사가 새 놀이터 계획을 발표할 거예요. 작업자들은 방문객들이 안전한 장소에서 구경하도록 허락해요. 날마다 하는 일은 달라지지만, 누구도 다치게 하지 않도록 언제나 주의해요."
+    },
+    {
+      "id": "day04-set03",
+      "day": 4,
+      "order": 3,
+      "title": "모두를 위한 승강기",
+      "wordIds": [
+        "day04-011",
+        "day04-012",
+        "day04-013",
+        "day04-014",
+        "day04-015"
+      ],
+      "story": "The town receives a permit to install a lift for disabled visitors. The response from the community is positive. Engineers check the electricity supply because the lift will increase the building's power use.",
+      "translation": "마을은 장애가 있는 방문객들을 위한 승강기 설치 허가를 받아요. 주민들의 반응은 긍정적이에요. 승강기로 건물의 전력 사용이 늘어날 것이기 때문에 기술자들은 전기 공급을 확인해요."
+    },
+    {
+      "id": "day04-set04",
+      "day": 4,
+      "order": 4,
+      "title": "별을 기다리는 저녁",
+      "wordIds": [
+        "day04-016",
+        "day04-017",
+        "day04-018",
+        "day04-019",
+        "day04-020"
+      ],
+      "story": "In astronomy class, the teacher will emphasize the possibility of seeing a comet tonight. Leo tries to concentrate, but a lack of sleep makes it hard. He decides to rest before watching the sky.",
+      "translation": "천문학 시간에 선생님은 오늘 밤 혜성을 볼 가능성을 강조하실 거예요. 레오는 집중하려 하지만 잠이 부족해서 어려워요. 하늘을 보기 전에 쉬기로 해요."
+    },
+    {
+      "id": "day04-set05",
+      "day": 4,
+      "order": 5,
+      "title": "홍수 뒤의 도움",
+      "wordIds": [
+        "day04-021",
+        "day04-022",
+        "day04-023",
+        "day04-024",
+        "day04-025"
+      ],
+      "story": "After a flood, a team brings fuel to the village. A nearby workshop can manufacture simple carts. With the roads blocked, these carts help the movement of supplies, and Leo is capable of guiding the team.",
+      "translation": "홍수 뒤에 한 팀이 마을에 연료를 가져와요. 근처 작업장에서는 간단한 수레를 만들 수 있어요. 도로가 막힌 상황에서 수레는 물자의 이동을 돕고, 레오는 팀을 안내할 수 있어요."
+    },
+    {
+      "id": "day04-set06",
+      "day": 4,
+      "order": 6,
+      "title": "과학자가 들려준 이야기",
+      "wordIds": [
+        "day04-026",
+        "day04-027",
+        "day04-028",
+        "day04-029",
+        "day04-030"
+      ],
+      "story": "A scientist explains how a gene can affect health. Researchers combine their knowledge to study a new threat. Their goal is to help every victim of the illness without putting extra pressure on families.",
+      "translation": "과학자가 유전자가 건강에 어떤 영향을 줄 수 있는지 설명해요. 연구자들은 새로운 위협을 연구하기 위해 지식을 모아요. 목표는 가족들에게 추가 부담을 주지 않으면서 그 질병의 모든 피해자를 돕는 것이에요."
+    },
+    {
+      "id": "day04-set07",
+      "day": 4,
+      "order": 7,
+      "title": "작은 가게를 여는 날",
+      "wordIds": [
+        "day04-031",
+        "day04-032",
+        "day04-033",
+        "day04-034",
+        "day04-035"
+      ],
+      "story": "Mia will accompany Leo to a meeting about local commerce. They hope to construct a small stall and launch a book exchange. Delays can frustrate them, but they keep working together.",
+      "translation": "미아는 지역 상업에 관한 회의에 레오와 동행할 거예요. 두 친구는 작은 가판대를 만들고 책 교환을 시작하려 해요. 일정 지연은 두 친구를 답답하게 할 수 있지만, 계속 함께 노력해요."
+    },
+    {
+      "id": "day04-set08",
+      "day": 4,
+      "order": 8,
+      "title": "비 오는 날의 책 모임",
+      "wordIds": [
+        "day04-036",
+        "day04-037",
+        "day04-038",
+        "day04-039",
+        "day04-040"
+      ],
+      "story": "Leo hopes to entertain the visitors with a story. He cannot predict the quantity of rain, so he moves the chairs inside. When a wet guest comes into sight, Leo goes over to apologize for the muddy path.",
+      "translation": "레오는 이야기로 방문객들을 즐겁게 해 주고 싶어 해요. 비의 양을 예측할 수 없어 의자를 실내로 옮겨요. 비에 젖은 손님이 눈에 들어오자 다가가서 진흙투성이 길에 대해 사과해요."
+    }
+  ]
+}

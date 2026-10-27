@@ -1,0 +1,287 @@
+{
+  "day": 5,
+  "origin": "learning-authored",
+  "notice": "일반적 용법을 바탕으로 작성한 앱 학습용 뜻이며 교재나 특정 사전의 인용이 아닙니다.",
+  "entries": [
+    {
+      "wordId": "day05-001",
+      "meaning": "결론을 내리다; 끝내다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-002",
+      "meaning": "기부하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-003",
+      "meaning": "성격",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-004",
+      "meaning": "애쓰다; 투쟁",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-005",
+      "meaning": "이점",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-006",
+      "meaning": "다양성; 여러 가지",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-007",
+      "meaning": "가능하게 하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-008",
+      "meaning": "지시; 설명",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-009",
+      "meaning": "가정하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-010",
+      "meaning": "시도하다; 시도",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-011",
+      "meaning": "믿기 어려운; 놀라운",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-012",
+      "meaning": "특징",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-013",
+      "meaning": "혼동시키다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-014",
+      "meaning": "전자의",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-015",
+      "meaning": "흡수하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-016",
+      "meaning": "나타내다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-017",
+      "meaning": "분석하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-018",
+      "meaning": "재고; 주식",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-019",
+      "meaning": "주민",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-020",
+      "meaning": "노동",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-021",
+      "meaning": "발언; 언급하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-022",
+      "meaning": "도덕적인; 교훈",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-023",
+      "meaning": "당황한",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-024",
+      "meaning": "주장하다; 주장",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-025",
+      "meaning": "합리적인",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-026",
+      "meaning": "방해하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-027",
+      "meaning": "제한하다; 한계",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-028",
+      "meaning": "생물",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-029",
+      "meaning": "치유하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-030",
+      "meaning": "설립하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-031",
+      "meaning": "혁명; 큰 변화",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-032",
+      "meaning": "비판하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-033",
+      "meaning": "확신시키다; 설득하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-034",
+      "meaning": "효율적인",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-035",
+      "meaning": "낯선 사람",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-036",
+      "meaning": "조수; 밀물과 썰물",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-037",
+      "meaning": "얻다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-038",
+      "meaning": "돕다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-039",
+      "meaning": "재난",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day05-040",
+      "meaning": "굉장한; 아주 좋은",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    }
+  ]
+}

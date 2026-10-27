@@ -1,0 +1,127 @@
+{
+  "day": 3,
+  "origin": "learning-authored",
+  "notice": "이 앱을 위해 새로 작성한 학습 콘텐츠이며 교재 원문이 아닙니다.",
+  "sets": [
+    {
+      "id": "day03-set01",
+      "day": 3,
+      "order": 1,
+      "title": "공원을 위한 작은 약속",
+      "wordIds": [
+        "day03-001",
+        "day03-002",
+        "day03-003",
+        "day03-004",
+        "day03-005"
+      ],
+      "story": "Leo has a desire to keep the park clean. He wants to decrease waste and recycle old bottles. He keeps a balance between work and rest, even when negative comments make the task feel difficult.",
+      "translation": "레오는 공원을 깨끗하게 지키고 싶은 마음이 있어요. 쓰레기를 줄이고 오래된 병을 재활용하고 싶어 해요. 부정적인 말 때문에 일이 어렵게 느껴질 때도 일과 휴식의 균형을 지켜요."
+    },
+    {
+      "id": "day03-set02",
+      "day": 3,
+      "order": 2,
+      "title": "동네 소식지의 첫날",
+      "wordIds": [
+        "day03-006",
+        "day03-007",
+        "day03-008",
+        "day03-009",
+        "day03-010"
+      ],
+      "story": "The club plans to publish an account of its first cleanup. For this special occasion, Leo will follow Mia around the park and take notes. They decide to replace a blurry photo before printing the newsletter.",
+      "translation": "모임은 첫 청소 활동에 대한 이야기를 발행할 계획이에요. 특별한 행사를 맞아 레오는 공원에서 미아를 따라다니며 메모할 거예요. 두 친구는 소식지를 인쇄하기 전에 흐릿한 사진을 바꾸기로 해요."
+    },
+    {
+      "id": "day03-set03",
+      "day": 3,
+      "order": 3,
+      "title": "전문가의 따뜻한 조언",
+      "wordIds": [
+        "day03-011",
+        "day03-012",
+        "day03-013",
+        "day03-014",
+        "day03-015"
+      ],
+      "story": "A garden expert visits the club. She asks Leo to describe the constant noise near the trees. She explains the term \"noise pollution\" and suggests a quiet corner to relieve stress.",
+      "translation": "정원 전문가가 모임을 찾아와요. 전문가는 레오에게 나무 근처에서 끊임없이 나는 소음을 설명해 달라고 해요. 소음 공해라는 용어를 설명하고, 스트레스를 완화할 조용한 공간을 제안해요."
+    },
+    {
+      "id": "day03-set04",
+      "day": 3,
+      "order": 4,
+      "title": "기다려지는 과학 전시",
+      "wordIds": [
+        "day03-016",
+        "day03-017",
+        "day03-018",
+        "day03-019",
+        "day03-020"
+      ],
+      "story": "The biology project is due on Friday. Leo checks the equipment and tries to imagine how the display will look. His friends congratulate him on winning a place in the science fair.",
+      "translation": "생물학 과제의 마감은 금요일이에요. 레오는 장비를 점검하고 전시가 어떻게 보일지 상상해 봐요. 친구들은 레오가 과학 박람회 참가 기회를 얻은 것을 축하해요."
+    },
+    {
+      "id": "day03-set05",
+      "day": 3,
+      "order": 5,
+      "title": "빗소리로 만든 음악",
+      "wordIds": [
+        "day03-021",
+        "day03-022",
+        "day03-023",
+        "day03-024",
+        "day03-025"
+      ],
+      "story": "Mia wants to compose a song about the garden. Frequent rain is the cause of her inspiration. She is no musical genius, but she hopes the gentle melody will reflect the sound of the rain.",
+      "translation": "미아는 정원에 관한 곡을 만들고 싶어 해요. 자주 내리는 비가 영감의 원천이에요. 음악 천재는 아니지만, 부드러운 선율에 빗소리를 담고 싶어 해요."
+    },
+    {
+      "id": "day03-set06",
+      "day": 3,
+      "order": 6,
+      "title": "마을 회의에서 지킨 예의",
+      "wordIds": [
+        "day03-026",
+        "day03-027",
+        "day03-028",
+        "day03-029",
+        "day03-030"
+      ],
+      "story": "At a meeting about local politics, people tend to disagree. One important factor is the cost of a new park. Some insist on extreme changes, but Leo asks everyone to listen calmly.",
+      "translation": "지역 정치에 관한 회의에서 사람들은 의견이 갈리는 경향이 있어요. 중요한 요인 하나는 새 공원의 비용이에요. 일부는 극단적인 변화를 고집하지만, 레오는 모두에게 차분하게 들어 달라고 해요."
+    },
+    {
+      "id": "day03-set07",
+      "day": 3,
+      "order": 7,
+      "title": "작은 숲의 쉼터",
+      "wordIds": [
+        "day03-031",
+        "day03-032",
+        "day03-033",
+        "day03-034",
+        "day03-035"
+      ],
+      "story": "The club plans to extend a path around the birds' habitat. A lonely neighbor joins them for a walk. With steady support from his new friends, he finds that time in nature helps his mental health.",
+      "translation": "모임은 새들의 서식지 둘레로 길을 늘릴 계획이에요. 외롭게 지내던 이웃이 산책에 함께해요. 새 친구들의 꾸준한 지지를 받으며, 이웃은 자연에서 보내는 시간이 정신 건강에 도움이 된다는 것을 느껴요."
+    },
+    {
+      "id": "day03-set08",
+      "day": 3,
+      "order": 8,
+      "title": "건강을 나누는 하루",
+      "wordIds": [
+        "day03-036",
+        "day03-037",
+        "day03-038",
+        "day03-039",
+        "day03-040"
+      ],
+      "story": "At a health fair, an active student and an athletic coach exchange ideas about exercise. Nearby, a dental expert explains how the teeth of each animal species suit its food.",
+      "translation": "건강 박람회에서 활동적인 학생과 운동을 잘하는 코치가 운동에 관한 생각을 나눠요. 근처에서는 치아 전문가가 각 동물 종의 이가 먹이에 어떻게 맞춰져 있는지 설명해요."
+    }
+  ]
+}

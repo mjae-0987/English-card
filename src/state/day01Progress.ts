@@ -6,20 +6,21 @@ export interface SentenceProgress {
   completedSetIds: string[];
 }
 export const emptySentenceProgress = (): SentenceProgress => ({ version: 1, completedSetIds: [] });
-const validSetId = (id: unknown): id is string => typeof id === 'string' && DAY01_SET_IDS.includes(id);
+export const sentenceStorageKey = (day: number) => `word-master-adventure:day${String(day).padStart(2, '0')}-sentences:v1`;
+const validSetId = (id: unknown, day = 1): id is string => typeof id === 'string' && Array.from({ length: 8 }, (_, i) => `day${String(day).padStart(2, '0')}-set${String(i + 1).padStart(2, '0')}`).includes(id);
 
-export function parseSentenceProgress(raw: string | null): SentenceProgress {
+export function parseSentenceProgress(raw: string | null, day = 1): SentenceProgress {
   if (!raw) return emptySentenceProgress();
   try {
     const parsed: unknown = JSON.parse(raw);
     if (!parsed || typeof parsed !== 'object' || !('version' in parsed) || parsed.version !== 1 ||
       !('completedSetIds' in parsed) || !Array.isArray(parsed.completedSetIds)) return emptySentenceProgress();
-    return { version: 1, completedSetIds: [...new Set(parsed.completedSetIds.filter(validSetId))].sort() };
+    return { version: 1, completedSetIds: [...new Set(parsed.completedSetIds.filter(id => validSetId(id, day)))].sort() };
   } catch { return emptySentenceProgress(); }
 }
 
-export function completeSentenceSet(progress: SentenceProgress, setId: string): SentenceProgress {
-  if (!validSetId(setId) || progress.completedSetIds.includes(setId)) return progress;
+export function completeSentenceSet(progress: SentenceProgress, setId: string, day = 1): SentenceProgress {
+  if (!validSetId(setId, day) || progress.completedSetIds.includes(setId)) return progress;
   return { version: 1, completedSetIds: [...progress.completedSetIds, setId].sort() };
 }
 

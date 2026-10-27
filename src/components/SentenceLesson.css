@@ -70,7 +70,7 @@
 .sentence-complete a { display: flex; align-items: center; justify-content: center; gap: 7px; font-size: 11px; color: #9b8d5d; min-height: 44px; margin-top: 10px; }
 .sentence-complete a .icon { width: 15px; height: 15px; }
 @keyframes completion-appear { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
-@media (max-width: 389px) { .set-navigation { grid-template-columns: repeat(4, minmax(44px, 1fr)); } }
+@media (max-width: 399px) { .set-navigation { grid-template-columns: repeat(4, minmax(44px, 1fr)); } }
 @media (max-width: 350px) {
   .sentence-page { padding-inline: 15px; }
   .sentence-heading h1 { font-size: 18px; }
@@ -83,3 +83,39 @@
   .set-dot { height: 44px; }
 }
 @media (prefers-reduced-motion: reduce) { .sentence-complete { animation: none; } }
+
+.sentence-page { padding-inline: var(--page-space); }
+.lesson-mode .header { padding-top: 5px; gap: 4px 8px; }
+.lesson-mode .brand { min-height: 38px; }
+.lesson-mode .status-bar { padding-block: 7px; border-radius: 14px; }
+.lesson-topline { margin-block: 8px; }
+.sentence-heading .section-kicker { font-size: 10px; }
+.sentence-heading h1 { color: var(--deep-green); font-size: 21px; }
+.sentence-heading p { font-size: 12px; color: var(--muted); }
+.sentence-heading p > span { color: var(--muted); }
+.sentence-progress > span { font-size: 11px; color: var(--muted); }
+.sentence-progress strong { color: var(--deep-green); }
+.set-dot > span { width: 29px; height: 29px; font-size: 12px; }
+.story-card { border-radius: var(--radius-card); box-shadow: var(--shadow-card); border-color: var(--line); }
+.story-toolbar > span { font-size: 11px; color: var(--muted); }
+.audio-button { font-size: 12px; color: var(--deep-green); gap: 6px; }
+.story-scroll { height: clamp(175px, 29dvh, 310px); padding: 12px 15px; }
+.english-story { font-size: 20px; line-height: 1.9; color: var(--deep-green); }
+.story-word { color: #477026; }
+.story-translation { font-size: 14px; line-height: 1.85; color: var(--muted); }
+.translation-toggle { font-size: 12px; color: #56763b; }
+.word-peek { background: var(--green-soft); border-color: var(--line); border-radius: 16px; }
+.word-peek strong { font-size: 18px; color: var(--deep-green); }
+.word-peek > div > span { font-size: 13px; color: var(--muted); }
+.word-peek > p { font-size: 12px; color: #677d53; }
+.word-audio { color: #5f823f; background: #e6efd9; }
+.set-word-list summary { font-size: 13px; color: var(--deep-green); }
+.set-word-list summary > span { font-size: 10px; color: var(--muted); }
+.word-definition strong { font-size: 16px; color: var(--deep-green); }
+.word-definition span { font-size: 12px; color: var(--muted); }
+.set-word-list li { gap: 3px; }
+.set-paging button { font-size: 12px; color: var(--deep-green); min-height: 44px; }
+.lesson-actions { margin-top: 14px; }
+.set-complete { font-size: 13px; }
+.sentence-complete p { color: var(--muted); }
+@media (max-height: 740px) { .lesson-mode .header .brand, .lesson-mode .header .edition { display: none; } .story-scroll { height: clamp(160px, 29dvh, 220px); } .sentence-heading img { width: 48px; height: 48px; } }

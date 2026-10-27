@@ -1,5 +1,6 @@
 import { cellKey, isPuzzleSolved, isValidCrossword, wordCells, type Answers, type Crossword, type CrosswordWord } from './engine.ts';
 
+export const puzzleStorageKey = (day: number) => `word-master-adventure:day${String(day).padStart(2, '0')}-puzzle:v1`;
 export const PUZZLE_STORAGE_KEY = 'word-master-adventure:day01-puzzle:v1';
 export interface PuzzleSession {
   puzzle: Crossword;

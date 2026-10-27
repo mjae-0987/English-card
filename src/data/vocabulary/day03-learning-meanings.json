@@ -1,0 +1,287 @@
+{
+  "day": 3,
+  "origin": "learning-authored",
+  "notice": "일반적 용법을 바탕으로 작성한 앱 학습용 뜻이며 교재나 특정 사전의 인용이 아닙니다.",
+  "entries": [
+    {
+      "wordId": "day03-001",
+      "meaning": "감소하다; 줄이다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-002",
+      "meaning": "재활용하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-003",
+      "meaning": "욕구; 바라다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-004",
+      "meaning": "균형",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-005",
+      "meaning": "부정적인",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-006",
+      "meaning": "따라가다; 따르다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-007",
+      "meaning": "설명; 계좌",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-008",
+      "meaning": "출판하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-009",
+      "meaning": "행사; 때",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-010",
+      "meaning": "대체하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-011",
+      "meaning": "끊임없는; 일정한",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-012",
+      "meaning": "전문가",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-013",
+      "meaning": "용어; 기간",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-014",
+      "meaning": "완화하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-015",
+      "meaning": "묘사하다; 설명하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-016",
+      "meaning": "축하하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-017",
+      "meaning": "예정된; 마감인",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-018",
+      "meaning": "장비",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-019",
+      "meaning": "생물학",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-020",
+      "meaning": "상상하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-021",
+      "meaning": "작곡하다; 구성하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-022",
+      "meaning": "천재",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-023",
+      "meaning": "반영하다; 숙고하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-024",
+      "meaning": "원인; 일으키다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-025",
+      "meaning": "빈번한",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-026",
+      "meaning": "요인",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-027",
+      "meaning": "극단적인",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-028",
+      "meaning": "~하는 경향이 있다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-029",
+      "meaning": "정치",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-030",
+      "meaning": "주장하다; 고집하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-031",
+      "meaning": "확장하다",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-032",
+      "meaning": "외로운",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-033",
+      "meaning": "서식지",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-034",
+      "meaning": "정신의",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-035",
+      "meaning": "꾸준한; 안정된",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-036",
+      "meaning": "교환하다; 교환",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-037",
+      "meaning": "활동적인",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-038",
+      "meaning": "종; 생물종",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-039",
+      "meaning": "운동의; 운동을 잘하는",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    },
+    {
+      "wordId": "day03-040",
+      "meaning": "치아의",
+      "partOfSpeech": "",
+      "reviewStatus": "reviewed",
+      "note": ""
+    }
+  ]
+}

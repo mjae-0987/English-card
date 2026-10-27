@@ -68,3 +68,37 @@
 .puzzle-celebration .puzzle-history-note { font-size: 9px; color: #b1b7a3; }
 @media (max-width: 350px) { .crossword-page { padding-inline: 12px; } .puzzle-heading h1 { font-size: 18px; } .puzzle-heading .section-kicker { font-size: 7px; letter-spacing: 1px; } .puzzle-board { padding: 3px; } .puzzle-grid { border-spacing: 1px; } .word-pattern { font-size: 9px; } .puzzle-cell small { font-size: 5px; } }
 @media (prefers-reduced-motion: reduce) { .puzzle-celebration { animation: none; } }
+
+.crossword-page { padding-inline: var(--page-space); }
+.puzzle-heading h1 { color: var(--deep-green); }
+.puzzle-heading p, .puzzle-instruction, .puzzle-message, .puzzle-legend { color: var(--muted); }
+.puzzle-instruction { font-size: 11px; }
+.puzzle-editor { border-radius: var(--radius-card); border-color: #cdddb6; }
+.current-clue-heading > strong { font-size: 14px; color: var(--deep-green); margin-right: auto; }
+.current-clue-heading small { font-size: 10px; color: var(--muted); }
+.current-clue-heading button:not(.star-button) { font-size: 11px; color: #5e7b44; }
+.current-clue { font-size: 16px; line-height: 1.65; color: var(--deep-green); max-height: 76px; }
+.current-meaning { font-size: 13px; color: #8a702f; }
+.cell-editor-row label > span { font-size: 10px; color: var(--muted); }
+.word-pattern { font-size: 12px; color: #658144; }
+.puzzle-word-check { color: var(--deep-green); font-size: 12px; }
+.puzzle-new { color: var(--deep-green); font-size: 12px; }
+.puzzle-board { background: #dce5d0; }
+.puzzle-cell { color: #36582e; border-radius: 4px; }
+.puzzle-cell small { color: #5c704b; font-weight: 700; }
+.puzzle-cell.wrong { background: #f6cbd5; color: #983958; }
+.puzzle-cell.correct { background: #bde2a0; color: #355e25; }
+.puzzle-cell.current { background: #cee7f1; outline-color: #518ea4; color: #28576b; }
+.puzzle-actions > button:first-child { color: #7e642d; font-size: 12px; border-radius: var(--radius-button); }
+.puzzle-actions .primary-button { font-size: 13px; }
+.puzzle-message { font-size: 12px; }
+.puzzle-legend { font-size: 10px; }
+.puzzle-clue-lists h2 { font-size: 15px; color: var(--deep-green); }
+.puzzle-clue-lists li span { color: #526449; font-size: 14px; }
+.puzzle-clue-lists strong { font-size: 12px; color: #648048; }
+.puzzle-clue-lists li small { font-size: 11px; color: var(--muted); }
+.puzzle-celebration > p, .puzzle-locked p { font-size: 14px; color: var(--muted); }
+.puzzle-secondary { color: #5e7e42; font-size: 13px; }
+.puzzle-completion-stats { font-size: 12px; color: var(--muted); }
+.keyboard-open .current-clue { max-height: 54px; }
+@media (max-width: 350px) { .word-pattern { font-size: 10px; } .current-clue-heading small { font-size: 9px; } .puzzle-actions > button:first-child { font-size: 11px; } }
