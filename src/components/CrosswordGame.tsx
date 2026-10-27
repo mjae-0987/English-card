@@ -1,8 +1,10 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { flushSync } from 'react-dom';
 import { cellKey, checkEntry, isPuzzleSolved, wordCells, type PlacedWord, type WordResult } from '../puzzle/engine';
 import { enterLetters, eraseLetter } from '../puzzle/input';
 import { applyHint } from '../puzzle/progress';
 import { getStepStatus, useDayLearning } from '../state/learning';
+import { readView, saveView } from '../state/viewState';
 import { StarButton } from './StarButton';
 import { Icon } from './Icon';
 import './CrosswordGame.css';
@@ -13,8 +15,10 @@ export function CrosswordGame({ day = 1 }: { day?: number }) {
   const unlocked = getStepStatus(record, day, 'puzzle', accessPolicy) !== 'locked';
   const session = puzzleStore.active;
   const puzzle = session?.puzzle;
-  const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [selectedCell, setSelectedCell] = useState<string | null>(null);
+  const [selectedId, setSelectedId] = useState<string | null>(() => { const v = readView<{ puzzleId?: string; selectedId?: string }>(`puzzle-${day}`, {}); return v.puzzleId === puzzle?.id && puzzle?.entries.some(e => e.id === v.selectedId) ? v.selectedId! : null; });
+  const [selectedCell, setSelectedCell] = useState<string | null>(() => { const v = readView<{ puzzleId?: string; selectedCell?: string }>(`puzzle-${day}`, {}); return v.puzzleId === puzzle?.id && typeof v.selectedCell === 'string' ? v.selectedCell : null; });
+  const [keyboardMode, setKeyboardMode] = useState<'screen' | 'system'>(() => readView<string>('keyboard', 'screen') === 'system' ? 'system' : 'screen');
+  const [clueDirection, setClueDirection] = useState<'across' | 'down'>(() => { const v = readView<{ selectedId?: string }>(`puzzle-${day}`, {}); return puzzle?.entries.find(e => e.id === v.selectedId)?.direction ?? 'across'; });
   const [results, setResults] = useState<Record<string, WordResult>>({});
   const [message, setMessage] = useState('');
   const [generationError, setGenerationError] = useState('');
@@ -31,6 +35,9 @@ export function CrosswordGame({ day = 1 }: { day?: number }) {
   const activeIndex = Math.max(0, positions.findIndex(cell => cellKey(cell.row, cell.col) === activeKey));
   const isComplete = Boolean(session?.completedAt);
   const selectedKeys = new Set(positions.map(cell => cellKey(cell.row, cell.col)));
+
+  useEffect(() => { if (puzzle) saveView(`puzzle-${day}`, { puzzleId: puzzle.id, selectedId: entry?.id, selectedCell: activeKey }); }, [day, puzzle?.id, entry?.id, activeKey]);
+  useEffect(() => { saveView('keyboard', keyboardMode); }, [keyboardMode]);
 
   function newGame() {
     try {
@@ -70,7 +77,7 @@ export function CrosswordGame({ day = 1 }: { day?: number }) {
   function chooseWord(word: PlacedWord, key?: string) {
     const cells = wordCells(word);
     const firstEmpty = cells.find(cell => !session?.answers[cellKey(cell.row, cell.col)]) ?? cells[0];
-    setSelectedId(word.id); setSelectedCell(key ?? cellKey(firstEmpty.row, firstEmpty.col));
+    setSelectedId(word.id); setClueDirection(word.direction); setSelectedCell(key ?? cellKey(firstEmpty.row, firstEmpty.col));
     focusInput();
   }
   function chooseCell(row: number, col: number) {
@@ -146,11 +153,19 @@ export function CrosswordGame({ day = 1 }: { day?: number }) {
   return <section className="crossword-page">
     <div className="puzzle-topline"><a className="back-link" href={`#/day/${day}`}><Icon name="back"/>{dayText}</a><button className="puzzle-new" onClick={newGame}>새 퍼즐<Icon name="puzzle"/></button></div>
     <div className="puzzle-heading"><div><span className="section-kicker">WORD CONNECTION · {dayText}</span><h1>단어를 잇는 작은 모험</h1><p>{puzzle.entries.length}개 단어 · 가로와 세로를 연결해요</p></div><img src="/gecko-mascot.jpg" alt="퍼즐을 응원하는 레오" width="54" height="54"/></div>
-    <div className="puzzle-editor" ref={editorRef}>
+    <div className="puzzle-layout"><div className="puzzle-board-panel">    <p className="puzzle-instruction">칸을 누르고 영어로 입력해요. 교차 칸을 다시 누르면 방향이 바뀌어요.</p>
+    <div className="puzzle-board"><table aria-label={`${dayText} 영어 가로세로 퍼즐`} className="puzzle-grid"><tbody>{puzzle.cells.map((row, r) => <tr key={r}>{row.map((letter, c) => {
+      const key = cellKey(r, c), number = starts.get(key);
+      const owners = puzzle.entries.filter(word => wordCells(word).some(cell => cell.row === r && cell.col === c));
+      const feedback = owners.some(word => results[word.id] === 'wrong') ? 'wrong' : owners.some(word => results[word.id] === 'correct') ? 'correct' : '';
+      return <td key={c} className={letter ? '' : 'puzzle-block'}>{letter && <button className={`puzzle-cell ${selectedKeys.has(key) ? 'in-word' : ''} ${activeKey === key ? 'current' : ''} ${feedback} ${hintedKeys.has(key) ? 'hint-given' : ''}`} data-cell={key} onClick={() => chooseCell(r, c)} aria-label={`${r + 1}행 ${c + 1}열${number ? `, ${number}번 시작` : ''}, ${session.answers[key] || '빈칸'}${hintedKeys.has(key) ? ', 힌트 글자' : ''}`} aria-pressed={activeKey === key}>{number && <small>{number}</small>}<span>{session.answers[key]}</span></button>}</td>;
+    })}</tr>)}</tbody></table></div>
+    <div className="puzzle-legend"><span>오렌지: 선택 단어</span><span>노랑: 정답</span><span>분홍: 다시 도전</span></div>
+    </div><div className="puzzle-control-panel">    <div className="puzzle-editor" ref={editorRef}>
       <div className="current-clue-heading"><strong>{entry.number} {directionLabel}<small> · {entry.word.length}글자</small></strong><StarButton id={entry.id}/><button onClick={changeDirection} aria-label="가로 세로 방향 전환">방향 전환<Icon name="arrow"/></button></div>
       <p className="current-clue" lang="en">{entry.clue}</p>
       {hintLevel >= 1 && <p className="current-meaning">뜻 힌트: {entry.meaning}</p>}
-      <div className="cell-editor-row"><label><span>{activeIndex + 1}/{entry.word.length}번째 칸</span><input ref={inputRef} className="cell-input" type="text" inputMode="text" lang="en" autoCapitalize="characters" autoCorrect="off" autoComplete="off" spellCheck={false} enterKeyHint="next" readOnly={isComplete} value={session.answers[activeKey] ?? ''} aria-label={`${entry.number} ${directionLabel} 단어의 ${activeIndex + 1}번째 알파벳 입력`} onFocus={event => event.currentTarget.select()} onChange={event => {
+      <div className="cell-editor-row"><label><span>{activeIndex + 1}/{entry.word.length}번째 칸</span><input ref={inputRef} className="cell-input" type="text" inputMode={keyboardMode === 'screen' ? 'none' : 'text'} lang="en" autoCapitalize="characters" autoCorrect="off" autoComplete="off" spellCheck={false} enterKeyHint="next" readOnly={isComplete} value={session.answers[activeKey] ?? ''} aria-label={`${entry.number} ${directionLabel} 단어의 ${activeIndex + 1}번째 알파벳 입력`} onFocus={event => event.currentTarget.select()} onChange={event => {
         if (composing.current || (event.nativeEvent as InputEvent).isComposing) return;
         if (compositionValue.current === event.currentTarget.value) { compositionValue.current = null; return; }
         const value = event.currentTarget.value;
@@ -171,19 +186,15 @@ export function CrosswordGame({ day = 1 }: { day?: number }) {
         }
       }}/></label><span className="word-pattern" aria-hidden="true">{positions.map(cell => session.answers[cellKey(cell.row, cell.col)] || '·').join(' ')}</span><button className="puzzle-word-check" onClick={() => grade(false)} disabled={isComplete}>단어 확인</button></div>
     </div>
-    <p className="puzzle-instruction">칸을 누르고 영어로 입력해요. 교차 칸을 다시 누르면 방향이 바뀌어요.</p>
-    <div className="puzzle-board"><table aria-label={`${dayText} 영어 가로세로 퍼즐`} className="puzzle-grid"><tbody>{puzzle.cells.map((row, r) => <tr key={r}>{row.map((letter, c) => {
-      const key = cellKey(r, c), number = starts.get(key);
-      const owners = puzzle.entries.filter(word => wordCells(word).some(cell => cell.row === r && cell.col === c));
-      const feedback = owners.some(word => results[word.id] === 'wrong') ? 'wrong' : owners.some(word => results[word.id] === 'correct') ? 'correct' : '';
-      return <td key={c} className={letter ? '' : 'puzzle-block'}>{letter && <button className={`puzzle-cell ${selectedKeys.has(key) ? 'in-word' : ''} ${activeKey === key ? 'current' : ''} ${feedback} ${hintedKeys.has(key) ? 'hint-given' : ''}`} data-cell={key} onClick={() => chooseCell(r, c)} aria-label={`${r + 1}행 ${c + 1}열${number ? `, ${number}번 시작` : ''}, ${session.answers[key] || '빈칸'}${hintedKeys.has(key) ? ', 힌트 글자' : ''}`} aria-pressed={activeKey === key}>{number && <small>{number}</small>}<span>{session.answers[key]}</span></button>}</td>;
-    })}</tr>)}</tbody></table></div>
-    <div className="puzzle-legend"><span>연두: 선택 단어</span><span>초록: 정답</span><span>분홍: 다시 도전</span></div>
+    <div className="puzzle-keyboard-bar"><span>알파벳 입력</span><button className="keyboard-mode" onClick={() => { flushSync(() => setKeyboardMode(keyboardMode === 'screen' ? 'system' : 'screen')); inputRef.current?.blur(); focusInput(); }}>{keyboardMode === 'screen' ? '기기 키보드 쓰기' : '화면 키보드 쓰기'}</button></div>
+    {keyboardMode === 'screen' && <div className="english-keyboard" role="group" aria-label="영어 화면 키보드">{['QWERTYUIOP', 'ASDFGHJKL', 'ZXCVBNM'].map((row, i) => <div className="key-row" key={row}>{row.split('').map(letter => <button key={letter} data-letter={letter} aria-label={`알파벳 ${letter}`} disabled={isComplete} onPointerDown={e => e.preventDefault()} onClick={() => { acceptText(letter); focusInput(); }}>{letter}</button>)}{i === 2 && <button className="key-delete" aria-label="한 글자 지우기" onPointerDown={e => e.preventDefault()} onClick={() => { backspace(); focusInput(); }} disabled={isComplete}>⌫</button>}</div>)}</div>}
     <div className="puzzle-actions"><button onClick={hint} disabled={hintLevel >= 2 || isComplete}><Icon name="leaf"/>{hintLevel === 0 ? '1단계 · 뜻 힌트' : hintLevel === 1 ? '2단계 · 한 글자' : '힌트 사용 완료'}</button><button className="primary-button" onClick={() => grade(true)} disabled={isComplete}><Icon name="check"/>전체 채점</button></div>
     <p className="puzzle-message" role="status">{message || `사용한 힌트 ${session.hintCount}회 · 틀린 단어 ${session.wrongWordIds.length}개 기록`}</p>
     {generationError && <p className="storage-feedback" role="alert">{generationError}</p>}
     {puzzleStorageError && <div className="storage-feedback" role="alert">기록을 저장하지 못했어요. 다시 시도해 주세요.<button className="puzzle-secondary" onClick={() => updatePuzzle(session, isComplete)}>기록 저장 다시 시도</button></div>}
-    <div className="puzzle-clue-lists">{(['across', 'down'] as const).map(direction => <section key={direction}><h2>{direction === 'across' ? '가로 힌트' : '세로 힌트'}</h2><ol>{puzzle.entries.filter(word => word.direction === direction).map(word => <li key={word.id}><button className={entry.id === word.id ? 'selected' : ''} onClick={() => chooseWord(word)} aria-pressed={entry.id === word.id}><strong>{word.number}</strong><span lang="en">{word.clue}<small>{word.word.length} letters{results[word.id] === 'correct' ? ' · 정답' : results[word.id] === 'wrong' ? ' · 다시 도전' : ''}</small></span></button></li>)}</ol></section>)}</div>
+    <div className="clue-direction-tabs" role="group" aria-label="힌트 방향"><button aria-pressed={clueDirection === 'across'} onClick={() => setClueDirection('across')}>가로 힌트</button><button aria-pressed={clueDirection === 'down'} onClick={() => setClueDirection('down')}>세로 힌트</button></div>
+    <div className="puzzle-clue-lists">{(['across', 'down'] as const).map(direction => <section key={direction} hidden={clueDirection !== direction}><h2>{direction === 'across' ? '가로 힌트' : '세로 힌트'}</h2><ol>{puzzle.entries.filter(word => word.direction === direction).map(word => <li key={word.id}><button className={entry.id === word.id ? 'selected' : ''} onClick={() => chooseWord(word)} aria-pressed={entry.id === word.id}><strong>{word.number}</strong><span lang="en">{word.clue}<small>{word.word.length} letters{results[word.id] === 'correct' ? ' · 정답' : results[word.id] === 'wrong' ? ' · 다시 도전' : ''}</small></span></button></li>)}</ol></section>)}</div>
     {isComplete && <button className="primary-button" onClick={() => setReview(false)}>축하 화면으로 돌아가기<Icon name="star"/></button>}
+    </div></div>
   </section>;
 }

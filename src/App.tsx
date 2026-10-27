@@ -44,7 +44,7 @@ function StatusBar() {
 function LearningMap() {
   const { record, accessPolicy, lastPosition } = useLearning();
   const completedDays = DAYS.filter(day => getDayProgress(record, day) === 2).length;
-  return <>
+  return <div className="map-layout"><div className="map-main">
     <section className="hero" aria-label="레오의 인사">
       <div className="hero-copy"><span className="eyebrow">작은 한 걸음, 커다란 모험</span><h1>단어가 쌓이면,<br/>세상이 넓어져요.</h1><div className="speech">오늘도 단어 모험을<br/>떠나볼까?</div><span className="mascot-name">너의 모험 친구, 레오</span></div>
       <img className="mascot" src="/gecko-mascot.jpg" alt="초록색 단어책을 안고 인사하는 주황색 레오파드게코 레오" width="180" height="180" fetchPriority="high"/>
@@ -67,7 +67,7 @@ function LearningMap() {
         return <section className={`day-section ${dayLocked ? 'day-locked' : ''}`} key={day} aria-label={dayLabel(day)}>
           <button className="day-heading" onClick={() => go(`day/${day}`)}><span className="day-line"/><span className="day-pill">{getDayProgress(record, day) === 2 ? <Icon name="check"/> : dayLocked ? <Icon name="lock"/> : <Icon name="leaf"/>}{dayLabel(day)}<span className="day-data-status" aria-label={vocabulary.hasData ? `단어 ${vocabulary.wordCount}개` : '준비 중'}>{vocabulary.hasData ? `단어 ${vocabulary.wordCount}개` : '준비 중'}</span></span><span className="day-line"/></button>
           <div className="day-path">
-            <svg className="path-svg" viewBox={`0 0 340 ${day === 50 ? 235 : 336}`} style={{ height: day === 50 ? 235 : 336 }} preserveAspectRatio="none" aria-hidden="true"><path d={`M ${firstX} 53 C ${firstX} 113, ${secondX} 93, ${secondX} 158`} fill="none" stroke="#e3e5d9" strokeWidth="14" strokeLinecap="round"/><path d={`M ${firstX} 53 C ${firstX} 113, ${secondX} 93, ${secondX} 158`} fill="none" stroke="#faf9f1" strokeWidth="3" strokeDasharray="2 10" strokeLinecap="round"/>{day < 50 && <path d={`M ${secondX} 158 C ${secondX + (index % 2 === 0 ? 12 : -12)} 222, ${secondX - (index % 2 === 0 ? 12 : -12)} 274, ${secondX} 336`} fill="none" stroke="#e3e5d9" strokeWidth="10" strokeLinecap="round"/>}</svg>
+            <svg className="path-svg" viewBox={`0 0 340 ${day === 50 ? 235 : 336}`} style={{ height: day === 50 ? 235 : 336 }} preserveAspectRatio="none" aria-hidden="true"><path d={`M ${firstX} 53 C ${firstX} 113, ${secondX} 93, ${secondX} 158`} fill="none" stroke="var(--path-color)" strokeWidth="14" strokeLinecap="round"/><path d={`M ${firstX} 53 C ${firstX} 113, ${secondX} 93, ${secondX} 158`} fill="none" stroke="var(--surface)" strokeWidth="3" strokeDasharray="2 10" strokeLinecap="round"/>{day < 50 && <path d={`M ${secondX} 158 C ${secondX + (index % 2 === 0 ? 12 : -12)} 222, ${secondX - (index % 2 === 0 ? 12 : -12)} 274, ${secondX} 336`} fill="none" stroke="var(--path-color)" strokeWidth="10" strokeLinecap="round"/>}</svg>
             <Scenery variant={index}/>
             {STEPS.map((step, stepIndex) => {
               const status = getStepStatus(record, day, step, accessPolicy);
@@ -85,7 +85,10 @@ function LearningMap() {
       })}
       <div className="finish-marker"><span><Icon name="flag"/></span><h3>50일 뒤, 더 넓어진 세상</h3><p>작은 모험이 큰 자신감이 될 거예요.</p></div>
     </section>
-  </>;
+  </div><aside className="map-sidebar" aria-label="DAY 목록과 진행률"><div className="sidebar-intro"><span className="section-kicker">YOUR ADVENTURE</span><h2>오늘도 한 걸음!</h2><p>이야기를 읽고, 퍼즐로 기억해요.</p><a className="primary-button" href={`#/day/${record.currentDay}`}>{dayLabel(record.currentDay)} 모험 시작<Icon name="arrow"/></a></div><div className="map-day-list">{DAYS.map(day => {
+    const progress = getDayProgress(record, day); const ready = getStepStatus(record, day, 'sentences', accessPolicy) !== 'locked';
+    return <a href={`#/day/${day}`} key={day} className={day === record.currentDay ? 'current' : ''}><span className={`day-list-icon ${progress === 2 ? 'done' : ready ? 'ready' : 'locked'}`}><Icon name={progress === 2 ? 'check' : ready ? 'book' : 'lock'}/></span><span><strong>{dayLabel(day)}</strong><small>{day <= 5 ? `단어 40개 · ${progress}/2 완료` : '준비 중'}</small></span><Icon name="arrow"/></a>;
+  })}</div></aside></div>;
 }
 
 function DayDetail({ day, onNotice }: { day: number; onNotice: (message: string) => void }) {
@@ -156,7 +159,7 @@ export default function App() {
     return () => { window.visualViewport?.removeEventListener('resize', update); document.removeEventListener('focusout', update); document.documentElement.classList.remove('keyboard-open'); };
   }, []);
   const activeTab = route.page === 'day' || route.page === 'sentences' ? 'map' : route.page === 'crossword' ? 'puzzles' : route.page === 'stars' || route.page === 'review' ? 'words' : route.page === 'settings' ? 'records' : route.page;
-  return <div className={`app-shell ${route.page === 'sentences' || route.page === 'crossword' || route.page === 'puzzles' ? 'lesson-mode' : ''}`}><a className="skip-link" href="#main-content">본문으로 건너뛰기</a><StatusBar/><main id="main-content" key={'day' in route ? `${route.page}-${route.day}` : route.page}>
+  return <div className={`app-shell page-${route.page} ${route.page === 'sentences' || route.page === 'crossword' || route.page === 'puzzles' ? 'lesson-mode' : ''}`}><a className="skip-link" href="#main-content">본문으로 건너뛰기</a><StatusBar/><main id="main-content" key={'day' in route ? `${route.page}-${route.day}` : route.page}>
     {route.page === 'map' ? <LearningMap/> : route.page === 'day' ? <DayDetail day={route.day} onNotice={setNotice}/> : route.page === 'sentences' ? <SentenceLesson day={route.day}/> : route.page === 'crossword' ? <CrosswordGame day={route.day}/> : route.page === 'puzzles' ? <PuzzleHub/> : route.page === 'settings' ? <SpeechSettings/> : route.page === 'records' ? <LearningRecords/> : <WordCollection mode={route.page}/>}
   {storageError && <div className="global-storage-error" role="alert">기록을 저장하지 못했어요.<button onClick={retrySave}>다시 저장</button></div>}
   </main><nav className="bottom-nav" aria-label="메인 메뉴">{tabs.map(tab => <a href={`#/${tab.id}`} className={`nav-item ${activeTab === tab.id ? 'active' : ''}`} key={tab.id} aria-current={activeTab === tab.id ? 'page' : undefined}><span><Icon name={tab.icon}/></span>{tab.label}</a>)}</nav>{notice && <Notice message={notice} onClose={() => setNotice(null)}/>}</div>;

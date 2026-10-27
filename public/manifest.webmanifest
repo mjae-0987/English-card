@@ -1,0 +1,11 @@
+{
+  "name": "Word Master Adventure",
+  "short_name": "Word Adventure",
+  "lang": "ko",
+  "start_url": "/#/map",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFF9ED",
+  "theme_color": "#FF7900",
+  "icons": [{"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]
+}

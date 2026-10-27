@@ -1,0 +1,935 @@
+{
+  "checks": [
+    "Speech mock: entire story in ONE utterance, stop/restart/end/rapid taps/word switch, no re-render cancellation, rates persist; popup and lesson survive resize/reload",
+    "DAY 1: lesson completion, isolated puzzle, screen/physical input, hints, mistakes, grading and resize/reload persistence",
+    "DAY 2: lesson completion, isolated puzzle, screen/physical input, hints, mistakes, grading and resize/reload persistence",
+    "DAY 3: lesson completion, isolated puzzle, screen/physical input, hints, mistakes, grading and resize/reload persistence",
+    "DAY 4: lesson completion, isolated puzzle, screen/physical input, hints, mistakes, grading and resize/reload persistence",
+    "DAY 5: lesson completion, isolated puzzle, screen/physical input, hints, mistakes, grading and resize/reload persistence",
+    "Wrong spelling retry/success and independent stars preserved; wide master/detail and resize retain review input",
+    "All 3 themes persist across refresh",
+    "81 route/viewport checks at 320–1280px: no horizontal scroll/clipped controls, 1/2 columns and square puzzle cells",
+    "No browser runtime errors; native no-voice failure reported separately"
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 320,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 320,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 320,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 320,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 320,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 320,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 320,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 320,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 360,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 390,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 430,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 600,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 768,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 900,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1024,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/map",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/day/1",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/learn/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/puzzle/day/5",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/words",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/review",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/stars",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/records",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    },
+    {
+      "width": 1280,
+      "path": "#/settings",
+      "horizontalOverflow": false,
+      "interactiveClipping": false
+    }
+  ],
+  "runtimeErrors": [],
+  "speech": {
+    "nativeVoices": [],
+    "audibleVerified": false,
+    "nativeFeedback": [
+      "소리를 재생할 수 없어요."
+    ]
+  },
+  "actualDevicesVerified": false,
+  "result": "PASS (controlled speech only; native audio unverified)",
+  "additionalLayoutChecks": {
+    "checks": [
+      {
+        "width": 320,
+        "height": 640,
+        "path": "#/map",
+        "scroll": 320,
+        "navTop": 558,
+        "green": []
+      },
+      {
+        "width": 320,
+        "height": 640,
+        "path": "#/learn/day/5",
+        "scroll": 320,
+        "navTop": 558,
+        "actionBottom": 710.59375,
+        "green": []
+      },
+      {
+        "width": 320,
+        "height": 640,
+        "path": "#/puzzle/day/5",
+        "scroll": 320,
+        "navTop": 558,
+        "green": []
+      },
+      {
+        "width": 320,
+        "height": 640,
+        "path": "#/review",
+        "scroll": 320,
+        "navTop": 558,
+        "green": []
+      },
+      {
+        "width": 320,
+        "height": 640,
+        "path": "#/settings",
+        "scroll": 320,
+        "navTop": 558,
+        "green": []
+      },
+      {
+        "width": 360,
+        "height": 800,
+        "path": "#/map",
+        "scroll": 360,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 360,
+        "height": 800,
+        "path": "#/learn/day/5",
+        "scroll": 360,
+        "navTop": 718,
+        "actionBottom": 714.796875,
+        "green": []
+      },
+      {
+        "width": 360,
+        "height": 800,
+        "path": "#/puzzle/day/5",
+        "scroll": 360,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 360,
+        "height": 800,
+        "path": "#/review",
+        "scroll": 360,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 360,
+        "height": 800,
+        "path": "#/settings",
+        "scroll": 360,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "path": "#/map",
+        "scroll": 390,
+        "navTop": 762,
+        "green": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "path": "#/learn/day/5",
+        "scroll": 390,
+        "navTop": 762,
+        "actionBottom": 758.796875,
+        "green": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "path": "#/puzzle/day/5",
+        "scroll": 390,
+        "navTop": 762,
+        "green": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "path": "#/review",
+        "scroll": 390,
+        "navTop": 762,
+        "green": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "path": "#/settings",
+        "scroll": 390,
+        "navTop": 762,
+        "green": []
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "path": "#/map",
+        "scroll": 430,
+        "navTop": 850,
+        "green": []
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "path": "#/learn/day/5",
+        "scroll": 430,
+        "navTop": 850,
+        "actionBottom": 802.796875,
+        "green": []
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "path": "#/puzzle/day/5",
+        "scroll": 430,
+        "navTop": 850,
+        "green": []
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "path": "#/review",
+        "scroll": 430,
+        "navTop": 850,
+        "green": []
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "path": "#/settings",
+        "scroll": 430,
+        "navTop": 850,
+        "green": []
+      },
+      {
+        "width": 600,
+        "height": 800,
+        "path": "#/map",
+        "scroll": 600,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 600,
+        "height": 800,
+        "path": "#/learn/day/5",
+        "scroll": 600,
+        "navTop": 718,
+        "actionBottom": 670.796875,
+        "green": []
+      },
+      {
+        "width": 600,
+        "height": 800,
+        "path": "#/puzzle/day/5",
+        "scroll": 600,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 600,
+        "height": 800,
+        "path": "#/review",
+        "scroll": 600,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 600,
+        "height": 800,
+        "path": "#/settings",
+        "scroll": 600,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 768,
+        "height": 850,
+        "path": "#/map",
+        "scroll": 768,
+        "navTop": 768,
+        "green": []
+      },
+      {
+        "width": 768,
+        "height": 850,
+        "path": "#/learn/day/5",
+        "scroll": 768,
+        "navTop": 768,
+        "actionBottom": 724,
+        "green": []
+      },
+      {
+        "width": 768,
+        "height": 850,
+        "path": "#/puzzle/day/5",
+        "scroll": 768,
+        "navTop": 768,
+        "green": []
+      },
+      {
+        "width": 768,
+        "height": 850,
+        "path": "#/review",
+        "scroll": 768,
+        "navTop": 768,
+        "green": []
+      },
+      {
+        "width": 768,
+        "height": 850,
+        "path": "#/settings",
+        "scroll": 768,
+        "navTop": 768,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 900,
+        "path": "#/map",
+        "scroll": 900,
+        "navTop": 818,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 900,
+        "path": "#/learn/day/5",
+        "scroll": 900,
+        "navTop": 818,
+        "actionBottom": 774,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 900,
+        "path": "#/puzzle/day/5",
+        "scroll": 900,
+        "navTop": 818,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 900,
+        "path": "#/review",
+        "scroll": 900,
+        "navTop": 818,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 900,
+        "path": "#/settings",
+        "scroll": 900,
+        "navTop": 818,
+        "green": []
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "path": "#/map",
+        "scroll": 1024,
+        "navTop": 686,
+        "green": []
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "path": "#/learn/day/5",
+        "scroll": 1024,
+        "navTop": 686,
+        "actionBottom": 654,
+        "green": []
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "path": "#/puzzle/day/5",
+        "scroll": 1024,
+        "navTop": 686,
+        "green": []
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "path": "#/review",
+        "scroll": 1024,
+        "navTop": 686,
+        "green": []
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "path": "#/settings",
+        "scroll": 1024,
+        "navTop": 686,
+        "green": []
+      },
+      {
+        "width": 1280,
+        "height": 800,
+        "path": "#/map",
+        "scroll": 1280,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 1280,
+        "height": 800,
+        "path": "#/learn/day/5",
+        "scroll": 1280,
+        "navTop": 718,
+        "actionBottom": 674,
+        "green": []
+      },
+      {
+        "width": 1280,
+        "height": 800,
+        "path": "#/puzzle/day/5",
+        "scroll": 1280,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 1280,
+        "height": 800,
+        "path": "#/review",
+        "scroll": 1280,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 1280,
+        "height": 800,
+        "path": "#/settings",
+        "scroll": 1280,
+        "navTop": 718,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 500,
+        "path": "#/map",
+        "scroll": 900,
+        "navTop": 438,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 500,
+        "path": "#/learn/day/5",
+        "scroll": 900,
+        "navTop": 438,
+        "actionBottom": 654,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 500,
+        "path": "#/puzzle/day/5",
+        "scroll": 900,
+        "navTop": 438,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 500,
+        "path": "#/review",
+        "scroll": 900,
+        "navTop": 438,
+        "green": []
+      },
+      {
+        "width": 900,
+        "height": 500,
+        "path": "#/settings",
+        "scroll": 900,
+        "navTop": 438,
+        "green": []
+      }
+    ],
+    "issues": []
+  },
+  "focusedInputChecks": {
+    "result": "PASS",
+    "keyboardToggle": true,
+    "hardwareInput": true,
+    "resizePreservesState": true,
+    "allCellsSelectableAt320": 71,
+    "eventMethod": "Chromium click events in a touch-capable emulation context; not physical touch"
+  }
+}

@@ -1,6 +1,6 @@
 # Word Master Adventure
 
-React + TypeScript + Vite로 만든 모바일 영어 학습 앱입니다. DAY 01~50 지도와 기존 레오파드게코 이미지를 유지하고, DAY 01~05의 단어 200개를 이야기와 가로세로 퍼즐로 학습합니다.
+React + TypeScript + Vite로 만든 스마트폰·폴더블에 대응하는 영어 학습 앱입니다. DAY 01~50 지도와 기존 레오파드게코 이미지를 유지하고, DAY 01~05의 단어 200개를 이야기와 가로세로 퍼즐로 학습합니다.
 
 ## 실행 및 검사
 
@@ -39,7 +39,7 @@ npm run preview
 
 ## 음성
 
-Web Speech API의 `SpeechSynthesisUtterance`와 `speechSynthesis.speak()`를 사용합니다. 사용자 클릭 안에서 첫 발화를 시작하고 이야기는 원문의 문장 순서대로 읽습니다. 한글은 읽지 않습니다.
+Web Speech API의 `SpeechSynthesisUtterance`와 `speechSynthesis.speak()`를 사용합니다. 사용자 클릭 안에서 첫 발화를 시작하고 이야기는 영어 원문 전체를 하나의 utterance로 전달합니다. 문장별 onend → speak 체인은 사용하지 않습니다. 한글은 읽지 않습니다.
 
 - 기본 en-US/보통 1.0배. 영어 음성만 선택하고, 미국 영어 및 자연스러운 음성을 우선합니다.
 - 기기 음성 목록의 비동기 로딩은 `voiceschanged`로 처리합니다. 목록이 아직 비어 있으면 en-US를 지정해 시스템에 요청하고, 목록에 한국어 음성만 있으면 재생하지 않습니다.
@@ -47,7 +47,7 @@ Web Speech API의 `SpeechSynthesisUtterance`와 `speechSynthesis.speak()`를 사
 - 재생 중지·다른 재생으로 교체·세트/화면 이동·컴포넌트 정리 시 중지합니다. 오래된 완료/오류 이벤트가 새 재생을 중단하지 못하도록 재생 요청을 구분합니다.
 - 실제 실패 또는 재생 시작 시간 초과 시에만 짧은 안내를 보여 줍니다. 별도 유료 TTS API나 토큰은 없습니다.
 
-실제 소리·음성 다운로드·Android Chrome/iPhone Safari의 기기별 음성 엔진은 실기기 확인이 필요합니다.
+**이번 Chromium 환경은 getVoices()가 비어 있고 네이티브 재생도 실패했습니다. 실제 소리 출력과 폴드의 무음 문제가 해결됐다는 판정을 하지 않습니다.** 기기별 영어 음성 엔진·미디어 볼륨·현재 배포본을 확인한 뒤 실기기에서 다시 테스트해야 합니다.
 
 ## 저장 호환
 
@@ -78,3 +78,9 @@ Web Speech API의 `SpeechSynthesisUtterance`와 `speechSynthesis.speak()`를 사
 ## 검증 범위
 
 [이번 변경 검증](docs/stage6-validation.md)을 참고하세요. 기존 [5단계 브라우저 기록](docs/browser-validation.md)은 이전 DAY 01 버전의 기록이며 이번 변경에 그대로 적용되지 않습니다.
+
+## 오렌지 테마와 폴더블 UI
+
+[현재 변경 및 검증 범위](docs/orange-fold-validation.md)를 참고하세요. 기본 햇살 오렌지와 피치 크림/샌드 오렌지를 설정에서 선택합니다. 760px 이상에서 지도·예문·퍼즐·단어 복습을 2열로 배치하고 최대 너비는 1120px입니다. 너비 변경으로 컴포넌트를 교체하지 않으며 선택 단어/칸과 입력 모드를 별도 view:v1 키로 보존합니다. 원본 데이터·마스코트는 변경하지 않았습니다. 뜻 팝업과 화면 영어 키보드를 제공하며 실제 키보드로 전환할 수 있습니다.
+
+기존 theme/speech/learning 키를 지우지 마세요. 새 테마 키는 `word-master-adventure:theme:v1`입니다. manifest는 standalone 표시를 지원하지만 오프라인 캐시는 구현하지 않았습니다.

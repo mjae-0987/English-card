@@ -1,9 +1,9 @@
 import { createContext, useCallback, useEffect, useState, type ReactNode } from 'react';
 export const SPEECH_KEY = 'word-master-adventure:speech:v1';
-import { SpeechPlayer, isEnglishVoice, type SpeechRate } from './speechPlayer';
+import { SpeechPlayer, isEnglishVoice, type SpeechRate, type SpeechStatus } from './speechPlayer';
 export type { SpeechRate } from './speechPlayer';
 interface SpeechContextValue {
-  supported: boolean; speaking: string | null; error: string; voices: SpeechSynthesisVoice[];
+  supported: boolean; status: SpeechStatus; speaking: string | null; error: string; voices: SpeechSynthesisVoice[];
   rate: SpeechRate; voiceURI: string; setRate: (value: SpeechRate) => void; setVoiceURI: (value: string) => void;
   speak: (text: string, key: string) => void; stop: () => void;
 }
@@ -26,11 +26,11 @@ export function SpeechProvider({ children }: { children: ReactNode }) {
     if (!supported) return;
     const synth = window.speechSynthesis;
     const refresh = () => setVoices(synth.getVoices().filter(isEnglishVoice).sort((a, b) => Number(/^en[-_]US$/i.test(b.lang)) - Number(/^en[-_]US$/i.test(a.lang))));
-    refresh(); synth.addEventListener('voiceschanged', refresh);
+    refresh(); const warmup = [setTimeout(refresh, 250), setTimeout(refresh, 1200)]; synth.addEventListener('voiceschanged', refresh);
     const navigate = () => { stop(); setError(''); };
     window.addEventListener('hashchange', navigate);
     window.addEventListener('pagehide', stop);
-    return () => { synth.removeEventListener('voiceschanged', refresh); window.removeEventListener('hashchange', navigate); window.removeEventListener('pagehide', stop); stop(); };
+    return () => { warmup.forEach(clearTimeout); synth.removeEventListener('voiceschanged', refresh); window.removeEventListener('hashchange', navigate); window.removeEventListener('pagehide', stop); stop(); };
   }, [supported, stop]);
   const persist = (next: typeof settings) => {
     stop(); setSettings(next);
@@ -38,5 +38,5 @@ export function SpeechProvider({ children }: { children: ReactNode }) {
     catch { setError('음성 설정을 저장하지 못했어요.'); }
   };
   const speak = (text: string, key: string) => player.speak(text, key, settings.rate, settings.voiceURI);
-  return <SpeechContext.Provider value={{ supported, speaking, error, voices, ...settings, setRate: rate => persist({ ...settings, rate }), setVoiceURI: voiceURI => persist({ ...settings, voiceURI }), speak, stop }}>{children}</SpeechContext.Provider>;
+  return <SpeechContext.Provider value={{ supported, status: error ? 'error' : speaking ? 'speaking' : 'idle', speaking, error, voices, ...settings, setRate: rate => persist({ ...settings, rate }), setVoiceURI: voiceURI => persist({ ...settings, voiceURI }), speak, stop }}>{children}</SpeechContext.Provider>;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import assert from 'node:assert/strict';
 import App from '../src/App';
+import { ThemeProvider } from '../src/state/theme';
 import { LearningProvider } from '../src/state/learning';
 import { SpeechProvider } from '../src/hooks/SpeechProvider';
 import { getDaySets } from '../src/data/lessons';
@@ -14,12 +15,12 @@ const local = {getItem:(key:string)=>storage.get(key)??null,setItem:(key:string,
 Object.assign(globalThis, { window: { localStorage: local }, localStorage:local, location: { hash:'#/map' } });
 const sk=(d:number)=>`word-master-adventure:day${String(d).padStart(2,'0')}-sentences:v1`;
 const pk=(d:number)=>`word-master-adventure:day${String(d).padStart(2,'0')}-puzzle:v1`;
-function render(hash:string){location.hash=hash;return renderToStaticMarkup(<LearningProvider><SpeechProvider><App/></SpeechProvider></LearningProvider>);}
+function render(hash:string){location.hash=hash;return renderToStaticMarkup(<LearningProvider><SpeechProvider><ThemeProvider><App/></ThemeProvider></SpeechProvider></LearningProvider>);}
 let html=render('#/map');assert.equal((html.match(/class="learning-node /g)??[]).length,100);assert.equal((html.match(/class="day-heading"/g)??[]).length,50);assert.equal((html.match(/learning-node available/g)??[]).length,1);
 assert.match(render('#/learn/day/2'),/이전 DAY의 퍼즐/);assert.match(render('#/puzzle/day/1'),/예문 8개 세트/);
 let legacyPuzzle='';
 for(let d=1;d<=5;d++){
-  if(d>1)assert.match(render(`#/learn/day/${d}`),/이야기로 만나는 단어/);
+  if(d>1)assert.match(render(`#/learn/day/${d}`),/이야기로 떠나는 모험/);
   for(let i=0;i<8;i++){
     local.setItem('word-master-adventure:position:v1',JSON.stringify({day:d,page:'sentences',setIndex:i,at:'2026-10-27T00:00:00Z'}));
     html=render(`#/learn/day/${d}`);const set=getDaySets(d)[i];assert.ok(html.includes(set.title));

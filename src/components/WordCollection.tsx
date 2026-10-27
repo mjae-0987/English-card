@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { allVocabulary, type VocabularyEntry } from '../data/vocabulary';
 import { getWordLesson } from '../data/lessons';
 import { dayLabel, getDayProgress, useLearning } from '../state/learning';
 import { useSpeech } from '../hooks/useSpeech';
 import { Icon } from './Icon';
 import { SpeakButton, SpeechShortcut } from './SpeechControls';
+import { readView, saveView } from '../state/viewState';
 import { StarButton } from './StarButton';
 type Mode = 'words' | 'stars' | 'review';
 function WordCard({ word }: { word: VocabularyEntry }) {
@@ -35,14 +36,17 @@ export function WordCollection({ mode }: { mode: Mode }) {
   const { collection } = useLearning();
   const { error, stop } = useSpeech();
   const [day, setDay] = useState(0);
+  const [selectedId, setSelectedId] = useState<string>(() => readView(`collection-${mode}`, '')); 
   const wrong = new Set(collection.mistakes.map(e => e.wordId));
   const words = allVocabulary.filter(w => (!day || w.day === day) && (mode === 'stars' ? collection.starredIds.includes(w.id) : mode === 'review' ? wrong.has(w.id) : true));
+  const activeId = words.some(w => w.id === selectedId) ? selectedId : words[0]?.id;
+  useEffect(() => { if (activeId) saveView(`collection-${mode}`, activeId); }, [mode, activeId]);
   const title = mode === 'stars' ? '다시 만나고 싶은 단어' : mode === 'review' ? '한 번 더, 더 단단하게' : '나의 작은 단어장';
   return <section className="collection-page"><div className="page-top"><div><span className="section-kicker">MY WORD COLLECTION</span><h1>{title}</h1></div><SpeechShortcut/></div>
     <div className="collection-tabs" aria-label="단어장 메뉴">{([['words', '전체 단어'], ['stars', '별표'], ['review', '오답 복습']] as const).map(([id, label]) => <a href={`#/${id}`} key={id} aria-current={mode === id ? 'page' : undefined}>{label}<span>{id === 'words' ? 200 : id === 'stars' ? collection.starredIds.length : wrong.size}</span></a>)}</div>
     <label className="day-filter">DAY<select value={day} onChange={e => { stop(); setDay(+e.target.value); }}><option value={0}>모든 DAY</option>{[1,2,3,4,5].map(d => <option value={d} key={d}>{dayLabel(d)}</option>)}</select><span>{words.length}개 단어</span></label>
     {error && <p className="speech-feedback" role="status">{error}</p>}
-    {words.length ? <div className="collection-list">{words.map(w => <WordCard key={w.id} word={w}/>)}</div> : <div className="empty-card"><img src="/gecko-mascot.jpg" alt="단어책을 든 레오" width="140" height="140"/><h2>{mode === 'stars' ? '마음에 담을 단어를 찾아요' : mode === 'review' ? '틀린 단어가 없어요!' : '이 DAY에는 단어가 없어요'}</h2><p>{mode === 'stars' ? '단어 옆의 ☆를 눌러 모아 보세요.' : mode === 'review' ? '퍼즐에서 다시 도전할 단어를 여기 모아 둘게요.' : '다른 DAY를 골라 주세요.'}</p><a className="primary-button" href={mode === 'stars' ? '#/words' : '#/map'}>{mode === 'stars' ? '단어 둘러보기' : '학습 지도로'}</a></div>}
+    {words.length ? <div className="collection-workspace"><aside className="collection-index" aria-label="학습 단어 선택">{words.map(w => <button key={w.id} aria-pressed={activeId === w.id} onClick={() => { stop(); setSelectedId(w.id); }}><span><small>{dayLabel(w.day)}</small><strong lang="en">{w.word}</strong><span>{w.meaning}</span></span><Icon name="arrow"/></button>)}</aside><div className="collection-list">{words.map(w => <div key={w.id} className={`collection-item ${activeId === w.id ? 'selected' : ''}`} onFocusCapture={() => setSelectedId(w.id)} onPointerDown={() => setSelectedId(w.id)}><WordCard word={w}/></div>)}</div></div> : <div className="empty-card"><img src="/gecko-mascot.jpg" alt="단어책을 든 레오" width="140" height="140"/><h2>{mode === 'stars' ? '마음에 담을 단어를 찾아요' : mode === 'review' ? '틀린 단어가 없어요!' : '이 DAY에는 단어가 없어요'}</h2><p>{mode === 'stars' ? '단어 옆의 ☆를 눌러 모아 보세요.' : mode === 'review' ? '퍼즐에서 다시 도전할 단어를 여기 모아 둘게요.' : '다른 DAY를 골라 주세요.'}</p><a className="primary-button" href={mode === 'stars' ? '#/words' : '#/map'}>{mode === 'stars' ? '단어 둘러보기' : '학습 지도로'}</a></div>}
   </section>;
 }
 export function LearningRecords() {
