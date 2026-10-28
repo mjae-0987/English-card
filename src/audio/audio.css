@@ -1,0 +1,4 @@
+.audio-spinner { display: inline-block; width: 17px; height: 17px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: audio-spin .8s linear infinite; flex-shrink: 0; }
+.is-loading { opacity: .9; }
+@keyframes audio-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .audio-spinner { animation: none; border-style: dotted; } }

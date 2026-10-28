@@ -23,7 +23,7 @@ export function SentenceLesson({ day = 1 }: { day?: number }) {
   const [selectedWordId, setSelectedWordId] = useState<string | null>(() => { const id = readView<{ wordId?: string }>(`lesson-${day}-${setIndex}`, {}).wordId; return daySets[setIndex].wordIds.includes(id ?? '') ? id! : null; });
   const storyScroll = useRef<HTMLDivElement>(null);
   const translationRef = useRef<HTMLParagraphElement>(null);
-  const { speaking, error, speak, stop } = useSpeech();
+  const { speaking, error, speak, stop, loading } = useSpeech();
   const set = daySets[setIndex];
   const words = set.wordIds.map(id => dayWords.find(word => word.id === id)!);
   const wordsByText = new Map(words.map(word => [word.word.toLowerCase(), word]));
@@ -71,7 +71,7 @@ export function SentenceLesson({ day = 1 }: { day?: number }) {
     <div className="lesson-columns">
       <div className="lesson-reading">
         <article className="story-card">
-          <div className="story-toolbar"><span><Icon name="book"/>오늘의 이야기</span><button className={`audio-button ${speaking === 'story' ? 'is-speaking' : ''}`} onClick={() => speaking === 'story' ? stop() : speak(set.story, 'story')} aria-pressed={speaking === 'story'} aria-label={speaking === 'story' ? '전체 읽기 중지' : '영어 이야기 전체 읽기'}><Icon name={speaking === 'story' ? 'stop' : 'speaker'}/>{speaking === 'story' ? '중지' : '전체 읽기'}</button></div>
+          <div className="story-toolbar"><span><Icon name="book"/>오늘의 이야기</span><button className={`audio-button ${speaking === 'story' ? 'is-speaking' : ''} ${speaking === 'story' && loading ? 'is-loading' : ''}`} aria-busy={speaking === 'story' && loading} onClick={() => speaking === 'story' ? stop() : speak(set.story, 'story')} aria-pressed={speaking === 'story'} aria-label={speaking === 'story' ? '전체 읽기 중지' : '영어 이야기 전체 읽기'}>{speaking === 'story' && loading ? <span className="audio-spinner" aria-hidden="true"/> : <Icon name={speaking === 'story' ? 'stop' : 'speaker'}/>} {speaking === 'story' ? loading ? '불러오는 중' : '중지' : '전체 읽기'}</button></div>
           <div ref={storyScroll} className="story-scroll" tabIndex={0} role="region" aria-label="영어 이야기와 해석">
             <p className="english-story" lang="en">{set.story.split(/(\b[a-z]+\b)/gi).map((part, index) => {
               const word = wordsByText.get(part.toLowerCase());

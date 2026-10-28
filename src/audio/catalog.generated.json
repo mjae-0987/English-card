@@ -1,0 +1,3014 @@
+{
+  "version": 1,
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "language": "en-US",
+    "engine": "piper-tts",
+    "engineVersion": "1.8.0",
+    "modelSha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "modelCardSha256": "289f7421072d689a3d91f6c632f486af46f9b8b04417536104a4ea667b8a394b",
+    "generation": "offline"
+  },
+  "items": [
+    {
+      "id": "day01-001",
+      "kind": "word",
+      "text": "provide",
+      "wordIds": [
+        "day01-001"
+      ],
+      "src": "/audio/words/day01-001-dbeb3ccdae9ccbdc.mp3",
+      "textSha256": "405abc33f5f3b06b881c7330aab9bf808b29801e9d5f6d0848336867d6e6edcb",
+      "sha256": "239c85ab5ea901fd7fb3317224e931051977c9ef3fb01431c98776599d597e6a",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day01-002",
+      "kind": "word",
+      "text": "develop",
+      "wordIds": [
+        "day01-002"
+      ],
+      "src": "/audio/words/day01-002-2d6a52b0bc278b9a.mp3",
+      "textSha256": "947726dd6318753268f3bfbe5e87ae2afe220db399c26e119c181a59227b0c60",
+      "sha256": "830e73d77366c1db25d12cfe3dc1e932d9a94832305f190d054f24c0477258f8",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day01-003",
+      "kind": "word",
+      "text": "cultural",
+      "wordIds": [
+        "day01-003"
+      ],
+      "src": "/audio/words/day01-003-2b8df294e92ecad6.mp3",
+      "textSha256": "7e2215a75ae991148f955d8773ac7819e7c361789d89654f93d11c5be50de550",
+      "sha256": "845d36dbb3741e7fbba807dfecab067d56d94f9b3cf125c71c233af24907d228",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day01-004",
+      "kind": "word",
+      "text": "inform",
+      "wordIds": [
+        "day01-004"
+      ],
+      "src": "/audio/words/day01-004-da4da0fc3132c981.mp3",
+      "textSha256": "ea07dcc807ffe0d653259bb7c0de7e6f136d741b4596e3e11bd60e98f38fe0b5",
+      "sha256": "2bc81a2107a7535d3a0d0540e82fe3220c6d9af67b8f2139caaab81a2b9911f6",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day01-005",
+      "kind": "word",
+      "text": "social",
+      "wordIds": [
+        "day01-005"
+      ],
+      "src": "/audio/words/day01-005-196dd70c55ad9746.mp3",
+      "textSha256": "3e860f41a5ea92c49803d6ec96d452693b6dcefb0e8c0bf0125b0e3debac5281",
+      "sha256": "02e60256dd6641fc7b1276aa131fb793b956ecb250c8b3d58d6b6c53cc01e0f5",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day01-006",
+      "kind": "word",
+      "text": "improve",
+      "wordIds": [
+        "day01-006"
+      ],
+      "src": "/audio/words/day01-006-6a1cba6d610e91b8.mp3",
+      "textSha256": "2b35ed6944dd2e8f7462b14096e8969711280dffe1457a680c885a95127e426c",
+      "sha256": "4fed17fc45fa158daa9ee64542a57e32a88720911349c16a804e8f069559313a",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day01-007",
+      "kind": "word",
+      "text": "individual",
+      "wordIds": [
+        "day01-007"
+      ],
+      "src": "/audio/words/day01-007-73b37c61426fa50a.mp3",
+      "textSha256": "da15caaee9de1b0dc60aade31644ba5fa2faa3ebba81c9ec122c7d5e25de9d9a",
+      "sha256": "a249dd3a826521ab897c93162f969ebc4fcc7c611b630b24256f982db69d90ac",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day01-008",
+      "kind": "word",
+      "text": "require",
+      "wordIds": [
+        "day01-008"
+      ],
+      "src": "/audio/words/day01-008-c2585fbc7edc1347.mp3",
+      "textSha256": "c4d0cf241a1bfa1c8bf4cf24e8f89d2ab786a284a39adb2fc8df7ea14e73c154",
+      "sha256": "8c143b36b5b334dfcd536dfc84c8be25d918c42aeabf46dad46c99fc8a3beaf3",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day01-009",
+      "kind": "word",
+      "text": "volunteer",
+      "wordIds": [
+        "day01-009"
+      ],
+      "src": "/audio/words/day01-009-46404e4a5d19ca75.mp3",
+      "textSha256": "dcbb0f3cafb30402d5ed4cb826e000bcae930c7ce60763e0458665150dffa879",
+      "sha256": "1ad64e31ebbcc5ee1e3094755b5111204e24687832ab52a9edd4f86334e88099",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day01-010",
+      "kind": "word",
+      "text": "behave",
+      "wordIds": [
+        "day01-010"
+      ],
+      "src": "/audio/words/day01-010-9d78078e9a774526.mp3",
+      "textSha256": "e6ac32cfa83f2053705756dac64c13de3b83e1d80954445955940a671927a54c",
+      "sha256": "a62c4afedea7b6925eaf8abca526b639059cefb2cc487d30a0063dec8d45c79b",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day01-011",
+      "kind": "word",
+      "text": "amount",
+      "wordIds": [
+        "day01-011"
+      ],
+      "src": "/audio/words/day01-011-a82ac4296ef8f75c.mp3",
+      "textSha256": "cf38d95c9c6b1d9d5125c04d41a54df57727ef4cfb3f5116a602fe2b25115c13",
+      "sha256": "f3c576d1f5e8a1e6d51c3dd11600d0b65c5a4c8e655ca15968277635e8c6d8d5",
+      "bytes": 6312,
+      "duration": 0.7576
+    },
+    {
+      "id": "day01-012",
+      "kind": "word",
+      "text": "relationship",
+      "wordIds": [
+        "day01-012"
+      ],
+      "src": "/audio/words/day01-012-6435119351f4b514.mp3",
+      "textSha256": "28d9e7bbbf81137ec80d8e02241329c02d7f629960e3afd7379d4e3855d7d662",
+      "sha256": "ee784452ce9fdd32efa76db5c5cc0c0a939514babe1a98f94f278aec4621cb62",
+      "bytes": 8402,
+      "duration": 1.0188
+    },
+    {
+      "id": "day01-013",
+      "kind": "word",
+      "text": "employ",
+      "wordIds": [
+        "day01-013"
+      ],
+      "src": "/audio/words/day01-013-afb7b7e8699a46e3.mp3",
+      "textSha256": "b0688a56fae3ddb430c1ea05b77c45cc1b278e23b4ba06267d24481aa3d42265",
+      "sha256": "cd82c38f6b526ba709344f7dfa27781d8d0e842f9ce36d827be1b53679bb730d",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day01-014",
+      "kind": "word",
+      "text": "attitude",
+      "wordIds": [
+        "day01-014"
+      ],
+      "src": "/audio/words/day01-014-1bba60b771a55633.mp3",
+      "textSha256": "b67cab457e406488e88a0ebd4aea395d9b8c8ea72ab3e905f4f86ab698a9eea5",
+      "sha256": "b7bc9bd6e00d5d751e294b5b376ee83c4783757f6cae73104e72ac412ba3f728",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day01-015",
+      "kind": "word",
+      "text": "research",
+      "wordIds": [
+        "day01-015"
+      ],
+      "src": "/audio/words/day01-015-b50a23917178fa8a.mp3",
+      "textSha256": "66f62d1807d3821a3865f2573b69c74be033f1341240ac861fefc6d430bff5e0",
+      "sha256": "c6c7998e4dcce6cabc1859636c930995732a67f36a70085ad918c68d0ea34d1c",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day01-016",
+      "kind": "word",
+      "text": "audience",
+      "wordIds": [
+        "day01-016"
+      ],
+      "src": "/audio/words/day01-016-9cfb1ecb3695035d.mp3",
+      "textSha256": "adf0e0999386dae758e1d6ae48e7a28a1acfb26dd73dbc91ad134cec70ca7aa0",
+      "sha256": "55bed3179d5945320d9b904bffaba6268df6df74ad7eb0710ecb83bb08ad43be",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day01-017",
+      "kind": "word",
+      "text": "challenge",
+      "wordIds": [
+        "day01-017"
+      ],
+      "src": "/audio/words/day01-017-6d01b9d16ac7487d.mp3",
+      "textSha256": "2dd00bd77e0222ced882665481a9c1d9f907309d16e05ed007a1ea63928477a9",
+      "sha256": "d18f92a7b4000893cefddb0307706a0c7ebba1271f3ea61db300565ff26da064",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day01-018",
+      "kind": "word",
+      "text": "influence",
+      "wordIds": [
+        "day01-018"
+      ],
+      "src": "/audio/words/day01-018-81161b77cfae9df1.mp3",
+      "textSha256": "22fefa8cf4bda9184634546e6faccee9830e5f852884afa6ac10cfe9ee146bc3",
+      "sha256": "8edc678445df019246ce9f0054b4a1ca737d3890c189588cdf143a9478b334eb",
+      "bytes": 8402,
+      "duration": 1.0188
+    },
+    {
+      "id": "day01-019",
+      "kind": "word",
+      "text": "material",
+      "wordIds": [
+        "day01-019"
+      ],
+      "src": "/audio/words/day01-019-c8312083ed683c19.mp3",
+      "textSha256": "40b30b4e8f0d137056ac497e859ea198c1a00db4267d1ade9c458d04024e2981",
+      "sha256": "7c9e4b7339f9913928a374307b05bfa1239986743d0822fede14a1c54069a165",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day01-020",
+      "kind": "word",
+      "text": "opportunity",
+      "wordIds": [
+        "day01-020"
+      ],
+      "src": "/audio/words/day01-020-e6492ed5dff9ee85.mp3",
+      "textSha256": "04b447783afe5bfd4b48e8db067137319526a98e029c37b2559154ceccc1067e",
+      "sha256": "22cd90eeb4852ac65b78c8bda7228a78e786e16f596351e1b0fbfdd520b549ef",
+      "bytes": 8820,
+      "duration": 1.071
+    },
+    {
+      "id": "day01-021",
+      "kind": "word",
+      "text": "environment",
+      "wordIds": [
+        "day01-021"
+      ],
+      "src": "/audio/words/day01-021-5114061a0a7bac71.mp3",
+      "textSha256": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+      "sha256": "850281699138ec6263ad942221c604740891c707f9626fd1a7060f9290c83a6f",
+      "bytes": 8820,
+      "duration": 1.071
+    },
+    {
+      "id": "day01-022",
+      "kind": "word",
+      "text": "expense",
+      "wordIds": [
+        "day01-022"
+      ],
+      "src": "/audio/words/day01-022-e464f9ca44b3b695.mp3",
+      "textSha256": "23b18e504dd45960690a04669a3f89b3b9672d878218b99aa84011784c9174f5",
+      "sha256": "6cdb1fe100cba13291cda0da971ede02e6ed08af85339f9dcdac27e90d9091da",
+      "bytes": 8402,
+      "duration": 1.0188
+    },
+    {
+      "id": "day01-023",
+      "kind": "word",
+      "text": "local",
+      "wordIds": [
+        "day01-023"
+      ],
+      "src": "/audio/words/day01-023-b181640889c7d267.mp3",
+      "textSha256": "25bf8e1a2393f1108d37029b3df5593236c755742ec93465bbafa9b290bddcf6",
+      "sha256": "a1ae0125364c1b1a9ea361529c3cab26d0207f2a075900d710ca792f566b7387",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day01-024",
+      "kind": "word",
+      "text": "involve",
+      "wordIds": [
+        "day01-024"
+      ],
+      "src": "/audio/words/day01-024-8cfa3454ca4ae03d.mp3",
+      "textSha256": "873f8161e2c69fa3f015a23b52d713046c4a8fd65db58c6f254094c14ee8e534",
+      "sha256": "51b7034a4dcba381d8e8b463039df7a94125544ecd926755daa6f547256e1e20",
+      "bytes": 6521,
+      "duration": 0.7837
+    },
+    {
+      "id": "day01-025",
+      "kind": "word",
+      "text": "stress",
+      "wordIds": [
+        "day01-025"
+      ],
+      "src": "/audio/words/day01-025-5e544d878585181c.mp3",
+      "textSha256": "f43dc8790ed6215684924d362753e3864cb66c0f06084e89ad36b57e15986c6e",
+      "sha256": "ce098d16bb82529286ed51b09326279412f7655ce7552c3660fa70f3f67efd82",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day01-026",
+      "kind": "word",
+      "text": "therefore",
+      "wordIds": [
+        "day01-026"
+      ],
+      "src": "/audio/words/day01-026-2b27fe31f534aa86.mp3",
+      "textSha256": "bae0db182974fd4655951483355ed85f4ea949b601bbb33524485915c124a5d1",
+      "sha256": "06b0b1cea871a0120193c3a13a2c33185fe8483c77ca0438b0e1e9ade0b40d66",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day01-027",
+      "kind": "word",
+      "text": "contain",
+      "wordIds": [
+        "day01-027"
+      ],
+      "src": "/audio/words/day01-027-b863ca7b98eaabea.mp3",
+      "textSha256": "dd9245cc1ddc69c88a8a530dea2b643123ffcdb0509e7d0566db22654b57cb12",
+      "sha256": "8e65edbd33a877fe7ceba55763aa167eb8d832bd092a84a01e3c3cdd6cf47b0b",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day01-028",
+      "kind": "word",
+      "text": "average",
+      "wordIds": [
+        "day01-028"
+      ],
+      "src": "/audio/words/day01-028-4bf45c0b88f6ceaf.mp3",
+      "textSha256": "184df936d41b2da8d10163ada0ad89d1fa80dfd743f266bcec225e1d392d373f",
+      "sha256": "351dcb7bf7dc639bf589a9eea3b1875fa685df888228b031285398c6b69709a2",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day01-029",
+      "kind": "word",
+      "text": "ride",
+      "wordIds": [
+        "day01-029"
+      ],
+      "src": "/audio/words/day01-029-e7278cbfc07e3610.mp3",
+      "textSha256": "e049bd056f936d1b39b704abcf824eaef39bd8877fcbb82b2a213ceec82bdf26",
+      "sha256": "9b525ae463297bedbd71470a237dec67b31c91719a2fea22540288fed9dd4c06",
+      "bytes": 5476,
+      "duration": 0.6531
+    },
+    {
+      "id": "day01-030",
+      "kind": "word",
+      "text": "encourage",
+      "wordIds": [
+        "day01-030"
+      ],
+      "src": "/audio/words/day01-030-6d8cd1e07332723f.mp3",
+      "textSha256": "0e970e43d0c1ed6d91dc17599491c9a596ec2327ed24fd23087fd16c2473850d",
+      "sha256": "6eb082eb20d0925d87506b4f8ce2387f676a662aba2b233e9c43c635808ca69e",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day01-031",
+      "kind": "word",
+      "text": "determine",
+      "wordIds": [
+        "day01-031"
+      ],
+      "src": "/audio/words/day01-031-118fa1c953d6c083.mp3",
+      "textSha256": "3d8eefab379df52272c2c3328c6662894dd87e9739bc6248a214d48df52a0c56",
+      "sha256": "30eb8a3dffa176c1076f2cb26f42cb2c6112ef691c23d4af9e4964ee1be89369",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day01-032",
+      "kind": "word",
+      "text": "international",
+      "wordIds": [
+        "day01-032"
+      ],
+      "src": "/audio/words/day01-032-b2a81b27a3989c9d.mp3",
+      "textSha256": "1e3bb894756f8d62b5759cb1bbe8e52929921ee40a2b5f34147a99d823ad4faa",
+      "sha256": "fbc35ffa4b4217bfe285ff9f52dfb517503bfc337c33f02a145541e574177173",
+      "bytes": 9029,
+      "duration": 1.0971
+    },
+    {
+      "id": "day01-033",
+      "kind": "word",
+      "text": "consume",
+      "wordIds": [
+        "day01-033"
+      ],
+      "src": "/audio/words/day01-033-ad2db4ee519d9dcc.mp3",
+      "textSha256": "96f39e3569ec878ecb0b6c1713b4e49f5ca0550d892364f385fcde951f92e5de",
+      "sha256": "3acf524a610f6b512dc561199b1f8a437438e1f482958b55af9c4092548f6208",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day01-034",
+      "kind": "word",
+      "text": "impress",
+      "wordIds": [
+        "day01-034"
+      ],
+      "src": "/audio/words/day01-034-0d40e5d1efcbb8e9.mp3",
+      "textSha256": "b87169a483e64f360504bedf3dfa2d4fbb6ec1759768b48299a3ef249a8e8922",
+      "sha256": "ff6aa4fb2532cb5c64be373a72953f3f02443959d4f1193f2a03866d2c332cf8",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day01-035",
+      "kind": "word",
+      "text": "object",
+      "wordIds": [
+        "day01-035"
+      ],
+      "src": "/audio/words/day01-035-eb5bfc6401ddb74d.mp3",
+      "textSha256": "2958d416d08aa5a472d7b509036cb7eafd542add84527e66a145ea64cb4cdc75",
+      "sha256": "a70c8e41dbd6b265c2f4b5f4aed56b0007d9cc8909eac049f02dea3cf7fa1a25",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day01-036",
+      "kind": "word",
+      "text": "available",
+      "wordIds": [
+        "day01-036"
+      ],
+      "src": "/audio/words/day01-036-b7e695096a63b8c3.mp3",
+      "textSha256": "ddd9818abacfde7afed60c93129175401439367a77e69ea93e0ddb3bb38e0bd9",
+      "sha256": "642f7eb24862bb4f5f0162391c49c2f719e8fbd6fce7aae8f188fc6ecff7ce3a",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day01-037",
+      "kind": "word",
+      "text": "positive",
+      "wordIds": [
+        "day01-037"
+      ],
+      "src": "/audio/words/day01-037-c1c62debbfd3f0c0.mp3",
+      "textSha256": "afa6e9ab3ac6574d50e6b5674d5e76cc95833823a314b397fd6c499dc673ec9c",
+      "sha256": "f13b94f49b7f3a91c8bafa8f9150600019ae06b907678aac9cd3dc13f111ccf8",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day01-038",
+      "kind": "word",
+      "text": "recognize",
+      "wordIds": [
+        "day01-038"
+      ],
+      "src": "/audio/words/day01-038-f775d4d73104168f.mp3",
+      "textSha256": "1b00de68c4c9617c76188867275fda714af63a887b0f593e215ab09c793c4f74",
+      "sha256": "80a6e346d72bdc9e986c6408b5af97c3b929b01f3b06af6e3ce135e14f1dcd0c",
+      "bytes": 8402,
+      "duration": 1.0188
+    },
+    {
+      "id": "day01-039",
+      "kind": "word",
+      "text": "commodity",
+      "wordIds": [
+        "day01-039"
+      ],
+      "src": "/audio/words/day01-039-7c00200a626199e1.mp3",
+      "textSha256": "25206cd612b1f2dcce99c35f58286c07544d41ecdc2f7013c5b84dfedac10c9d",
+      "sha256": "d9d894d8f98ab47d6257940ec4d393e3d44624185a299e58b0345c6296bb9743",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day01-040",
+      "kind": "word",
+      "text": "comfort",
+      "wordIds": [
+        "day01-040"
+      ],
+      "src": "/audio/words/day01-040-adbd5e3e15361482.mp3",
+      "textSha256": "8e9498bf9ee96ee667bc610f4b50df7282f70114ee1b08c018f4e2f619c36754",
+      "sha256": "9682ca26f1d964612d7601dfa411f3c5eabcfdc75baf29ae7592bd0ecd2481b6",
+      "bytes": 6521,
+      "duration": 0.7837
+    },
+    {
+      "id": "day02-001",
+      "kind": "word",
+      "text": "emotion",
+      "wordIds": [
+        "day02-001"
+      ],
+      "src": "/audio/words/day02-001-227fc8cd24259cdf.mp3",
+      "textSha256": "3b9c4346fbead3ae18ec46b6e9a2094dc56a50a8396f02322897f224cf3078d6",
+      "sha256": "90d37f4d3b807968ad6016ac55128ebb37c0ba3e1d70982c3c6a001cc2d45935",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day02-002",
+      "kind": "word",
+      "text": "amaze",
+      "wordIds": [
+        "day02-002"
+      ],
+      "src": "/audio/words/day02-002-040392b50b133611.mp3",
+      "textSha256": "b6b10862b213be4aa6eaebf5f11c74e7e86a961d79ec0ea76a0fb5088c083966",
+      "sha256": "020d4883e772d2d76ac8d01780f411335c1c57a5c7cae2d8adae662dd79c5f18",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day02-003",
+      "kind": "word",
+      "text": "reduce",
+      "wordIds": [
+        "day02-003"
+      ],
+      "src": "/audio/words/day02-003-100809b21b950320.mp3",
+      "textSha256": "4c7e98bfa0c750beb52cf2ddf452297d55681dc9efa8e9725d4334e981ae61ad",
+      "sha256": "384983d9e58fc2d31df1b50a93245c94e1197a56c9ddc5af37bb22ceb807a2e7",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day02-004",
+      "kind": "word",
+      "text": "discover",
+      "wordIds": [
+        "day02-004"
+      ],
+      "src": "/audio/words/day02-004-fa335b9af45d1b83.mp3",
+      "textSha256": "5b90071aea261a5b838035eadaa5066ac347a6cff1b528053c57f858c6508a27",
+      "sha256": "dc8f80c38871656cd8363663b8de2e1dbff7420bb6e483a85ed1583d0123752b",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day02-005",
+      "kind": "word",
+      "text": "decide",
+      "wordIds": [
+        "day02-005"
+      ],
+      "src": "/audio/words/day02-005-6cc06ef61b922197.mp3",
+      "textSha256": "5589aa5863c2d85622d06d651add002416e5513afdbb455666cdde01bb3e257d",
+      "sha256": "f7750ff155d4840e1532997372b7ba509c9e3486d61e59069bbcdefecbf046b9",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day02-006",
+      "kind": "word",
+      "text": "benefit",
+      "wordIds": [
+        "day02-006"
+      ],
+      "src": "/audio/words/day02-006-9abc53d726b6bcde.mp3",
+      "textSha256": "e97469619c0d7aa7bf4747aafb43756214b46900f77fb96c86ea161a590743f0",
+      "sha256": "801504765f1edc7905912b28b69872b722b1a1feb6818aa5cbbcf7f0ef8b1448",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day02-007",
+      "kind": "word",
+      "text": "affect",
+      "wordIds": [
+        "day02-007"
+      ],
+      "src": "/audio/words/day02-007-c82748fad2c7544d.mp3",
+      "textSha256": "8528058461899c6b3e793385cf6afea68d9a9dfded030e4cb842a8bdee979c28",
+      "sha256": "affb68c81a6d81df9a10cd4e00822bf3e522a96a9a1c897dbf1ea4bda9eb67ae",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day02-008",
+      "kind": "word",
+      "text": "level",
+      "wordIds": [
+        "day02-008"
+      ],
+      "src": "/audio/words/day02-008-b1b4fd58f8438ca1.mp3",
+      "textSha256": "0081779c287d567d9ca622f4c0cc2ede819b0cc7f286a5f01d8c3c0178191ad6",
+      "sha256": "ed1ce2d0dfb146f32c80bf914ad38b2821e2d3102c7bab935bf3e98e9108f389",
+      "bytes": 5267,
+      "duration": 0.6269
+    },
+    {
+      "id": "day02-009",
+      "kind": "word",
+      "text": "chemistry",
+      "wordIds": [
+        "day02-009"
+      ],
+      "src": "/audio/words/day02-009-236f9cfbcf6916f1.mp3",
+      "textSha256": "de0152f952776f09f537d309f1f3f0ec7369c8df1297071e946952f798c86063",
+      "sha256": "e1d5966cc331ced360c3aebb12aa6ae0f97eaa55eef88a41d7caacf4029242df",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day02-010",
+      "kind": "word",
+      "text": "immediate",
+      "wordIds": [
+        "day02-010"
+      ],
+      "src": "/audio/words/day02-010-77b6e9d77c01d9f8.mp3",
+      "textSha256": "251ce3daf88ff66915c66092392ae9b07e404b96957507dd1a35f6f1bde26b65",
+      "sha256": "36f5c79cbb1162dc06ca4341779a63da80dd7b9e856498999cd3b51e3c935934",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day02-011",
+      "kind": "word",
+      "text": "thus",
+      "wordIds": [
+        "day02-011"
+      ],
+      "src": "/audio/words/day02-011-8f9755a32f93dadc.mp3",
+      "textSha256": "c432b3dedcd6852f1ab51c8a28e24e8bb9f4428717666be42cdacaac07c71a36",
+      "sha256": "9526dd189cef824888bb749ae117a86bbae66720e11fbbbe3585cc44c29cf951",
+      "bytes": 5476,
+      "duration": 0.6531
+    },
+    {
+      "id": "day02-012",
+      "kind": "word",
+      "text": "proper",
+      "wordIds": [
+        "day02-012"
+      ],
+      "src": "/audio/words/day02-012-7f00c0f50451b80f.mp3",
+      "textSha256": "84ac874b232a019e0991ddae50eb55777fb836f98d0fe8efda772e592b2a92d9",
+      "sha256": "15e1a64201d55b0aaf91dcf2719d82bf3a34d7de9536a99048ccaa1f64e86e72",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day02-013",
+      "kind": "word",
+      "text": "performance",
+      "wordIds": [
+        "day02-013"
+      ],
+      "src": "/audio/words/day02-013-b7186c31b409c15b.mp3",
+      "textSha256": "4a1898716ef67796fcc80c7426c4f876d398de27da5c73a3accf425e42a7f412",
+      "sha256": "1600951001ea00fa8f37e3a59f6799044389dc04967238d01d2e8961c2c21789",
+      "bytes": 8402,
+      "duration": 1.0188
+    },
+    {
+      "id": "day02-014",
+      "kind": "word",
+      "text": "essence",
+      "wordIds": [
+        "day02-014"
+      ],
+      "src": "/audio/words/day02-014-e928259f7bfacc5c.mp3",
+      "textSha256": "092bd8646cf5c6a62b659c0c895b86dfa5a692ee0e2e51257a7cf47b3a2fd1f2",
+      "sha256": "da2fbc4b47aa916f3d2347b8e929f0d08eda1eaaeda76ff009b72ee2c9c13f4e",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day02-015",
+      "kind": "word",
+      "text": "economic",
+      "wordIds": [
+        "day02-015"
+      ],
+      "src": "/audio/words/day02-015-f25a8ed401c10727.mp3",
+      "textSha256": "11c45871e9f8b9dfd5a781be0af242b7ef32f5a679534e24aa2133e2a0244c66",
+      "sha256": "37da0bcf657ce3275d6910329b29590379e735036313304bc7d9f4c7aac5dc94",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day02-016",
+      "kind": "word",
+      "text": "cell",
+      "wordIds": [
+        "day02-016"
+      ],
+      "src": "/audio/words/day02-016-e00cb64933711714.mp3",
+      "textSha256": "39d02b42938b2b75d027ebeb25c9d1fd0b71b6e0453e217a2e85cedc7e4637b4",
+      "sha256": "60560d97e9188e0976a74533c99f168ea5625d60b2f82cbc86a2b0e88af762ed",
+      "bytes": 5476,
+      "duration": 0.6531
+    },
+    {
+      "id": "day02-017",
+      "kind": "word",
+      "text": "focus",
+      "wordIds": [
+        "day02-017"
+      ],
+      "src": "/audio/words/day02-017-544d274862f0d041.mp3",
+      "textSha256": "c51faa148557a08cbf790156578b7a82b41f22dd01227f7dde057e34c18a365f",
+      "sha256": "2b4987bb0f29e3dd963e758a733b9ad1e0aec634624f213d79b4faf30e25e109",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day02-018",
+      "kind": "word",
+      "text": "issue",
+      "wordIds": [
+        "day02-018"
+      ],
+      "src": "/audio/words/day02-018-e75af03e141973d0.mp3",
+      "textSha256": "4a502846d070e2088b7025abe80629830bf03d7ab5624d5e91f332bc9d049d3f",
+      "sha256": "5e4b8c5482e930f3ae28c6fbd1e36f59db68b343b36d0cd375c58f6018b173f2",
+      "bytes": 5267,
+      "duration": 0.6269
+    },
+    {
+      "id": "day02-019",
+      "kind": "word",
+      "text": "participate",
+      "wordIds": [
+        "day02-019"
+      ],
+      "src": "/audio/words/day02-019-ffbfedff4d2e41af.mp3",
+      "textSha256": "48f8106bb7de701e3ec345c2b970d8677b2ff0ed9b21debb333d63b5b8425953",
+      "sha256": "7a59ad520b7d47567e7fbda1018c7adbb886c6cd450bf2943cd6136f156afd89",
+      "bytes": 8820,
+      "duration": 1.071
+    },
+    {
+      "id": "day02-020",
+      "kind": "word",
+      "text": "demand",
+      "wordIds": [
+        "day02-020"
+      ],
+      "src": "/audio/words/day02-020-516d8445840469ee.mp3",
+      "textSha256": "dffc177fd0bbfd674906766374356b2deab558d4e4e70839f41e1c8867e2881c",
+      "sha256": "cbc86a18747ebf90bfacc6f2162a275e30b0da90104b48a2cbba05f16a985aeb",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day02-021",
+      "kind": "word",
+      "text": "occur",
+      "wordIds": [
+        "day02-021"
+      ],
+      "src": "/audio/words/day02-021-46f8b8ef2dca9b09.mp3",
+      "textSha256": "def696de03d9fc35566fe958795b689fd52b0e32b560d265a30251e0a0e48d2a",
+      "sha256": "54b7feb418826aaef53f0b386d40e7d021b5cf6182d7da3a530df1a09860a55c",
+      "bytes": 6730,
+      "duration": 0.8098
+    },
+    {
+      "id": "day02-022",
+      "kind": "word",
+      "text": "complex",
+      "wordIds": [
+        "day02-022"
+      ],
+      "src": "/audio/words/day02-022-911f3c24a63a877b.mp3",
+      "textSha256": "ea4b35e8f83279eab1e670e389d71201b360f291a0dc30c659ed708ac9c67d76",
+      "sha256": "3ac3ef2cff53accb1af7f690b906caa88ea7edbe097021482f19aae5753d7b0a",
+      "bytes": 8402,
+      "duration": 1.0188
+    },
+    {
+      "id": "day02-023",
+      "kind": "word",
+      "text": "define",
+      "wordIds": [
+        "day02-023"
+      ],
+      "src": "/audio/words/day02-023-709cb471d28a453c.mp3",
+      "textSha256": "ecd38f260821a09a8fd43f46ccc7f4b81d7553772e70aa4acf723ceb982a78af",
+      "sha256": "d8ef881115f7df221de02ea127cefdda6c70d597f84c750c41bd85ec2859ac17",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day02-024",
+      "kind": "word",
+      "text": "proud",
+      "wordIds": [
+        "day02-024"
+      ],
+      "src": "/audio/words/day02-024-7d8f30bc1cfa148d.mp3",
+      "textSha256": "d069c85283b98c2c0ca831cb4fd19356e98813b5d0ee31e7b7a4a894e8aca23c",
+      "sha256": "176eeb857155a378f2ddfec662e061ceb73cb2f6bc72d8c02076972202b08c5b",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day02-025",
+      "kind": "word",
+      "text": "aware",
+      "wordIds": [
+        "day02-025"
+      ],
+      "src": "/audio/words/day02-025-e1f2acf0ee5048e1.mp3",
+      "textSha256": "8bf9fd4be091a1baa7d3947484c1b90a1ce69f0df2facb671c8658ea9f4704d8",
+      "sha256": "d2136b4eefcf8d15ba058a8fdda182da8ae229af8c6b4ac7a4895f5ca574ebb8",
+      "bytes": 6730,
+      "duration": 0.8098
+    },
+    {
+      "id": "day02-026",
+      "kind": "word",
+      "text": "contact",
+      "wordIds": [
+        "day02-026"
+      ],
+      "src": "/audio/words/day02-026-53f40431f4056a9e.mp3",
+      "textSha256": "093e7d5fdbaacfa92448861b11075b3fba532a07d945b49a44919252f5e830ad",
+      "sha256": "12330eaf9a8c1a39e54c6e9a53e38b7d701d06aa69eafbc7b12320303290742a",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day02-027",
+      "kind": "word",
+      "text": "profession",
+      "wordIds": [
+        "day02-027"
+      ],
+      "src": "/audio/words/day02-027-2f005fbbf8d9e231.mp3",
+      "textSha256": "50e0d250228d28f81a60397ef9fb9e10d1cb9a52c3cf552429139839d395bb5e",
+      "sha256": "52c50e8838e599bc953eedab6d33288a1209e74e284f02ff7d2849199de61db3",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day02-028",
+      "kind": "word",
+      "text": "detail",
+      "wordIds": [
+        "day02-028"
+      ],
+      "src": "/audio/words/day02-028-d81366e06f795c73.mp3",
+      "textSha256": "9c0211c51d04574fdaee6d51f53f41952570b0bf68a7219aaae01ce00fa6b8dd",
+      "sha256": "1c4bb2d78f25205bdcfdcc66d745f748c415bdb2ac6e3ceb42f30a6209de4a12",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day02-029",
+      "kind": "word",
+      "text": "approach",
+      "wordIds": [
+        "day02-029"
+      ],
+      "src": "/audio/words/day02-029-0db94838f07aa945.mp3",
+      "textSha256": "cec9111de36d4a50c3e667f6ecf2e4a69bfc1efe69c66103c57d48dfe6a9211b",
+      "sha256": "40654d6c2e1a8dcdc10738faed86f475d3ded4f740edd51b2b47251cb42eafd5",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day02-030",
+      "kind": "word",
+      "text": "career",
+      "wordIds": [
+        "day02-030"
+      ],
+      "src": "/audio/words/day02-030-10752b860cf97c6d.mp3",
+      "textSha256": "89b7505ad79ad4892d6f2f110320da7b79e4110e0117b8249de318688c3ad83b",
+      "sha256": "458204ccda1c74de9a9fd82be30d47e60af0f216b6a6b813fe765e6814829a89",
+      "bytes": 6521,
+      "duration": 0.7837
+    },
+    {
+      "id": "day02-031",
+      "kind": "word",
+      "text": "package",
+      "wordIds": [
+        "day02-031"
+      ],
+      "src": "/audio/words/day02-031-66b5458bdf029458.mp3",
+      "textSha256": "bc4a71180870f7945155fbb02f4b0a2e3faa2a62d6d31b7039013055ed19869a",
+      "sha256": "589f60936a6d03acd48d6f4ed0f128756d8926fa4bbc7e02f43f8d99df9bcd37",
+      "bytes": 6521,
+      "duration": 0.7837
+    },
+    {
+      "id": "day02-032",
+      "kind": "word",
+      "text": "disappear",
+      "wordIds": [
+        "day02-032"
+      ],
+      "src": "/audio/words/day02-032-955a597571765f2d.mp3",
+      "textSha256": "ed142ddaa38e131ca6995b5da1063ba7f4f87a6d51bbba8b279c0eec9c618484",
+      "sha256": "685891d12fd7f283aea9fc7155ea329dc35c256e3dbddad592c94a14a8cd80d8",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day02-033",
+      "kind": "word",
+      "text": "novel",
+      "wordIds": [
+        "day02-033"
+      ],
+      "src": "/audio/words/day02-033-1b127ef4c128d6b6.mp3",
+      "textSha256": "f2110e6cf92b93ae7b8ba2a41347889c1b864a2db67289f2d82f8d71854c24be",
+      "sha256": "e5a43f7f537b6754521df2fbef1e8cc14ffc3cbdaf84ab94483efba6d0ffa0cc",
+      "bytes": 5685,
+      "duration": 0.6792
+    },
+    {
+      "id": "day02-034",
+      "kind": "word",
+      "text": "secure",
+      "wordIds": [
+        "day02-034"
+      ],
+      "src": "/audio/words/day02-034-dc8b94fa4c50f52e.mp3",
+      "textSha256": "6a934b45144e3758911efa29ed68fb2d420fa7bd568739cdcda9251fa9609b1e",
+      "sha256": "dd20452cf81256adb88140a94204e90136d8b64118dae1537b45db95533fa1e5",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day02-035",
+      "kind": "word",
+      "text": "function",
+      "wordIds": [
+        "day02-035"
+      ],
+      "src": "/audio/words/day02-035-15e44c3959c76a4f.mp3",
+      "textSha256": "78f9ac018e554365069108352dacabb7fbd15246edf19400677e3b54fe24e126",
+      "sha256": "75b5bfd881c88371c71926ff8913b4d9a6f13554606b415ec79d1ef9bd3a4598",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day02-036",
+      "kind": "word",
+      "text": "despite",
+      "wordIds": [
+        "day02-036"
+      ],
+      "src": "/audio/words/day02-036-99ff5f9fd4da4102.mp3",
+      "textSha256": "6dbefb4fe02322df7aa41f29fd224c017e4afa8e54a9523e6a4a919d4f3019cf",
+      "sha256": "5e877ecbb4d0caf893210d2bd34327c15203b5d503dffd8a5386b9bada05d392",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day02-037",
+      "kind": "word",
+      "text": "background",
+      "wordIds": [
+        "day02-037"
+      ],
+      "src": "/audio/words/day02-037-52695b9b5e342011.mp3",
+      "textSha256": "89b91df19d9d75d4cf36d9033d0789e7ecae0c233160c3be0d56e81027ab965a",
+      "sha256": "3bd89c4ca72f5ea93411b844d683a1be0e6e1d480da790bd1efafef6b85e8f19",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day02-038",
+      "kind": "word",
+      "text": "solution",
+      "wordIds": [
+        "day02-038"
+      ],
+      "src": "/audio/words/day02-038-c63958467bd73f77.mp3",
+      "textSha256": "8270f2824111e04d9278c01a92b388147d9d02e0b50d946d25d00db375ff1282",
+      "sha256": "6406dbb72342758fec707fdd97d46a8b26f371d5e01b8d052136f8ac7c9c8859",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day02-039",
+      "kind": "word",
+      "text": "generate",
+      "wordIds": [
+        "day02-039"
+      ],
+      "src": "/audio/words/day02-039-33e5257aecce1f61.mp3",
+      "textSha256": "24cacf5004bf68ae9daad19a5bba391d85ad1cb0b31366e89aec86fad0ab16cb",
+      "sha256": "937e5392dda87f6d98908109e78e2955ff003b86f1180282acde920eb0ee12db",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day02-040",
+      "kind": "word",
+      "text": "eventually",
+      "wordIds": [
+        "day02-040"
+      ],
+      "src": "/audio/words/day02-040-2261260de154292c.mp3",
+      "textSha256": "c8bf82c2cbf5a469c5584886ab5caeea79d8e7a7bcf25a2c4495586317a15734",
+      "sha256": "34b911d3168d0c24d82b1c0ff083ba7a9c74f0dd3bf41f36608cd69eeabb0fe1",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day03-001",
+      "kind": "word",
+      "text": "decrease",
+      "wordIds": [
+        "day03-001"
+      ],
+      "src": "/audio/words/day03-001-742d5bb93cd48eeb.mp3",
+      "textSha256": "b2dc971f4895ca1f298f3f72fa80f67a6a2100532dfc3e74898b93ab12fdb8cd",
+      "sha256": "34081f8dfd7af3d73b9bf45a58398ced93fb9cabb84d3dfd936a5ba775f4d1c6",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day03-002",
+      "kind": "word",
+      "text": "recycle",
+      "wordIds": [
+        "day03-002"
+      ],
+      "src": "/audio/words/day03-002-3969b40a504c121e.mp3",
+      "textSha256": "ef5988103d7b93b73646abbb5aed1a42975d3c3885c264826fff7ca9b7fee6f6",
+      "sha256": "61ed2afa71ffd17f46991ebea1579902b9c3110c15f1f156cdb7c240851b2c7c",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day03-003",
+      "kind": "word",
+      "text": "desire",
+      "wordIds": [
+        "day03-003"
+      ],
+      "src": "/audio/words/day03-003-44278955362739ec.mp3",
+      "textSha256": "83fa74e70278e5b9ff3fa7995a40d04db8a0868b7b70695bc3dd7e4f96251451",
+      "sha256": "98b74bc821b00c3a64c9cca2fc5dacbefd0a8924e1f2758f38198e9064871db7",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day03-004",
+      "kind": "word",
+      "text": "balance",
+      "wordIds": [
+        "day03-004"
+      ],
+      "src": "/audio/words/day03-004-4ebfd3658eecf5d8.mp3",
+      "textSha256": "5751e048eb6fee3eb9bb4ea70f107f19c35863766bee5100044e52ab60d9edcf",
+      "sha256": "647b16da854b4986a7b6d79206d3d7b7a8dcf0c57520ee07c7a64c8d66f90a2b",
+      "bytes": 6312,
+      "duration": 0.7576
+    },
+    {
+      "id": "day03-005",
+      "kind": "word",
+      "text": "negative",
+      "wordIds": [
+        "day03-005"
+      ],
+      "src": "/audio/words/day03-005-37080023446873ba.mp3",
+      "textSha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+      "sha256": "481ef29b68968398b305fb87b368f08af87094bad1a8f37fec13321c67f2f0b0",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day03-006",
+      "kind": "word",
+      "text": "follow",
+      "wordIds": [
+        "day03-006"
+      ],
+      "src": "/audio/words/day03-006-b1b216b0f4b06072.mp3",
+      "textSha256": "a3ce0b6106cdb3982d7b2bd5c7be5e1e74d973c4a3018b03beb01fc5dc3ec6f5",
+      "sha256": "dbb329a2c435aabebfcc54d3ae525ad2f9a304d39e4904f4ce9a6b58be686e7d",
+      "bytes": 5685,
+      "duration": 0.6792
+    },
+    {
+      "id": "day03-007",
+      "kind": "word",
+      "text": "account",
+      "wordIds": [
+        "day03-007"
+      ],
+      "src": "/audio/words/day03-007-31438ede7bfa004b.mp3",
+      "textSha256": "9af211329b2fc82e5efe906062c730082819b23fe8394bc435e0b1bf0458eb54",
+      "sha256": "2cd97bfeb68a613d08ab20ebc470c056cb445d0fbeae3383e4679475be60e074",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day03-008",
+      "kind": "word",
+      "text": "publish",
+      "wordIds": [
+        "day03-008"
+      ],
+      "src": "/audio/words/day03-008-177df0c1763c220a.mp3",
+      "textSha256": "a5d47a4311d759db69e576d9eedd6a02fcfd9cd214129fa8492ee1e9c7343def",
+      "sha256": "d2262f5d3c6866ac73783c9ded5a3f088e5247c601087b23c9e7758d796ef908",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day03-009",
+      "kind": "word",
+      "text": "occasion",
+      "wordIds": [
+        "day03-009"
+      ],
+      "src": "/audio/words/day03-009-1d87db40115e7081.mp3",
+      "textSha256": "99fd0b148570ac9770e7be0073d2b86db9c64938753177b332f94a77dce98242",
+      "sha256": "7dc5b2d884d3137214185101a3255cf1b2c395e5f234d3b099dcf3eabf73999c",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day03-010",
+      "kind": "word",
+      "text": "replace",
+      "wordIds": [
+        "day03-010"
+      ],
+      "src": "/audio/words/day03-010-fde904c10a51f841.mp3",
+      "textSha256": "7ab3778776cde4fa728a162a53ad3abcc967d1bd7361039e0942888240c4ce86",
+      "sha256": "acd2757830ee4b2a8807494a3a265f16e0d8ee72882bf90792fe61441fc6e388",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day03-011",
+      "kind": "word",
+      "text": "constant",
+      "wordIds": [
+        "day03-011"
+      ],
+      "src": "/audio/words/day03-011-9c4561ab3830e8ca.mp3",
+      "textSha256": "96f6549c6b97a641e4d1099e39ebf966e649de64f5bf8274d27afad33541e702",
+      "sha256": "2b970490bbea991fc36ed67d8d4ef20c08b0416df2c3c4e1c43908e807868b00",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day03-012",
+      "kind": "word",
+      "text": "expert",
+      "wordIds": [
+        "day03-012"
+      ],
+      "src": "/audio/words/day03-012-bf8a9ca1de8129b6.mp3",
+      "textSha256": "c7d253870ab8de3825e3a9b5ee603e21abd0dfe62763e8e2fc1fc9f4684e8a19",
+      "sha256": "64b3e97330db25acc568cd4f7067202e883b35e7467de0d901ed17e0f5aa59de",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day03-013",
+      "kind": "word",
+      "text": "term",
+      "wordIds": [
+        "day03-013"
+      ],
+      "src": "/audio/words/day03-013-1c3b253cc4650186.mp3",
+      "textSha256": "599f7703547e9c8e980f44d7d192d978b9e70386af1812b2042beeaf4ba03dfb",
+      "sha256": "cada86220e7447f06ce5582d60993770e50ee22ff09387370b6369c57ff647a2",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day03-014",
+      "kind": "word",
+      "text": "relieve",
+      "wordIds": [
+        "day03-014"
+      ],
+      "src": "/audio/words/day03-014-a28ce21a65d7bca7.mp3",
+      "textSha256": "be169a7e712b89de7b3d71e214edd529d71c1f607312b3a57d8b93a0c6cab35f",
+      "sha256": "8e3de5af189d323182e392ee2fed5b92ed90c2592c46545c1b012c3bc355b638",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day03-015",
+      "kind": "word",
+      "text": "describe",
+      "wordIds": [
+        "day03-015"
+      ],
+      "src": "/audio/words/day03-015-036baa680ad930d1.mp3",
+      "textSha256": "c52028f34e378d1e07b4d5b8d10e4860e99cd3802218acf9391db8ea64fd2899",
+      "sha256": "8ebd0826d6dbff6f4b2bb5c6030923d0dce8c660a29f4210e705383c7198fe16",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day03-016",
+      "kind": "word",
+      "text": "congratulate",
+      "wordIds": [
+        "day03-016"
+      ],
+      "src": "/audio/words/day03-016-fa94d306cc64af18.mp3",
+      "textSha256": "c7985d6d17717a2608e65e1c36c577812f6e8ef2b3bf87fbe2ee2d13f06e4b55",
+      "sha256": "7337b8fa29f7a258776854c154306d98c4988ffd0ede61f1a6f40a8e0abe7889",
+      "bytes": 9447,
+      "duration": 1.1494
+    },
+    {
+      "id": "day03-017",
+      "kind": "word",
+      "text": "due",
+      "wordIds": [
+        "day03-017"
+      ],
+      "src": "/audio/words/day03-017-fcbdc52662d15d5f.mp3",
+      "textSha256": "458a4770df2b51b57769fc806cab05bdaf02acce2edd42b90b6dd55dee1ea038",
+      "sha256": "e5a3e421bb0e538b03e3dce7f03ce57e8dac757a801106b236982db1ba567d8e",
+      "bytes": 5267,
+      "duration": 0.6269
+    },
+    {
+      "id": "day03-018",
+      "kind": "word",
+      "text": "equipment",
+      "wordIds": [
+        "day03-018"
+      ],
+      "src": "/audio/words/day03-018-58334adc1703e8d2.mp3",
+      "textSha256": "1c09f5a7f47df2ee11dac3abd4010d9b70fb62c46446fd0c872c67a37609a52d",
+      "sha256": "f46de8d7a49efb4e1677646c516eae6071b09924dd38d2244555b0f2880d214f",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day03-019",
+      "kind": "word",
+      "text": "biology",
+      "wordIds": [
+        "day03-019"
+      ],
+      "src": "/audio/words/day03-019-d97ad7ab4300d465.mp3",
+      "textSha256": "af8f827a0c20db87fdd3be7f5ac462a2efcde95a827dc9c2bdf0be2a6da6bcde",
+      "sha256": "58a0f3da16d48877d34bdf602950b8f6b8779b3f470ffc594b54251aea593087",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day03-020",
+      "kind": "word",
+      "text": "imagine",
+      "wordIds": [
+        "day03-020"
+      ],
+      "src": "/audio/words/day03-020-b74559bb74581a36.mp3",
+      "textSha256": "7fdd65bbaaa687d48dc85a26a6dd7ef17fa379994fd8f3b26e19fe36976aeadf",
+      "sha256": "a67606870766c5feb8d6c48bccbeac1328e0afdae87e9fc28a954b58b989fe72",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day03-021",
+      "kind": "word",
+      "text": "compose",
+      "wordIds": [
+        "day03-021"
+      ],
+      "src": "/audio/words/day03-021-4213661d1e3e1e4e.mp3",
+      "textSha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+      "sha256": "856408be0711017927bc2da13058f41e227c2d10ab9d093de58bcee965cffa0f",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day03-022",
+      "kind": "word",
+      "text": "genius",
+      "wordIds": [
+        "day03-022"
+      ],
+      "src": "/audio/words/day03-022-005c602e82b14810.mp3",
+      "textSha256": "9ed142d60c4571b67f1468ef4f75950a60a1d8dc1c38075cd0d13c80fea7aba5",
+      "sha256": "9b4d3973d2edbf7f0c59da3acadc7a77ba4f99bba54f463d89362dc6d01d27dd",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day03-023",
+      "kind": "word",
+      "text": "reflect",
+      "wordIds": [
+        "day03-023"
+      ],
+      "src": "/audio/words/day03-023-9e3ecc0ca30f4ac6.mp3",
+      "textSha256": "909ca0096d519dcf94aba6069fa664842bdf9de264725a6c543c4926abe6bdfa",
+      "sha256": "05228c9719622c5afc3e539bfc8d4bb8dcc67084132116df27abda73099b5f52",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day03-024",
+      "kind": "word",
+      "text": "cause",
+      "wordIds": [
+        "day03-024"
+      ],
+      "src": "/audio/words/day03-024-39cf6499ffa61570.mp3",
+      "textSha256": "6a7ef1ed9f15c2f59ab7bfaf50f5b51f695d736a7f2e5ada6470e695190b8f83",
+      "sha256": "38865c9d21d994c67d3ea5367dbd9b3c1db652418baf201555ace40438a05d23",
+      "bytes": 5685,
+      "duration": 0.6792
+    },
+    {
+      "id": "day03-025",
+      "kind": "word",
+      "text": "frequent",
+      "wordIds": [
+        "day03-025"
+      ],
+      "src": "/audio/words/day03-025-17dab4155dabf758.mp3",
+      "textSha256": "403b8dc9df0dc3ced2f5a84a1ca6786d7ab5efe5f7eabb028f7523049d1cdde1",
+      "sha256": "77b2c145abf61e2cce9507d59532b801cba7d8142a3bed7cf9530228f60b2197",
+      "bytes": 6730,
+      "duration": 0.8098
+    },
+    {
+      "id": "day03-026",
+      "kind": "word",
+      "text": "factor",
+      "wordIds": [
+        "day03-026"
+      ],
+      "src": "/audio/words/day03-026-544c9bd624a55171.mp3",
+      "textSha256": "41a093100bbbb59e31dcc91a581495871ac485e07deda57bf878353cc5aae6db",
+      "sha256": "88bc08cea9ad84c860d8cf817ab94f69fc433fc0a6e3e9361ab5014766e97872",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day03-027",
+      "kind": "word",
+      "text": "extreme",
+      "wordIds": [
+        "day03-027"
+      ],
+      "src": "/audio/words/day03-027-9a8c10d57c405c69.mp3",
+      "textSha256": "3393b41eeeea1c11dc97c34242fca5f4c9fbf6239cf2b6c4f1469e1571d7cc28",
+      "sha256": "f004957a78617894be9f58e1fc83ce54e785416665d52714f88d47756a229cfe",
+      "bytes": 8402,
+      "duration": 1.0188
+    },
+    {
+      "id": "day03-028",
+      "kind": "word",
+      "text": "tend",
+      "wordIds": [
+        "day03-028"
+      ],
+      "src": "/audio/words/day03-028-b18ab08dd1d451ee.mp3",
+      "textSha256": "4f0a1f5aef53e953cc28e5086b98eca5d40c8820325fce6a33f34b22c84bbefd",
+      "sha256": "1a0774c90adea646105f3f4895991cb28ceb45d953156cfdfa0ba483883d73fe",
+      "bytes": 5685,
+      "duration": 0.6792
+    },
+    {
+      "id": "day03-029",
+      "kind": "word",
+      "text": "politics",
+      "wordIds": [
+        "day03-029"
+      ],
+      "src": "/audio/words/day03-029-a2e87e2b9b97ffd9.mp3",
+      "textSha256": "1a1d1484d3cbc721070469e555f6a0cc89c03d60181e1f13694014e9249d19b6",
+      "sha256": "b2687cc5624c686ee603a0ed47f83e7730381c82c0e82fa17966f6890dddce91",
+      "bytes": 8611,
+      "duration": 1.0449
+    },
+    {
+      "id": "day03-030",
+      "kind": "word",
+      "text": "insist",
+      "wordIds": [
+        "day03-030"
+      ],
+      "src": "/audio/words/day03-030-b11c17883f532f74.mp3",
+      "textSha256": "509c40394c0eaa8580dc2af5c7d5b426edf8ac721200474d514d425175653e48",
+      "sha256": "f55915df6234cf53453171b7ad0673ec0f1051659c85934118a0246889242889",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day03-031",
+      "kind": "word",
+      "text": "extend",
+      "wordIds": [
+        "day03-031"
+      ],
+      "src": "/audio/words/day03-031-d19a60cf20bea85a.mp3",
+      "textSha256": "bf0bb4ee60e2cd5a1a5283c4858448a1b5582e8d1a14955a6ea3df5ca66d3820",
+      "sha256": "862adab5fd1b23b14f436b37e5d120fdf3f6fb4d385e9db2ab56349a2ae65537",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day03-032",
+      "kind": "word",
+      "text": "lonely",
+      "wordIds": [
+        "day03-032"
+      ],
+      "src": "/audio/words/day03-032-ec16dd1096581030.mp3",
+      "textSha256": "1cb0f5a9e3a8e4ddd72322c677990833aa4c67ff300b3ebfbfb726894f1a1058",
+      "sha256": "cb325f4ad5a4a45f5d52e25725bd277df969f1c8504089a50b6b297d6fefdc0b",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day03-033",
+      "kind": "word",
+      "text": "habitat",
+      "wordIds": [
+        "day03-033"
+      ],
+      "src": "/audio/words/day03-033-39ad076d551e1436.mp3",
+      "textSha256": "a831f1ff1a6c6f0ec602f92b6e4c435baf9446e20d05318d7a7afb2e4fe4095f",
+      "sha256": "bc0f5fa454e0185f6eb62a3535696da9fedfb2b9c3387c135ad648fb66703c78",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day03-034",
+      "kind": "word",
+      "text": "mental",
+      "wordIds": [
+        "day03-034"
+      ],
+      "src": "/audio/words/day03-034-dfdbc19db6acbde8.mp3",
+      "textSha256": "888df6d1572d02bc1a80b3f720916b5e349ca49f4104fc6378f0678b8816ed30",
+      "sha256": "d91898c1e41f02e259f242d3aa90b8f760ae493a9ebffbee262da1edd1f6cd37",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day03-035",
+      "kind": "word",
+      "text": "steady",
+      "wordIds": [
+        "day03-035"
+      ],
+      "src": "/audio/words/day03-035-c208af4e357aa7f0.mp3",
+      "textSha256": "57e1f047b30bdadc4b84b18061faf30a0dd3d58336cbc91c8dd28a6b6f4927e9",
+      "sha256": "5b38b55d50f316ed68ec098e600e13afddd4d81298b90d31312fd9021cf0af71",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day03-036",
+      "kind": "word",
+      "text": "exchange",
+      "wordIds": [
+        "day03-036"
+      ],
+      "src": "/audio/words/day03-036-58ab98a4a058fe37.mp3",
+      "textSha256": "ab27b729d9cc4cb1c00960700446924159e9298d0f952aee3d55408b8e0b1b71",
+      "sha256": "b4b804d08d3a1b736526f0e249b9287d92aad8965e568b35eabcc5d9b67929e1",
+      "bytes": 9029,
+      "duration": 1.0971
+    },
+    {
+      "id": "day03-037",
+      "kind": "word",
+      "text": "active",
+      "wordIds": [
+        "day03-037"
+      ],
+      "src": "/audio/words/day03-037-2ee8152de9656eb7.mp3",
+      "textSha256": "96879611650f80a81392a52e0db9b0237669087c4518e1c130e541a505e0eeef",
+      "sha256": "61d55e7489d44648e2176ad1634652f219ed8a26f70b7966124b90092fd18afd",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day03-038",
+      "kind": "word",
+      "text": "species",
+      "wordIds": [
+        "day03-038"
+      ],
+      "src": "/audio/words/day03-038-685e6478691dc31d.mp3",
+      "textSha256": "1559d6aa3c36f76671d909f699884ebd51dcf67f7e49b9a37d21d227722cbde6",
+      "sha256": "d3ee009e91297e389d08021d545afb9ff659977e42c46a843a9c90ec96bdb15d",
+      "bytes": 8611,
+      "duration": 1.0449
+    },
+    {
+      "id": "day03-039",
+      "kind": "word",
+      "text": "athletic",
+      "wordIds": [
+        "day03-039"
+      ],
+      "src": "/audio/words/day03-039-e1fb79f9e1561655.mp3",
+      "textSha256": "b0abb7566fe831745fcebf4061caed5a5f1a7bbaab021e62a38bb517747f9931",
+      "sha256": "f7274676980fc84fde587029adb493200b0fa3916ff9abd58ce8b4133d5edd01",
+      "bytes": 7148,
+      "duration": 0.862
+    },
+    {
+      "id": "day03-040",
+      "kind": "word",
+      "text": "dental",
+      "wordIds": [
+        "day03-040"
+      ],
+      "src": "/audio/words/day03-040-2746518e669595bc.mp3",
+      "textSha256": "d138e4e2606d9c58caab4709a9a5e295aef1efdbc7dacfe64b462ac238691bfc",
+      "sha256": "cf5fa0a7e40933357764142e0e19d620a62a7198a2346392fc603ffee15d0bfc",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day04-001",
+      "kind": "word",
+      "text": "delight",
+      "wordIds": [
+        "day04-001"
+      ],
+      "src": "/audio/words/day04-001-745e918ae9f503ae.mp3",
+      "textSha256": "315393e576685d59a397279e85965d573529c7ac4d0a3836f7a84af23844bdaf",
+      "sha256": "1e009050482a66f109d90a4cf8af97f48f23d69af9dd59dd48e05fd503879832",
+      "bytes": 6521,
+      "duration": 0.7837
+    },
+    {
+      "id": "day04-002",
+      "kind": "word",
+      "text": "confident",
+      "wordIds": [
+        "day04-002"
+      ],
+      "src": "/audio/words/day04-002-e1b7bad539e0814c.mp3",
+      "textSha256": "26c8cca6e668df65cc08a02e604c296eb60303b62a87e05f5b77826a88853ad2",
+      "sha256": "34472c04b2a57715c31ba325f78b63e328220cd07f03602e023f93999cd703b8",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day04-003",
+      "kind": "word",
+      "text": "gradually",
+      "wordIds": [
+        "day04-003"
+      ],
+      "src": "/audio/words/day04-003-a9b355326921b79f.mp3",
+      "textSha256": "e87a9c17656ae2ae7851712de0f277cd4a08c6c70b6c36f9f53783dadf4e08cc",
+      "sha256": "b7db4d4177e60fea88981de076cd50eed5b7a0dfb0167ab95e636a8d34646901",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day04-004",
+      "kind": "word",
+      "text": "shadow",
+      "wordIds": [
+        "day04-004"
+      ],
+      "src": "/audio/words/day04-004-1bd14655b1d7f4bb.mp3",
+      "textSha256": "0bb09d80600eec3eb9d7793a6f859bedde2a2d83899b70bd78e961ed674b32f4",
+      "sha256": "33f59ccc7e9072cd00c6db51c8abe6c4421fc66b57317b9d7d6d626cd04b26fc",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day04-005",
+      "kind": "word",
+      "text": "access",
+      "wordIds": [
+        "day04-005"
+      ],
+      "src": "/audio/words/day04-005-00398e2de624bdc5.mp3",
+      "textSha256": "a0561fd649cdb6baa784055f051bad796ea0afef17fca38219549deeba4e8c1a",
+      "sha256": "ee4f641ec0334ed251014dfca0f62f5deb07a7bc7eace9bbae80c8a17bc39951",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day04-006",
+      "kind": "word",
+      "text": "announce",
+      "wordIds": [
+        "day04-006"
+      ],
+      "src": "/audio/words/day04-006-93751f61fa4f7299.mp3",
+      "textSha256": "f178ad42d80eb9cd16380b8492fdf9bb8916bb032a56a0528c44f07d3eb6f995",
+      "sha256": "e4b7bb58edd8b513010a75f0a0fcd65ebde843b0d6c128f5dbd901a6047f6718",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day04-007",
+      "kind": "word",
+      "text": "allow",
+      "wordIds": [
+        "day04-007"
+      ],
+      "src": "/audio/words/day04-007-23cb7477c7e35019.mp3",
+      "textSha256": "410083735735a10e658a19edd1704e606c9dd112e225825b63fafeded766c8b9",
+      "sha256": "d9220b66073e095ceb6368441128687c2f23193bf59d25b5e05600e127c46770",
+      "bytes": 5267,
+      "duration": 0.6269
+    },
+    {
+      "id": "day04-008",
+      "kind": "word",
+      "text": "firm",
+      "wordIds": [
+        "day04-008"
+      ],
+      "src": "/audio/words/day04-008-12a353155c4326ec.mp3",
+      "textSha256": "3f62550731d942f8bb6b5deb60037847212ca7092c2f2d0d932bce230a0caf26",
+      "sha256": "08b283c78c5058c900a7e29ed7002b260028256d83d4ddd1d1ec1848aeb92344",
+      "bytes": 4640,
+      "duration": 0.5486
+    },
+    {
+      "id": "day04-009",
+      "kind": "word",
+      "text": "vary",
+      "wordIds": [
+        "day04-009"
+      ],
+      "src": "/audio/words/day04-009-f36098ad623cfac1.mp3",
+      "textSha256": "8f289b828ab9b83eec66058983947ae4643ae3b9046591417da5248dd6325c2e",
+      "sha256": "29181606ec311e67d10ee23c729f80b06ae2acc2eb0bf3223d29462bdcf1733d",
+      "bytes": 6312,
+      "duration": 0.7576
+    },
+    {
+      "id": "day04-010",
+      "kind": "word",
+      "text": "injure",
+      "wordIds": [
+        "day04-010"
+      ],
+      "src": "/audio/words/day04-010-854210defcf92ee3.mp3",
+      "textSha256": "df73cf99ee6e85954a098a1fc15a30f58cb7a8ad5de09edc8d7ca5b21c0fb224",
+      "sha256": "7764af93c7015c4258a8ca37160fa849e3d0279555ec2998fac7ec02b64db59e",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day04-011",
+      "kind": "word",
+      "text": "permit",
+      "wordIds": [
+        "day04-011"
+      ],
+      "src": "/audio/words/day04-011-92a4dc460080816d.mp3",
+      "textSha256": "85441a43c7cb9f242a5c20c6648026689c795ad4e8321e215bf68d48fc9a4b1c",
+      "sha256": "744dba17b1d254825b2d6599401f24a183d5f6ec20cf442ef65d7055cf1ff5d0",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day04-012",
+      "kind": "word",
+      "text": "response",
+      "wordIds": [
+        "day04-012"
+      ],
+      "src": "/audio/words/day04-012-bc17c91f20194d3a.mp3",
+      "textSha256": "a9f4b3d22a523fdada41c85c175425bcd15b32b4cd0f54d9433accd52d7195a1",
+      "sha256": "516272ec6ee19cac9251adbf49c377eecc777699c042cd8b2fd75356ba0a9766",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day04-013",
+      "kind": "word",
+      "text": "increase",
+      "wordIds": [
+        "day04-013"
+      ],
+      "src": "/audio/words/day04-013-3be328abf0f4c4a6.mp3",
+      "textSha256": "e20a548f23fa36bc8d5ba48237ec3ee4d4f00087841d3614f81749e3c6c1b47e",
+      "sha256": "6a8b12e26b1a920d13cc587fe5272ebfa7f1dfb8f7b02a70377aea086ff3abd9",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day04-014",
+      "kind": "word",
+      "text": "electricity",
+      "wordIds": [
+        "day04-014"
+      ],
+      "src": "/audio/words/day04-014-f47fa01e11ee9ccd.mp3",
+      "textSha256": "ae80c184961f8640e6dec0fca5bdef0ddb038ad191ddb4c2e80ba8689c3a7e90",
+      "sha256": "4f16ae4b305916dad366a3dbf951add0077ceea657a46fa41331bd30d0f497cf",
+      "bytes": 8611,
+      "duration": 1.0449
+    },
+    {
+      "id": "day04-015",
+      "kind": "word",
+      "text": "disabled",
+      "wordIds": [
+        "day04-015"
+      ],
+      "src": "/audio/words/day04-015-815b5ce1c43e4624.mp3",
+      "textSha256": "17eb3c0168d0d7b21ede5481150f17233427d89833ec121b4dbc4fb96cfab71e",
+      "sha256": "e42d59a38df14306cef2af3fd788f0365eca2917f740d889d23dff563ebd2c10",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day04-016",
+      "kind": "word",
+      "text": "lack",
+      "wordIds": [
+        "day04-016"
+      ],
+      "src": "/audio/words/day04-016-cac34628197219da.mp3",
+      "textSha256": "e3f315ea36abca8f80be6aadbea106fd32431242455ff6693c31b7be1d07b18f",
+      "sha256": "3210c27a0bb063092bd940ea7f07c0520a77f4029b04170c7d7a13fa9d6fe7bd",
+      "bytes": 5267,
+      "duration": 0.6269
+    },
+    {
+      "id": "day04-017",
+      "kind": "word",
+      "text": "possibility",
+      "wordIds": [
+        "day04-017"
+      ],
+      "src": "/audio/words/day04-017-8e4b8b08459f52be.mp3",
+      "textSha256": "b5a0aa306476543fef184a82a7e2c73a0edbbd56dca3a881c9ed4be555386109",
+      "sha256": "e43e6c3a8d0827e6cdeea2347069a5e18f795e4ad691fd87caac1e352ff96b91",
+      "bytes": 8611,
+      "duration": 1.0449
+    },
+    {
+      "id": "day04-018",
+      "kind": "word",
+      "text": "concentrate",
+      "wordIds": [
+        "day04-018"
+      ],
+      "src": "/audio/words/day04-018-728722f679495887.mp3",
+      "textSha256": "7e92261c4445c0ed9402bf5fd3344de0b6290d85081061d3a63bfae66123b883",
+      "sha256": "3eb397a70b4079b310fcbd8b6396d55d0577600f7760f1be77c50cc7a0fa61e9",
+      "bytes": 9656,
+      "duration": 1.1755
+    },
+    {
+      "id": "day04-019",
+      "kind": "word",
+      "text": "emphasize",
+      "wordIds": [
+        "day04-019"
+      ],
+      "src": "/audio/words/day04-019-f2f6dad32d713d07.mp3",
+      "textSha256": "c21f0c94db79d75f83d39734210e1d6ad4c349b0242add3a5b2d30570599b739",
+      "sha256": "ab26154f617350690d60ad3fb528b327bf8c0d26b5e31349e01650e27764e9f3",
+      "bytes": 9447,
+      "duration": 1.1494
+    },
+    {
+      "id": "day04-020",
+      "kind": "word",
+      "text": "astronomy",
+      "wordIds": [
+        "day04-020"
+      ],
+      "src": "/audio/words/day04-020-ee54f24379cf5e52.mp3",
+      "textSha256": "603354159847d671cd7c8e67b726829ebc19101932e2dbafd8da87ebd41cd1b6",
+      "sha256": "50606c2c8bc09865ab7657af7e19e444767f9e71b90604788c6ab45852a74b01",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day04-021",
+      "kind": "word",
+      "text": "flood",
+      "wordIds": [
+        "day04-021"
+      ],
+      "src": "/audio/words/day04-021-61e7376e75ff55d1.mp3",
+      "textSha256": "d8864644c15d33be9c0aef2d08c8fc105adc040de488b0116882a2cc6aa4492b",
+      "sha256": "995825915605e55a0ebd163f03530f6642165dfde8a036a76dc3742ece2293ed",
+      "bytes": 4640,
+      "duration": 0.5486
+    },
+    {
+      "id": "day04-022",
+      "kind": "word",
+      "text": "fuel",
+      "wordIds": [
+        "day04-022"
+      ],
+      "src": "/audio/words/day04-022-86dde7bcfe155ce2.mp3",
+      "textSha256": "acbe4bfc77e55c071db31f2e37c824d75794867d88499107dc8318cb22aceea5",
+      "sha256": "69239168e790c3d4408971480924b43b35e0fee5822e0949b733274381b7c1e2",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day04-023",
+      "kind": "word",
+      "text": "manufacture",
+      "wordIds": [
+        "day04-023"
+      ],
+      "src": "/audio/words/day04-023-1324478d079bf6ac.mp3",
+      "textSha256": "ed0a3b494b3cd42a8d0313406dd46989e265986bd193a95070992fee3817a2ad",
+      "sha256": "199daac817b5a0450e9b5bc2c6f523d764e5e92505a6653a743783d21a13429d",
+      "bytes": 9865,
+      "duration": 1.2016
+    },
+    {
+      "id": "day04-024",
+      "kind": "word",
+      "text": "movement",
+      "wordIds": [
+        "day04-024"
+      ],
+      "src": "/audio/words/day04-024-dc24e1dcc39fd4d5.mp3",
+      "textSha256": "a637996908ea33349070be8ce1b830a7079e199d8ac0fc2f3eed5275fc3a6258",
+      "sha256": "185c8f037847e8b83ba33dd774cd38ffbaa878b0a992aac6be99281df8e3c733",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day04-025",
+      "kind": "word",
+      "text": "capable",
+      "wordIds": [
+        "day04-025"
+      ],
+      "src": "/audio/words/day04-025-90df1f0c4319af7f.mp3",
+      "textSha256": "80415b2524ae7dd4e36ec8d3319a4b9d2c7d42613d93b2e22e013c05a58fd1cc",
+      "sha256": "4988a8cfc870cb59bef14d3ef0e5046b22378013221d05a6cd4b86f88bc718f2",
+      "bytes": 6312,
+      "duration": 0.7576
+    },
+    {
+      "id": "day04-026",
+      "kind": "word",
+      "text": "combine",
+      "wordIds": [
+        "day04-026"
+      ],
+      "src": "/audio/words/day04-026-4f74f1c6c40afc50.mp3",
+      "textSha256": "6bd1454e4848ba9ec48363db5afdc51f2a67b2e87bf7478b681cda2df245779a",
+      "sha256": "c2bf000e054110ba73dfb65c1428c270fed8a0465a8bab051c1cb8ffdf9c9d2e",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day04-027",
+      "kind": "word",
+      "text": "gene",
+      "wordIds": [
+        "day04-027"
+      ],
+      "src": "/audio/words/day04-027-4cb87d59509708c9.mp3",
+      "textSha256": "5ac52c67c10a6cea6daa62876e90a9dcf62523352f0876dad99c55788392849a",
+      "sha256": "6ed06d04bb508d652ae90b54affa759759d64d050dd348080a096c4541234c97",
+      "bytes": 5685,
+      "duration": 0.6792
+    },
+    {
+      "id": "day04-028",
+      "kind": "word",
+      "text": "threat",
+      "wordIds": [
+        "day04-028"
+      ],
+      "src": "/audio/words/day04-028-0c5a84ddc4f35a31.mp3",
+      "textSha256": "a569b9b2250fe3236367f969902d9521f576fc970556912b064ea0bdc13e17d3",
+      "sha256": "3ea3b7f74d0bf82fb8af22e8094dcbf22e4cddca8b3b9cb7132c7b56ee492dc1",
+      "bytes": 5685,
+      "duration": 0.6792
+    },
+    {
+      "id": "day04-029",
+      "kind": "word",
+      "text": "victim",
+      "wordIds": [
+        "day04-029"
+      ],
+      "src": "/audio/words/day04-029-4bc05da6078a3008.mp3",
+      "textSha256": "1bdd5b5b92e2d9f30a3b223bb359551d0da20e3702923e5f7b0a73889eba3d21",
+      "sha256": "38e12c8102df0fc96f636cacf90425c6827f1487f5dc23db71393c74fa9181fe",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day04-030",
+      "kind": "word",
+      "text": "pressure",
+      "wordIds": [
+        "day04-030"
+      ],
+      "src": "/audio/words/day04-030-ab982a12c3379ede.mp3",
+      "textSha256": "b667446e6eb2552fbe29d98e8f5c3bb7197cad4ab1ec72cf710c406956e71e55",
+      "sha256": "77692719032ac09ca257d21ec825a705c62bd1ec6712be39bdc4e94a3274d81a",
+      "bytes": 5476,
+      "duration": 0.6531
+    },
+    {
+      "id": "day04-031",
+      "kind": "word",
+      "text": "accompany",
+      "wordIds": [
+        "day04-031"
+      ],
+      "src": "/audio/words/day04-031-267fa822e1ed0322.mp3",
+      "textSha256": "ca661cc657cf16dfe41954e2c0c7ac8cda0053da89f862d3dfe79134fe21132e",
+      "sha256": "cb1d66532f53dd87388c4d05d9339f07fa9086fad18f07ea2a02f52f0e469743",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day04-032",
+      "kind": "word",
+      "text": "frustrate",
+      "wordIds": [
+        "day04-032"
+      ],
+      "src": "/audio/words/day04-032-1bcf8c2571cb4ec0.mp3",
+      "textSha256": "2b59cbd080973d9eb0397e8f531b323b5b9d2c39e12000ded77738e47a7f2e2a",
+      "sha256": "2c0d497fb3dc18599ae6dea83f77e1bee07085538be77f334c203d3a36749e72",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day04-033",
+      "kind": "word",
+      "text": "construct",
+      "wordIds": [
+        "day04-033"
+      ],
+      "src": "/audio/words/day04-033-c543964044907ac1.mp3",
+      "textSha256": "b252d4eb5acf5aeaef1ec528741970ad0ba0a3e92c9333fa17668ddd892d9805",
+      "sha256": "26780cb5555107f9280867bf542afeda62cc8cfcf31f17f1b21fc7fa359fce8d",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day04-034",
+      "kind": "word",
+      "text": "launch",
+      "wordIds": [
+        "day04-034"
+      ],
+      "src": "/audio/words/day04-034-538d01a6905cad4a.mp3",
+      "textSha256": "abfc412ce6e530df63b0dc9bf4e02bb3cb1719ab967c8f4ea3951ab5bae4ff3f",
+      "sha256": "8a75df97347341be9a880a049b34256ae94e3c1a5b63f35d55c22f5e2a247796",
+      "bytes": 6312,
+      "duration": 0.7576
+    },
+    {
+      "id": "day04-035",
+      "kind": "word",
+      "text": "commerce",
+      "wordIds": [
+        "day04-035"
+      ],
+      "src": "/audio/words/day04-035-3efd68782916883f.mp3",
+      "textSha256": "cfb240efa8670bfe5c76d860adc3e87d3555dff0b987cef02bbcc44a9f80e62f",
+      "sha256": "0854fd9b28114f605b6f50f8bd81af2cabdba59592e28b366b7b8fe1a673f3b8",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day04-036",
+      "kind": "word",
+      "text": "entertain",
+      "wordIds": [
+        "day04-036"
+      ],
+      "src": "/audio/words/day04-036-118afb2cdf90b78c.mp3",
+      "textSha256": "fbfc486980bc22fdd612e5e41bc5ca59064e55e703ea62b61208a6f284c6e004",
+      "sha256": "18c04824864f0c39267aa910effc5fafc1832b8afd6340f068c4fb308c84d8b4",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day04-037",
+      "kind": "word",
+      "text": "predict",
+      "wordIds": [
+        "day04-037"
+      ],
+      "src": "/audio/words/day04-037-0a0d8f14abb4511c.mp3",
+      "textSha256": "8e9afe9d1df3927e713c246259f2e697abc1daeee11b8f7ed14ee4181f2f474f",
+      "sha256": "c428c7d03b95b8ff0e58bc5ba08e2dc7e619ef423a19f6fce542bfccfc4f39a8",
+      "bytes": 5685,
+      "duration": 0.6792
+    },
+    {
+      "id": "day04-038",
+      "kind": "word",
+      "text": "apologize",
+      "wordIds": [
+        "day04-038"
+      ],
+      "src": "/audio/words/day04-038-7dba1d7843fd91b0.mp3",
+      "textSha256": "0d7925903f3e8bfc03007ff16c25ed10714ee787e405b653f797b4e53148ac15",
+      "sha256": "405a712f493b4dd0918ca93b49cabda1c9b44563386c6b345ac3d76a46f06001",
+      "bytes": 9865,
+      "duration": 1.2016
+    },
+    {
+      "id": "day04-039",
+      "kind": "word",
+      "text": "sight",
+      "wordIds": [
+        "day04-039"
+      ],
+      "src": "/audio/words/day04-039-f00253f03c99bc67.mp3",
+      "textSha256": "b991a49b1b0aa2cc5850845fe440abdd1ac7965c65fe1ad6fc8d62efa42a1dd5",
+      "sha256": "897d818a3455a608b087bc42608efdff9810ce5b617cf9b9486380653224c75b",
+      "bytes": 6312,
+      "duration": 0.7576
+    },
+    {
+      "id": "day04-040",
+      "kind": "word",
+      "text": "quantity",
+      "wordIds": [
+        "day04-040"
+      ],
+      "src": "/audio/words/day04-040-0d4bcd61e4f1716d.mp3",
+      "textSha256": "1a7b308d8df661bad4338cb6acfa57891ac9d97b434d315b993214248ca3ddb2",
+      "sha256": "2b6a2fbee22a5eb0ecdcc8536cddbab0d5fb333c2cd306e0c93d4422594f94b0",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day05-001",
+      "kind": "word",
+      "text": "conclude",
+      "wordIds": [
+        "day05-001"
+      ],
+      "src": "/audio/words/day05-001-9a860275ab3b3718.mp3",
+      "textSha256": "cf4531359e01ef2166044a257c4b412050a3f2e3b6fa8682ee983023461dfa6a",
+      "sha256": "eb85d9eaec16c2f75cecde4f25c46884205664b341eb2a23a88369a1b26fcdd6",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day05-002",
+      "kind": "word",
+      "text": "donate",
+      "wordIds": [
+        "day05-002"
+      ],
+      "src": "/audio/words/day05-002-97e9889192afebaa.mp3",
+      "textSha256": "9b3e2278234d0e5fe5a4a6ef13b60d355c9be88e724e7ccc196528c3a40d2239",
+      "sha256": "80417e1166d58e20d5e246ff32b0f7d68e62cadf60a13aab0b9ba4412b0e5b7a",
+      "bytes": 6521,
+      "duration": 0.7837
+    },
+    {
+      "id": "day05-003",
+      "kind": "word",
+      "text": "personality",
+      "wordIds": [
+        "day05-003"
+      ],
+      "src": "/audio/words/day05-003-2c94c629a763f902.mp3",
+      "textSha256": "f046cfb2d0788f93898ec2a8d208570ceb29acfa467e33194373af154b46f671",
+      "sha256": "fd03c7907016187d3481da56b31f99eb94d379f6612fd747cb0703d7975e5534",
+      "bytes": 9447,
+      "duration": 1.1494
+    },
+    {
+      "id": "day05-004",
+      "kind": "word",
+      "text": "struggle",
+      "wordIds": [
+        "day05-004"
+      ],
+      "src": "/audio/words/day05-004-909dd8d9b7e75383.mp3",
+      "textSha256": "72b268f8262a023812197a4083ac2aed806a0ecc274e01ececf56f65c475b784",
+      "sha256": "e7f55b4575b854f74e7c0f09f948e60cb3900a8ad5e0fe02859730b292d98a93",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day05-005",
+      "kind": "word",
+      "text": "advantage",
+      "wordIds": [
+        "day05-005"
+      ],
+      "src": "/audio/words/day05-005-730803809fbfe5af.mp3",
+      "textSha256": "7db0558a5cdaa5ff8773356736e4c3689c49a97b9b2c8cfee94a739b78419ea7",
+      "sha256": "7a5c272fcd4cecf92a113adc415825f04ec5886e5b821df42ef6c31adf4a0db7",
+      "bytes": 9029,
+      "duration": 1.0971
+    },
+    {
+      "id": "day05-006",
+      "kind": "word",
+      "text": "variety",
+      "wordIds": [
+        "day05-006"
+      ],
+      "src": "/audio/words/day05-006-026116764f673180.mp3",
+      "textSha256": "b530f329d65f246114bd293232aa31ec383289b020059c7628942ee9dcd55f9b",
+      "sha256": "b6d5d3c4f5be1779fb1569c12b9b1b8409b173b025efa4d17e82a1ad8ea9ab14",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day05-007",
+      "kind": "word",
+      "text": "enable",
+      "wordIds": [
+        "day05-007"
+      ],
+      "src": "/audio/words/day05-007-0df178b2709b2942.mp3",
+      "textSha256": "e97166b54500da3a32eae48afe8df0970b19abfde3e4f3a50206cd8509feb161",
+      "sha256": "d1a24e327ee434f5696082d6686517683fc6a0e92a46a8043a96038945048676",
+      "bytes": 6312,
+      "duration": 0.7576
+    },
+    {
+      "id": "day05-008",
+      "kind": "word",
+      "text": "instruction",
+      "wordIds": [
+        "day05-008"
+      ],
+      "src": "/audio/words/day05-008-e3d5a15669eb5b25.mp3",
+      "textSha256": "5a92f6f089f63f0d476ba2494aa0848b93dbd0bcb7f058544e10992e67f09c98",
+      "sha256": "e52b3a36e09cfb21064b347807eee2ad3171a8deb0a3f9f7791920dc3e4a8bfa",
+      "bytes": 9238,
+      "duration": 1.1233
+    },
+    {
+      "id": "day05-009",
+      "kind": "word",
+      "text": "assume",
+      "wordIds": [
+        "day05-009"
+      ],
+      "src": "/audio/words/day05-009-c6ff2eb79f707461.mp3",
+      "textSha256": "82e05dae00a818a382671dbefec95e8bfd688b659a7bf02cf3e2e7af319aca5b",
+      "sha256": "867e3d5c6be1d76b647b7cb09a53746c8ccaa0223bdc4b39aaf5c8ccf593d97b",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day05-010",
+      "kind": "word",
+      "text": "attempt",
+      "wordIds": [
+        "day05-010"
+      ],
+      "src": "/audio/words/day05-010-38f7d33b6dec7a7e.mp3",
+      "textSha256": "c7ce66d0fb14e3c2d4d920918cc6cc7e488668b08dddeb7b85e44de3b9f3eb01",
+      "sha256": "de96710c68f92f0fd37ef9ed861b2ab09ddfbc158a480d1d90546c43bc6a6666",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day05-011",
+      "kind": "word",
+      "text": "incredible",
+      "wordIds": [
+        "day05-011"
+      ],
+      "src": "/audio/words/day05-011-68c8714b1a880ace.mp3",
+      "textSha256": "6bf67200c28902770671846250c3018a55944c38fa1bbc363dbe12a61b508966",
+      "sha256": "559c5d9b49ab315b9452008c3be1fd724a887628e93a6201bc841ebbf0a5ad13",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day05-012",
+      "kind": "word",
+      "text": "feature",
+      "wordIds": [
+        "day05-012"
+      ],
+      "src": "/audio/words/day05-012-2d9f75120c83e7e8.mp3",
+      "textSha256": "2ad562319767157087dda0dec6391f4479f8a04869ab0cc8d3a9c3637dae73b5",
+      "sha256": "01cdea9f231da1c47e8ee0733764b1a012da583564229ece802deca9c767ae11",
+      "bytes": 6730,
+      "duration": 0.8098
+    },
+    {
+      "id": "day05-013",
+      "kind": "word",
+      "text": "confuse",
+      "wordIds": [
+        "day05-013"
+      ],
+      "src": "/audio/words/day05-013-3907ad322f1c1876.mp3",
+      "textSha256": "41364e7a52d1d83f8a2f31c74897b4d6ec266fb4a0b95a85e51508e01b691d6a",
+      "sha256": "d3bdb36fa7969bba99e92e8a45d181a9575d34a062e15c778f26506551fc1125",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day05-014",
+      "kind": "word",
+      "text": "electronic",
+      "wordIds": [
+        "day05-014"
+      ],
+      "src": "/audio/words/day05-014-ee376002fcdd991f.mp3",
+      "textSha256": "73e4c51456c25bab5458df719693e8dd7ca6b23e214ba2ef1142f7f29b33e995",
+      "sha256": "d344d761c9f028c85cc4a56b28d56157468a645784ed81650a70738c21bdb07a",
+      "bytes": 8193,
+      "duration": 0.9927
+    },
+    {
+      "id": "day05-015",
+      "kind": "word",
+      "text": "absorb",
+      "wordIds": [
+        "day05-015"
+      ],
+      "src": "/audio/words/day05-015-274a517aac007040.mp3",
+      "textSha256": "22b090dd46c756d3c30739331d344d63399c10d19baf99f8aaa04e00829c0557",
+      "sha256": "ec864d77721affe7d663ff77e561ce9d2266d2dfd07d8f8c36fc4db3635959cb",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day05-016",
+      "kind": "word",
+      "text": "indicate",
+      "wordIds": [
+        "day05-016"
+      ],
+      "src": "/audio/words/day05-016-9342af1e0fac4ec7.mp3",
+      "textSha256": "4932c716f725df5e480e16c36a0fb72604dbbc790a9dffb3e28e4baa4d541518",
+      "sha256": "6373f8d407aff58e02cc0357d3ad5ed43e1e1dac155bd84d62399bccc697cf8c",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day05-017",
+      "kind": "word",
+      "text": "analyze",
+      "wordIds": [
+        "day05-017"
+      ],
+      "src": "/audio/words/day05-017-1c845553f7b8361a.mp3",
+      "textSha256": "09cbad3beca70ddbcc89819d841b26bc8be195122240185d5388f152f88a107c",
+      "sha256": "8e8b738cd11bd940ec60e8a6884cc5967dcb7a5b4bf8498d86c2e2009d965874",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day05-018",
+      "kind": "word",
+      "text": "stock",
+      "wordIds": [
+        "day05-018"
+      ],
+      "src": "/audio/words/day05-018-398e0a8d005e8ce6.mp3",
+      "textSha256": "08c4242b5f585628bb8cef8ede40e9895b8719eb8070aee2d96613583ee3904a",
+      "sha256": "df0d546423445ca4dc56d54ff21b423fbe97584bbf20b9f874c2f95384898d84",
+      "bytes": 6312,
+      "duration": 0.7576
+    },
+    {
+      "id": "day05-019",
+      "kind": "word",
+      "text": "resident",
+      "wordIds": [
+        "day05-019"
+      ],
+      "src": "/audio/words/day05-019-c47b1f97eb59329d.mp3",
+      "textSha256": "84816ff383c826e9c11e26fdbd8d66e4edd7cf1ec1a4b23f8d10d84aa56e0d8f",
+      "sha256": "c7c9ff7bcde9217c6f7f6c3c3f11d20409c93662f6ca581c363520e87ac145d4",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day05-020",
+      "kind": "word",
+      "text": "labor",
+      "wordIds": [
+        "day05-020"
+      ],
+      "src": "/audio/words/day05-020-d847668ffc61fbf2.mp3",
+      "textSha256": "3236c2112dab28cc41891f3e49133d39eaddb1854d1bcff9aa8d495b5d502b0f",
+      "sha256": "04b26c3e08f973579d7fc70022529908a5e5c93e69907a11bfea033bd810fa08",
+      "bytes": 5476,
+      "duration": 0.6531
+    },
+    {
+      "id": "day05-021",
+      "kind": "word",
+      "text": "remark",
+      "wordIds": [
+        "day05-021"
+      ],
+      "src": "/audio/words/day05-021-c33b2f0a7888f2b0.mp3",
+      "textSha256": "1ffcd59e73280037cb72a49668a35bc8d18e694fb59616dc63bf7171ad35e32a",
+      "sha256": "468631223716e0ae068ca5a25eec20f5b0e801f940d43d4df05887be66f72667",
+      "bytes": 6730,
+      "duration": 0.8098
+    },
+    {
+      "id": "day05-022",
+      "kind": "word",
+      "text": "moral",
+      "wordIds": [
+        "day05-022"
+      ],
+      "src": "/audio/words/day05-022-ee0a55d9838e4002.mp3",
+      "textSha256": "6d11e92bbc4db371a2cf15bb8b8e0a0bd5f373d64fb98ddb22fabaf70463d0cb",
+      "sha256": "867e0f6293d95b7eff67a190c9d6894c6b701420113ba7660e0aac20adacfaf6",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day05-023",
+      "kind": "word",
+      "text": "embarrassed",
+      "wordIds": [
+        "day05-023"
+      ],
+      "src": "/audio/words/day05-023-96d3380d39ec9790.mp3",
+      "textSha256": "f12e1aedc45deb7763500415f3f2d4cc81b9917683502c7ec162573d9b292ef0",
+      "sha256": "cf9709043d3d405ebefb17bfcd5b8f740bbd2028e5093cebe03c78e17e470853",
+      "bytes": 8820,
+      "duration": 1.071
+    },
+    {
+      "id": "day05-024",
+      "kind": "word",
+      "text": "claim",
+      "wordIds": [
+        "day05-024"
+      ],
+      "src": "/audio/words/day05-024-f663e21b1864bf0e.mp3",
+      "textSha256": "dd1b3c312cf7d816130354452e9629ce39355b0c534129dd26a08cd9a4502ede",
+      "sha256": "444563d434e86014fd8c312d79028a6d6ba6cc0c88ae92eec547a1322f6a30e2",
+      "bytes": 6103,
+      "duration": 0.7314
+    },
+    {
+      "id": "day05-025",
+      "kind": "word",
+      "text": "reasonable",
+      "wordIds": [
+        "day05-025"
+      ],
+      "src": "/audio/words/day05-025-d834f73843611f1f.mp3",
+      "textSha256": "53bc5c9386ea143b4bebb956bbd73f8e364c8ec03dffbf4941466362bc06df51",
+      "sha256": "5a3a81f78b54235e48ae17b1967fcfb78c67310b39ca54aef9a9e290eeff8deb",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day05-026",
+      "kind": "word",
+      "text": "interrupt",
+      "wordIds": [
+        "day05-026"
+      ],
+      "src": "/audio/words/day05-026-7b5c359c66b0a359.mp3",
+      "textSha256": "a2090fd63782e9c30ddc46f71b0c9434bb84390cac145ba03671ec01c52854f8",
+      "sha256": "3cec9f055b319b68f44b520320da827c0e1aad2bcfb0834869f3ec69625da609",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day05-027",
+      "kind": "word",
+      "text": "limit",
+      "wordIds": [
+        "day05-027"
+      ],
+      "src": "/audio/words/day05-027-4848122d1b0dffa1.mp3",
+      "textSha256": "55ea09e5715d0a8d9d94018d473bf23b2d7e630c2adb1f1acad3bada74c6fd05",
+      "sha256": "21f4255d7a8e7aa618e19e867a8edc4c84767871664dcac67b4ceaa926d1a149",
+      "bytes": 4849,
+      "duration": 0.5747
+    },
+    {
+      "id": "day05-028",
+      "kind": "word",
+      "text": "creature",
+      "wordIds": [
+        "day05-028"
+      ],
+      "src": "/audio/words/day05-028-fc41715f888b54df.mp3",
+      "textSha256": "df8eb42b37df4f774564ac36bc946beb2f4294f2e739f8ad1ce1c7e3ee9d60d1",
+      "sha256": "0c5ec749c3a52bea00d170238e8ce34da05ba464e1081121f37103eec1b04c88",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day05-029",
+      "kind": "word",
+      "text": "heal",
+      "wordIds": [
+        "day05-029"
+      ],
+      "src": "/audio/words/day05-029-d75e839f01dd33be.mp3",
+      "textSha256": "599f8341fe3e0fd23de7d89500b8224965ab536307049a175bcd30331d0918c5",
+      "sha256": "10c8edc9f0cb694c38886ad4ad003d31e64d487b6846db334e551dac2b81bf8e",
+      "bytes": 4640,
+      "duration": 0.5486
+    },
+    {
+      "id": "day05-030",
+      "kind": "word",
+      "text": "establish",
+      "wordIds": [
+        "day05-030"
+      ],
+      "src": "/audio/words/day05-030-752a5f00302b6af5.mp3",
+      "textSha256": "3a19589098bc0e3a2b373ffc5a47cd532f6a76c24d5ddb38207d8d274d45fcfd",
+      "sha256": "f47022ea487bcd6046e2287e0ce50bd93794acd16dfceb94c6135e93578389ab",
+      "bytes": 9238,
+      "duration": 1.1233
+    },
+    {
+      "id": "day05-031",
+      "kind": "word",
+      "text": "revolution",
+      "wordIds": [
+        "day05-031"
+      ],
+      "src": "/audio/words/day05-031-bf87123030785150.mp3",
+      "textSha256": "70b6144fae4d4c163c6e205f02e347f553b80e03043b27abe66e539247d747d1",
+      "sha256": "2503692f5f1d332de8992a5f829aa9ea8319463667a90431f08744f626a98b7d",
+      "bytes": 7984,
+      "duration": 0.9665
+    },
+    {
+      "id": "day05-032",
+      "kind": "word",
+      "text": "criticize",
+      "wordIds": [
+        "day05-032"
+      ],
+      "src": "/audio/words/day05-032-40c257241b0a9889.mp3",
+      "textSha256": "3bd933a3238b7a98bfbd84d77692ade332fea581a767b64316717122e9747c98",
+      "sha256": "c82e1d30fc4a6f13117112890c480d2f53b8587300ea43fd9df04b888bb6cbe2",
+      "bytes": 9238,
+      "duration": 1.1233
+    },
+    {
+      "id": "day05-033",
+      "kind": "word",
+      "text": "convince",
+      "wordIds": [
+        "day05-033"
+      ],
+      "src": "/audio/words/day05-033-e9fb9f7eef6442f8.mp3",
+      "textSha256": "61b0a3c4d28279aa8d7a160fe5eb63fec2094f7194f2032c232a08c64ad28743",
+      "sha256": "2ffa01f3c29470bb34eb1656edf72941c622b3c8e78ccb08f1a904c60864d1df",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day05-034",
+      "kind": "word",
+      "text": "efficient",
+      "wordIds": [
+        "day05-034"
+      ],
+      "src": "/audio/words/day05-034-e4c7376384d15f8c.mp3",
+      "textSha256": "480e4f1d08e9079c05c0b2eeb1fb269cf2164678979891f0780ee9dd33f190e8",
+      "sha256": "409cddf486c5011ae6d372f398cb3c312bf2071a17a2a2da1ae05331dda65f45",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day05-035",
+      "kind": "word",
+      "text": "stranger",
+      "wordIds": [
+        "day05-035"
+      ],
+      "src": "/audio/words/day05-035-e8ee42070d74fb83.mp3",
+      "textSha256": "8aca4f36774f82a67c507cb9c96679482e2cc767f2d38502269557a566b092fb",
+      "sha256": "8858af66f05f342251f82da04d08ab6e146ae1e46a0cc04c8e0f702241f60f1a",
+      "bytes": 7775,
+      "duration": 0.9404
+    },
+    {
+      "id": "day05-036",
+      "kind": "word",
+      "text": "tide",
+      "wordIds": [
+        "day05-036"
+      ],
+      "src": "/audio/words/day05-036-0ff6e37a6649c975.mp3",
+      "textSha256": "8a28929ac7f9a17e97a421ac2cd63ac73568ebe87bc0cee641a193d91c761577",
+      "sha256": "b95d05239ba390f29d9e40c2665a746554ef86d9b508e2fd788d84ad67ea1930",
+      "bytes": 5894,
+      "duration": 0.7053
+    },
+    {
+      "id": "day05-037",
+      "kind": "word",
+      "text": "obtain",
+      "wordIds": [
+        "day05-037"
+      ],
+      "src": "/audio/words/day05-037-c946047d6ff83264.mp3",
+      "textSha256": "cf3c3437a865359b6bdba561df9b47b9286f32dcb62351b3335b386c762f505f",
+      "sha256": "15d907f41cc5fe3c3969a835c1fcb071298e7c1987c4806aaf78eca5ecac2baa",
+      "bytes": 7357,
+      "duration": 0.8882
+    },
+    {
+      "id": "day05-038",
+      "kind": "word",
+      "text": "assist",
+      "wordIds": [
+        "day05-038"
+      ],
+      "src": "/audio/words/day05-038-b6eac1e45e9ea2a8.mp3",
+      "textSha256": "7b0363b65576ead3e362cc81287dad95d77146f76802ce0688e4e91adb7112eb",
+      "sha256": "ef23fb8d6c07aa22d4567e9007769e2ab8e1e9a4b06f743595013b72e9464a22",
+      "bytes": 6939,
+      "duration": 0.8359
+    },
+    {
+      "id": "day05-039",
+      "kind": "word",
+      "text": "disaster",
+      "wordIds": [
+        "day05-039"
+      ],
+      "src": "/audio/words/day05-039-73bcee9bd8dc62cd.mp3",
+      "textSha256": "6af308d5ad701d4b9fe0b567c27867550d2bff29e140d82c82ed1ec48c66acfa",
+      "sha256": "1929f33f2fbdd127a2120348b801605a880e663f0f286173b71bea4b1aa252d0",
+      "bytes": 7566,
+      "duration": 0.9143
+    },
+    {
+      "id": "day05-040",
+      "kind": "word",
+      "text": "terrific",
+      "wordIds": [
+        "day05-040"
+      ],
+      "src": "/audio/words/day05-040-f8eec538ebd52585.mp3",
+      "textSha256": "9a21ba92fdb961082a5382355e87cb6168f9404e7c855d52ad5fc9f0c21256da",
+      "sha256": "8ee986bdd3763fff28fc4da0d231274a20e0f37325dfefad0aa7b51cd631b95c",
+      "bytes": 6730,
+      "duration": 0.8098
+    },
+    {
+      "id": "day01-set01",
+      "kind": "story",
+      "text": "Leo wants to develop a small reading club. The library can provide a room for a cultural event. He will inform his neighbors about this social gathering.",
+      "src": "/audio/stories/day01-set01-e2f1aceb782a223b.mp3",
+      "textSha256": "ea1d11e58e7b327743a838caa225c906cf418c75d31da319222b2512ca7f8e95",
+      "sha256": "f843bd9f6fa28d435e27ae3e25c1b9e34cb034dcd0ff00a1c37f6ff377c85861",
+      "bytes": 69215,
+      "duration": 8.6204
+    },
+    {
+      "id": "day01-set02",
+      "kind": "story",
+      "text": "Leo hopes to improve the club with help from each individual. The activities require teamwork, so he asks his friend Mia to volunteer. They agree to behave politely and listen to everyone.",
+      "src": "/audio/stories/day01-set02-afc27709586eaf00.mp3",
+      "textSha256": "5b29563fea06bbb5430460734999823cda2936578225810b2deaa9ec8bcb71ad",
+      "sha256": "95d45ff93c720550b690efb68de9e378d7a1095dc33f2ff26f6de36ee10771dc",
+      "bytes": 96173,
+      "duration": 11.9902
+    },
+    {
+      "id": "day01-set03",
+      "kind": "story",
+      "text": "The club needs a small amount of money for books. Leo wants to build a good relationship with a nearby shop. The owner plans to employ a student with a friendly attitude to do research on children's favorite stories.",
+      "src": "/audio/stories/day01-set03-a290c95ae13c153b.mp3",
+      "textSha256": "d3d3ca89dfec56b3f731a10cc1244a8f26fe3d1a152f39fc72e8dcb278f2701b",
+      "sha256": "3f009e99c770ce15aa4ea28be7fb4a95da77e02329fc1cce56069574aff94250",
+      "bytes": 108503,
+      "duration": 13.5314
+    },
+    {
+      "id": "day01-set04",
+      "kind": "story",
+      "text": "An audience gathers to hear Mia read. Reading aloud is a challenge, but Leo's kind words influence her in a good way. She uses recycled material to make a poster, and everyone gets an opportunity to share a story.",
+      "src": "/audio/stories/day01-set04-0db4f8835c2ffbe2.mp3",
+      "textSha256": "5e49f99bbf86048a5f92bb9e7282aabc45bfdb0afb014f6537b9c6e24c915210",
+      "sha256": "7bd6cb5e9daf1caf55989f89189a0c369339769d10415d8892b74811516d484b",
+      "bytes": 110593,
+      "duration": 13.7927
+    },
+    {
+      "id": "day01-set05",
+      "kind": "story",
+      "text": "The club wants to protect the environment. To keep the expense low, Leo visits a local shop for used books. He hopes to involve the neighbors in a book swap, with a quiet reading corner to help everyone manage stress.",
+      "src": "/audio/stories/day01-set05-65e4a893c9d08551.mp3",
+      "textSha256": "41424b1bbce542d0c1124b6cd28a4c6354e09d43ca808bc8972c1f65ef8673a0",
+      "sha256": "9d0394a2fb08c665ae26003152f0b15b92990afbe7642e06e3e863f8c9e49424",
+      "bytes": 109130,
+      "duration": 13.6098
+    },
+    {
+      "id": "day01-set06",
+      "kind": "story",
+      "text": "The boxes contain more books than the club needs. The average visitor takes two books home. Leo offers to ride his bike to deliver the rest. Therefore, Mia decides to encourage other cyclists to help.",
+      "src": "/audio/stories/day01-set06-7676ad7ba31350ed.mp3",
+      "textSha256": "2fa9bae3071be7b13c63e4b2ee5db00ee04cfcd16876648bde5e7c8b7003d522",
+      "sha256": "78b9dd374f5982ef7f4a3612a8db9934d5feee29e7f8504768f205df1b48b9e8",
+      "bytes": 102025,
+      "duration": 12.7216
+    },
+    {
+      "id": "day01-set07",
+      "kind": "story",
+      "text": "At an international fair, Leo wants to determine which products use less energy. He learns that machines can consume a lot of electricity. One small object, a solar lamp, seems likely to impress his friends.",
+      "src": "/audio/stories/day01-set07-1a06dca6f5786d8f.mp3",
+      "textSha256": "ca6abef483348bcb323696594f01768989b065d22c91a59b7b04227395c18e72",
+      "sha256": "c25cd550481ca8155276ba99e2f253f787f32b656ea4d33b952eef70ee314adc",
+      "bytes": 116235,
+      "duration": 14.498
+    },
+    {
+      "id": "day01-set08",
+      "kind": "story",
+      "text": "At the fair, Leo sees soap, a useful everyday commodity. A seat is available beside a friendly seller. She can recognize him from the book club and offers him comfort after a busy day. Her positive words make him smile.",
+      "src": "/audio/stories/day01-set08-71d99872bebc84af.mp3",
+      "textSha256": "8080c83dd940ff2d8a437f56f43480526fac65a6511d35218c4de4980176f8b5",
+      "sha256": "0e7e764fc14d9daa095a9ea23aa777b838b91640501021623f3e8a95057c7b8c",
+      "bytes": 112265,
+      "duration": 14.0016
+    },
+    {
+      "id": "day02-set01",
+      "kind": "story",
+      "text": "Leo feels a warm emotion as he enters the forest. The bright butterflies amaze him. He wants to reduce his screen time, discover new paths, and decide where to have a picnic.",
+      "src": "/audio/stories/day02-set01-7e1dabc3e2cc325c.mp3",
+      "textSha256": "5fc2e7512800d5b68ef8c4587fd5c27abe1e2c0424831d9cd54bf032ea9edf84",
+      "sha256": "cb0f7f99fff6be68d5e5032461d1eca435ee9bf44b843565a3801e9131ca8b85",
+      "bytes": 91367,
+      "duration": 11.3894
+    },
+    {
+      "id": "day02-set02",
+      "kind": "story",
+      "text": "One benefit of the science club is learning with friends. In chemistry class, Leo learns how heat can affect the water level in a tube. A teacher is nearby to give immediate help.",
+      "src": "/audio/stories/day02-set02-0d5e30e03a3921d2.mp3",
+      "textSha256": "bf0ff5ed5dc940179ecda2f0da5babaa65938b1576152038839b06206f0ab531",
+      "sha256": "bd64a4afbe5db25548b87251fe86adde3ea88e1f4a3f21ac9a0b6023abe804df",
+      "bytes": 92203,
+      "duration": 11.4939
+    },
+    {
+      "id": "day02-set03",
+      "kind": "story",
+      "text": "The town faces economic difficulties. Thus, the club plans a free performance. Mia chooses a proper place and says, \"The essence of our show is sharing joy.\"",
+      "src": "/audio/stories/day02-set03-8e7c202b7aea53c7.mp3",
+      "textSha256": "90d0e6c652e5087e3f358d0c5bc81a823331e3642784392f3ab4aed7678e65ae",
+      "sha256": "46d2e97a028c47f2ceb03708ad9162854f1900d2c7348ddd6b93d3cf6ae64715",
+      "bytes": 84261,
+      "duration": 10.5012
+    },
+    {
+      "id": "day02-set04",
+      "kind": "story",
+      "text": "Leo asks everyone to participate in a science project. They focus on a plant cell under a microscope. There is just one issue: high demand for the only microscope means they must take turns.",
+      "src": "/audio/stories/day02-set04-e6c7f0ee45b71779.mp3",
+      "textSha256": "b59c09967793ac68a6e5226b8199429eafc1ad028a91b1e6d58241521d47c60e",
+      "sha256": "c4df8be2d9ffa8edc19d9a858a7084e1152e80c6bbe930339e7a7d1a38fed63f",
+      "bytes": 95546,
+      "duration": 11.9118
+    },
+    {
+      "id": "day02-set05",
+      "kind": "story",
+      "text": "Mistakes can occur when we solve a complex problem. Mia helps Leo define each step clearly. He feels proud of his work and becomes aware of how much he has learned.",
+      "src": "/audio/stories/day02-set05-2b18006337514df3.mp3",
+      "textSha256": "8dbf8a02aecbb39755b1739adcc578ac2f35b6243854f30e0dadb169b0be8849",
+      "sha256": "9d4fafdb13224425f6602742554afd062f72926f737cd2dd50a077b2411ceaca",
+      "bytes": 84052,
+      "duration": 10.4751
+    },
+    {
+      "id": "day02-set06",
+      "kind": "story",
+      "text": "Leo hopes to start a career in design. He plans to contact a designer to learn about the profession. He will approach her politely and ask about one detail of her daily work.",
+      "src": "/audio/stories/day02-set06-54dd3d0b04d0c815.mp3",
+      "textSha256": "a672317e01f5df84ec16f9398017531806df8b5f7c4214f557b2cfd06c9eacc8",
+      "sha256": "156396bc5bcf8743ddfda32e888be681e94c1fc32705b319d147781c58e3019c",
+      "bytes": 88859,
+      "duration": 11.0759
+    },
+    {
+      "id": "day02-set07",
+      "kind": "story",
+      "text": "A package arrives with a new novel inside. Leo puts the book in a secure box so it will not disappear during the move. The box has one simple function: keeping precious things safe.",
+      "src": "/audio/stories/day02-set07-af8ce3592380da99.mp3",
+      "textSha256": "c8e0dca778d87135c648dba062c5be0a95e5cd928231ea4d2adf50cdf0f84e39",
+      "sha256": "ad48d8060893d73e8c2d2bfa3704a5f03a66b186871e5c0651820208f026f2a6",
+      "bytes": 90949,
+      "duration": 11.3371
+    },
+    {
+      "id": "day02-set08",
+      "kind": "story",
+      "text": "Despite their different skills, the friends share a common goal. Leo's background in design helps them generate ideas for a better reading corner. Eventually, they find a solution that gives everyone a comfortable seat.",
+      "src": "/audio/stories/day02-set08-87f6368e22ae5509.mp3",
+      "textSha256": "cd52f0a06f3f81bf34b5f0ef6e52285caa8b894729550118e9456e4a2b87197e",
+      "sha256": "203927b22a2357b57434df81832a85835e96ccda5509489696244d35666b5440",
+      "bytes": 102443,
+      "duration": 12.7739
+    },
+    {
+      "id": "day03-set01",
+      "kind": "story",
+      "text": "Leo has a desire to keep the park clean. He wants to decrease waste and recycle old bottles. He keeps a balance between work and rest, even when negative comments make the task feel difficult.",
+      "src": "/audio/stories/day03-set01-0b94848f9390c1b8.mp3",
+      "textSha256": "f95b5029f81901094344f044c810ca76643ce5cffd80afe025a357d563e5ba10",
+      "sha256": "190cf8928e6b6e5def1a6a1214f0e00f3d9b8c85a37ed032754f1766cb878e6d",
+      "bytes": 97427,
+      "duration": 12.1469
+    },
+    {
+      "id": "day03-set02",
+      "kind": "story",
+      "text": "The club plans to publish an account of its first cleanup. For this special occasion, Leo will follow Mia around the park and take notes. They decide to replace a blurry photo before printing the newsletter.",
+      "src": "/audio/stories/day03-set02-684b0bde64098471.mp3",
+      "textSha256": "b9bff5e59f188f5ea8ff10fb74f2bef737b231791d34c94d73610537434aac7a",
+      "sha256": "057f106ee91a8adcbedda214d1d643d52dfc3f0f80bbd4c553ec55938f9968e4",
+      "bytes": 96173,
+      "duration": 11.9902
+    },
+    {
+      "id": "day03-set03",
+      "kind": "story",
+      "text": "A garden expert visits the club. She asks Leo to describe the constant noise near the trees. She explains the term \"noise pollution\" and suggests a quiet corner to relieve stress.",
+      "src": "/audio/stories/day03-set03-4d0b88ded0972b6d.mp3",
+      "textSha256": "43fb68659f9b469fc762076fe325722522e5dfeff757c4b82ac4a14d70d23617",
+      "sha256": "090203fd48c82680c08cc7eb065c68204dd1d3f0089ef893aa0d3c4ace10e0fb",
+      "bytes": 93456,
+      "duration": 11.6506
+    },
+    {
+      "id": "day03-set04",
+      "kind": "story",
+      "text": "The biology project is due on Friday. Leo checks the equipment and tries to imagine how the display will look. His friends congratulate him on winning a place in the science fair.",
+      "src": "/audio/stories/day03-set04-35bc6139511d1e9c.mp3",
+      "textSha256": "3a454c4682e03d92763579c4191456620c30497cfdd4e83fb062fe1b53211839",
+      "sha256": "5e79a32d333ba63f8f117c2e725d091de3294baff12aa543c70b3cb58e7d61d6",
+      "bytes": 86560,
+      "duration": 10.7886
+    },
+    {
+      "id": "day03-set05",
+      "kind": "story",
+      "text": "Mia wants to compose a song about the garden. Frequent rain is the cause of her inspiration. She is no musical genius, but she hopes the gentle melody will reflect the sound of the rain.",
+      "src": "/audio/stories/day03-set05-4ee2592047c12cdf.mp3",
+      "textSha256": "2a8aed57e27eb12a3ad3a576c5eb006afb2be0c994874157553ba8719f185102",
+      "sha256": "e8d44e008f706b248fd07d24abb963853f260a603a91cf3bd904b2c698fd89a4",
+      "bytes": 93247,
+      "duration": 11.6245
+    },
+    {
+      "id": "day03-set06",
+      "kind": "story",
+      "text": "At a meeting about local politics, people tend to disagree. One important factor is the cost of a new park. Some insist on extreme changes, but Leo asks everyone to listen calmly.",
+      "src": "/audio/stories/day03-set06-93f0e4912839d396.mp3",
+      "textSha256": "5cd83ced3d79b21d3e854bae5190d81c77e3ddfd1979f1ce5410ee5ae68aacc4",
+      "sha256": "4bc91a45013bfa5695fba40f633b4611f363a80a136fd0018f16bef2618512d7",
+      "bytes": 95964,
+      "duration": 11.9641
+    },
+    {
+      "id": "day03-set07",
+      "kind": "story",
+      "text": "The club plans to extend a path around the birds' habitat. A lonely neighbor joins them for a walk. With steady support from his new friends, he finds that time in nature helps his mental health.",
+      "src": "/audio/stories/day03-set07-cef2e817412e7851.mp3",
+      "textSha256": "4ed54ca778ced10b6601f963888cca270dd70397adea6456cb513488b1fb5940",
+      "sha256": "5bb6d233985524b55d191d88991e6f9229d58f21ac52f3e1a9ad954194c8ebe8",
+      "bytes": 92203,
+      "duration": 11.4939
+    },
+    {
+      "id": "day03-set08",
+      "kind": "story",
+      "text": "At a health fair, an active student and an athletic coach exchange ideas about exercise. Nearby, a dental expert explains how the teeth of each animal species suit its food.",
+      "src": "/audio/stories/day03-set08-727bf91f974fb870.mp3",
+      "textSha256": "1701d0979035effd24ce94db25b24c6566d7badd01ebd9d7300bbd57bc0bc0c6",
+      "sha256": "fd38df2a733ffa37fabe10a34e4e287570fd7a6d16c379c51397c81d004d0dd2",
+      "bytes": 98890,
+      "duration": 12.3298
+    },
+    {
+      "id": "day04-set01",
+      "kind": "story",
+      "text": "To Leo's delight, the town opens a library with easy access for everyone. He feels more confident about reading aloud. As the sun gradually sets, his long shadow stretches across the path home.",
+      "src": "/audio/stories/day04-set01-330dea6ab6d23dbf.mp3",
+      "textSha256": "c39fadc9463ade0682df02f56295f0e0c4c1a407b1f42617b23af9e2be554b56",
+      "sha256": "f26a34512786365416c222d0f857fae30d790e3aedc21f40d90d164af27ccd30",
+      "bytes": 103696,
+      "duration": 12.9306
+    },
+    {
+      "id": "day04-set02",
+      "kind": "story",
+      "text": "A local firm will announce its plan for a new playground. The workers allow visitors to watch from a safe place. Their tasks vary each day, but they always take care not to injure anyone.",
+      "src": "/audio/stories/day04-set02-b5002daadeaa613e.mp3",
+      "textSha256": "6c67b7999247a655925fba86c8b4bcc23d5b304f0d5ff533f8da3af081ca5600",
+      "sha256": "dd79cb47b09fe31469b914aca743e4c7e12d3ca6774d48c3015233e6d6aa1eaf",
+      "bytes": 90949,
+      "duration": 11.3371
+    },
+    {
+      "id": "day04-set03",
+      "kind": "story",
+      "text": "The town receives a permit to install a lift for disabled visitors. The response from the community is positive. Engineers check the electricity supply because the lift will increase the building's power use.",
+      "src": "/audio/stories/day04-set03-3383de3c3181beec.mp3",
+      "textSha256": "a0eaf2595dd438e6bd7abcf030017b33ad76cfef1a01a9790a4ee15571a845be",
+      "sha256": "b7ea672bef4c936ba7d8996dd7a3f5b2c72f8f3a56bdfedf0758974315d57541",
+      "bytes": 101398,
+      "duration": 12.6433
+    },
+    {
+      "id": "day04-set04",
+      "kind": "story",
+      "text": "In astronomy class, the teacher will emphasize the possibility of seeing a comet tonight. Leo tries to concentrate, but a lack of sleep makes it hard. He decides to rest before watching the sky.",
+      "src": "/audio/stories/day04-set04-c256b2272215fc7c.mp3",
+      "textSha256": "3c44aae12f326ccd81310b3d45bc74c73b21ba9c70c5848cc1621ede760c7816",
+      "sha256": "025a086edcbad465a3072c5182aa55db0e6477a448261f77ef7c143ff0f6d4b6",
+      "bytes": 99517,
+      "duration": 12.4082
+    },
+    {
+      "id": "day04-set05",
+      "kind": "story",
+      "text": "After a flood, a team brings fuel to the village. A nearby workshop can manufacture simple carts. With the roads blocked, these carts help the movement of supplies, and Leo is capable of guiding the team.",
+      "src": "/audio/stories/day04-set05-605ce2c826bb0459.mp3",
+      "textSha256": "1054d3351c75cceae9ee68967edfdc3193ae96748c39b7107a270b3b5f817e73",
+      "sha256": "f15b95ac0ff2bd0e3cbceba90416e3bffbae7bd2dcd62d065439898f422fa8c1",
+      "bytes": 105995,
+      "duration": 13.218
+    },
+    {
+      "id": "day04-set06",
+      "kind": "story",
+      "text": "A scientist explains how a gene can affect health. Researchers combine their knowledge to study a new threat. Their goal is to help every victim of the illness without putting extra pressure on families.",
+      "src": "/audio/stories/day04-set06-d6328f2044837a9a.mp3",
+      "textSha256": "26efdf91eef0de85bdecc19a7b32414e8914dd894967b9771d1c9684d0fa912d",
+      "sha256": "f9247959cf428e56e636fb05c7a9c2ec97d39f4b163355512b9901c49775e4d0",
+      "bytes": 99726,
+      "duration": 12.4343
+    },
+    {
+      "id": "day04-set07",
+      "kind": "story",
+      "text": "Mia will accompany Leo to a meeting about local commerce. They hope to construct a small stall and launch a book exchange. Delays can frustrate them, but they keep working together.",
+      "src": "/audio/stories/day04-set07-5e0ce508cc5927cb.mp3",
+      "textSha256": "87d83377db5cd3052f30c34e0adc27787304b33e4c6e9c933914c68b1d4fa13c",
+      "sha256": "886080baeaa3bb6af7548f7bfcc3b615195ee02ff7df445a63e0c05891855598",
+      "bytes": 88441,
+      "duration": 11.0237
+    },
+    {
+      "id": "day04-set08",
+      "kind": "story",
+      "text": "Leo hopes to entertain the visitors with a story. He cannot predict the quantity of rain, so he moves the chairs inside. When a wet guest comes into sight, Leo goes over to apologize for the muddy path.",
+      "src": "/audio/stories/day04-set08-f8b83b3d580db573.mp3",
+      "textSha256": "b3bbdf2720fd710a42338104073a582988b3db1cce2ccd0e999977f633e5f823",
+      "sha256": "f58a2b7e619d6914bbc993c989b0121f5b1e0acabaaba360ba454f6f2971ccae",
+      "bytes": 104950,
+      "duration": 13.0873
+    },
+    {
+      "id": "day05-set01",
+      "kind": "story",
+      "text": "The friends conclude that they should donate their extra books. Leo's friendly personality is an advantage when he asks neighbors for help. They sometimes struggle to carry the boxes, but nobody gives up.",
+      "src": "/audio/stories/day05-set01-8e56624b097b48f0.mp3",
+      "textSha256": "58f8626ac95d97663f1e28b4446c09fcc83b02bafa7207008de547a433f35301",
+      "sha256": "5c21ef5f0ce99bd173d35d3e1604e8b98ecb1963a345af1fa9c91183d27fc5fd",
+      "bytes": 99099,
+      "duration": 12.3559
+    },
+    {
+      "id": "day05-set02",
+      "kind": "story",
+      "text": "A variety of games will enable everyone to join the party. Leo reads one instruction at a time. He does not assume that everyone knows the rules, so he lets the group attempt a practice round.",
+      "src": "/audio/stories/day05-set02-c5087faba454d56c.mp3",
+      "textSha256": "a0bed7fa4ba7bf19585bba8e53a68eecb088417f96c3f431834c5efaa4d2d7aa",
+      "sha256": "65a001a485081b920fb9cdef8d9867d163dd20d15852a1affd3ea103db2ec307",
+      "bytes": 91785,
+      "duration": 11.4416
+    },
+    {
+      "id": "day05-set03",
+      "kind": "story",
+      "text": "Mia shows Leo an electronic book with an incredible feature: it can read a story aloud. The simple buttons do not confuse him. He can relax and absorb the new information as he listens.",
+      "src": "/audio/stories/day05-set03-66358e9cf055f616.mp3",
+      "textSha256": "980a971820df0a1f0d5c257e5e690e0e7a818237d98c3f61e662d510f0339fef",
+      "sha256": "47c0c40152aa6ad5ec1576f589548469d0364437799dc6a653c8790265ec0faa",
+      "bytes": 98681,
+      "duration": 12.3037
+    },
+    {
+      "id": "day05-set04",
+      "kind": "story",
+      "text": "A shop owner asks a local resident to help analyze sales. The numbers indicate that the stock of bread is low. They divide the labor and prepare enough food for the weekend.",
+      "src": "/audio/stories/day05-set04-0e80e44fc34d3a3d.mp3",
+      "textSha256": "4a407eb4cd1d388640d4f45ea5dae69ceb98d3720a7c150dd1b98ce4a72d6a81",
+      "sha256": "baa1f4c2502c2bba344fcf9be54fa39a8c1f8a74edf66bb3277528a64c37354c",
+      "bytes": 89904,
+      "duration": 11.2065
+    },
+    {
+      "id": "day05-set05",
+      "kind": "story",
+      "text": "Leo feels embarrassed by a careless remark. Mia says it is reasonable to ask for an apology. The other child does not claim to be perfect; he says sorry, and they learn the moral of the story: choose kind words.",
+      "src": "/audio/stories/day05-set05-74285db04826c58f.mp3",
+      "textSha256": "f36a7967309e99c628d625c3ababddaa419f502a67944cc5c46cb5ed8a485158",
+      "sha256": "bc49bc9eceb4052d4743b447a8af9424ff5d4dc80ae6dbdb245b4bfeee5507ac",
+      "bytes": 113100,
+      "duration": 14.1061
+    },
+    {
+      "id": "day05-set06",
+      "kind": "story",
+      "text": "The children want to establish a quiet shelter for an injured bird. They set a limit on visits so nobody will interrupt its rest. With time and care, the little creature can heal.",
+      "src": "/audio/stories/day05-set06-25bc0b93c08010ae.mp3",
+      "textSha256": "b32dc7f3494b91038e20a87f00511e1f60b25fc316cde7affc1d017ce8c89356",
+      "sha256": "725c7142e962c7552d462cc846959995135f27cfb575b98d112fd6a4a690e4a7",
+      "bytes": 87814,
+      "duration": 10.9453
+    },
+    {
+      "id": "day05-set07",
+      "kind": "story",
+      "text": "A stranger visits the club and suggests a more efficient way to share books. Some members criticize the idea, so she tries to convince them with a small trial. It feels like a quiet revolution in their little library.",
+      "src": "/audio/stories/day05-set07-f47a0224ab73883b.mp3",
+      "textSha256": "de5f2de007fa215bfb7f974da4a4c93c77a6523060b11ef32501f9cfc37fd8f4",
+      "sha256": "e65fe5a5f1b9bcb5bffa2d5b1dbbbb173085ae5598183d255e8017f73445073c",
+      "bytes": 111220,
+      "duration": 13.871
+    },
+    {
+      "id": "day05-set08",
+      "kind": "story",
+      "text": "The team checks the tide before going to the beach. They obtain clean water and supplies to assist people after a storm. Working together helps the village recover from the disaster. Leo thinks their teamwork is terrific.",
+      "src": "/audio/stories/day05-set08-ef451becda966753.mp3",
+      "textSha256": "dd8b817ade2c5411c416b04d845018467cb72a6cabb3a2d95504052451fb06e9",
+      "sha256": "60838b2fe2e5d6a7523de1172ebfb42ad5ea289793d8cfaf937e02e342127792",
+      "bytes": 102025,
+      "duration": 12.7216
+    }
+  ]
+}

@@ -6,6 +6,7 @@ import { SpeechProvider } from './hooks/SpeechProvider';
 import { LearningProvider } from './state/learning';
 import './styles.css';
 import './orange.css';
+import './audio/audio.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode><LearningProvider><SpeechProvider><ThemeProvider><App /></ThemeProvider></SpeechProvider></LearningProvider></React.StrictMode>,

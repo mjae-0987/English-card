@@ -1,0 +1,61 @@
+{
+  "snapshotContext": "2026-10-27 MP3 packaging validation before deployment; deployment fields below describe that historical snapshot.",
+  "mp3": {
+    "words": 200,
+    "stories": 40,
+    "bytes": 5336089,
+    "allFilesDecoded": true,
+    "sourceTextsAndHashesMatched": true
+  },
+  "checks": [
+    {
+      "check": "assets",
+      "exitCode": 0
+    },
+    {
+      "check": "unit",
+      "exitCode": 0
+    },
+    {
+      "check": "render",
+      "exitCode": 0
+    },
+    {
+      "check": "build",
+      "exitCode": 0
+    }
+  ],
+  "nonSilentSamples": [
+    {
+      "id": "day01-001",
+      "duration": 0.8359,
+      "samples": 12155,
+      "rms16bit": 4451.36
+    },
+    {
+      "id": "day01-set01",
+      "duration": 8.6204,
+      "samples": 136968,
+      "rms16bit": 4366.05
+    },
+    {
+      "id": "day05-set08",
+      "duration": 12.7216,
+      "samples": 202541,
+      "rms16bit": 3832.03
+    }
+  ],
+  "preservedMajorFiles": 32,
+  "browserPlaybackTested": false,
+  "realKakaoTested": false,
+  "realChromeTested": false,
+  "realSafariTested": false,
+  "githubUpdated": false,
+  "cloudflareDeployed": false,
+  "existingPublicUrl": "https://english-cq9.pages.dev",
+  "limitations": [
+    "Browser execution request was cancelled; automated native browser script is prepared but not executed.",
+    "No human listening or full audio transcription verification.",
+    "No Cloudflare credentials in current environment; current MP3 version not deployed."
+  ]
+}

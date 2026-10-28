@@ -39,15 +39,15 @@ npm run preview
 
 ## 음성
 
-Web Speech API의 `SpeechSynthesisUtterance`와 `speechSynthesis.speak()`를 사용합니다. 사용자 클릭 안에서 첫 발화를 시작하고 이야기는 영어 원문 전체를 하나의 utterance로 전달합니다. 문장별 onend → speak 체인은 사용하지 않습니다. 한글은 읽지 않습니다.
+실제 MP3 240개(단어 200개·전체 이야기 40개)를 포함하고 HTML5 Audio를 기본 재생 방식으로 사용합니다. Piper의 미국 영어 목소리로 기존 영어 원문만 로컬 합성했습니다. 한글 해석을 읽지 않습니다. 유료 API나 서비스 키를 사용하지 않습니다.
 
-- 기본 en-US/보통 1.0배. 영어 음성만 선택하고, 미국 영어 및 자연스러운 음성을 우선합니다.
-- 기기 음성 목록의 비동기 로딩은 `voiceschanged`로 처리합니다. 목록이 아직 비어 있으면 en-US를 지정해 시스템에 요청하고, 목록에 한국어 음성만 있으면 재생하지 않습니다.
-- 느리게 0.75 / 보통 1 / 빠르게 1.15와 음성 선택을 저장합니다.
+- `public/audio/words`와 `public/audio/stories`의 콘텐츠 해시 경로를 사용합니다. 동일 단어는 한 파일을 공유합니다.
+- 클릭 안에서 즉시 `audio.play()`를 요청하며 Promise 거절·로딩 시간 초과·파일 오류를 처리합니다. MP3 실패 시에만 기존 Web Speech API를 요청당 한 번 시도합니다.
+- 느리게 0.75 / 보통 1 / 빠르게 1.15를 `playbackRate`로 적용하고 기존 설정 키에 저장합니다. 목소리 선택은 보조 TTS에만 적용됩니다.
 - 재생 중지·다른 재생으로 교체·세트/화면 이동·컴포넌트 정리 시 중지합니다. 오래된 완료/오류 이벤트가 새 재생을 중단하지 못하도록 재생 요청을 구분합니다.
-- 실제 실패 또는 재생 시작 시간 초과 시에만 짧은 안내를 보여 줍니다. 별도 유료 TTS API나 토큰은 없습니다.
+- 실제 실패 시에만 짧은 안내를 보여 줍니다. MP3/TTS 오류는 개발자 로그에서 구분합니다.
 
-**이번 Chromium 환경은 getVoices()가 비어 있고 네이티브 재생도 실패했습니다. 실제 소리 출력과 폴드의 무음 문제가 해결됐다는 판정을 하지 않습니다.** 기기별 영어 음성 엔진·미디어 볼륨·현재 배포본을 확인한 뒤 실기기에서 다시 테스트해야 합니다.
+파일 생성과 브라우저·실기기 검증은 별개입니다. 이번 HTML5 Audio 버전의 카카오톡·Chrome·Safari 실제 소리 출력은 아직 검증하지 못했습니다. 자세한 생성·검증 범위는 [MP3 음성 문서](docs/mp3-audio.md)를 참고하세요.
 
 ## 저장 호환
 
@@ -71,7 +71,7 @@ Web Speech API의 `SpeechSynthesisUtterance`와 `speechSynthesis.speak()`를 사
 
 설정: Vite / `npm run build` / `dist` / Node 22.12 이상. 실제 설치로 생성된 package-lock.json을 포함합니다.
 
-현재 환경에는 Cloudflare 배포 자격 증명이 없으며 GitHub 자동 배포 연결도 확인되지 않았습니다. 기존 Direct Upload 프로젝트에서 `deploy/word-master-adventure-dist.zip`을 Upload assets에 올릴 수 있습니다. ZIP 최상위에 index.html과 assets, 원본 마스코트, favicon이 들어 있습니다. **저장소 소스 ZIP이나 node_modules를 올리지 마세요.** 기존 프로젝트와 공개 주소를 삭제·중복 생성할 필요가 없습니다.
+현재 환경에는 Cloudflare 배포 자격 증명이 없으며 GitHub 자동 배포 연결도 확인되지 않았습니다. 기존 Direct Upload 프로젝트에서 `deploy/word-master-adventure-dist.zip`을 Upload assets에 올릴 수 있습니다. ZIP 최상위에 index.html, assets, audio(MP3 240개), 원본 마스코트, favicon이 들어 있습니다. **저장소 소스 ZIP이나 node_modules를 올리지 마세요.** 기존 프로젝트와 공개 주소를 삭제·중복 생성할 필요가 없습니다.
 
 업로드와 공개 주소 검증이 완료되기 전에는 배포 완료로 표시하지 않습니다. 유료 자동화/추가 결제를 실행하지 않았습니다.
 

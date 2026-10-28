@@ -1,0 +1,15 @@
+Word Master Adventure prerecorded English audio
+
+240 MP3 files: 200 existing vocabulary items and 40 existing complete stories.
+Generated locally with Piper TTS 1.8.0, en_US-ljspeech-high voice.
+No external TTS API, API keys, or paid synthesis service was used.
+
+Voice model: https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/high
+Model repository metadata: MIT
+Dataset: LJ Speech, public domain (https://keithito.com/LJ-Speech-Dataset/)
+The original model card is included in MODEL_CARD.txt.
+
+Piper engine: GPL-3.0-or-later, https://github.com/OHF-Voice/piper1-gpl
+The engine and model are generation tools only and are not distributed in this app.
+Exact source text, file checksums, model checksum and generation version are recorded
+in src/audio/catalog.generated.json in the source project.
